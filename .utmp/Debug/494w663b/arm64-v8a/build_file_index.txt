@@ -1,0 +1,2 @@
+D:\Projets\Unity\The Greenhouse\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+D:\Projets\Unity\The Greenhouse\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

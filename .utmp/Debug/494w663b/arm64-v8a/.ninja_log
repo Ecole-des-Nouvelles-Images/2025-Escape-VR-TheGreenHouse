@@ -1,0 +1,10 @@
+# ninja log v5
+3	405	7641792219607318	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	56ff9a459b0f4159
+10	406	7641792219597394	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	fc20df853e6f78b9
+16	408	7641792219642617	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	5bd13a358075ba66
+13	414	7641792219682479	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	ba8d4bd836ec630b
+19	416	7641792219712385	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	4b9b02d10ee4834a
+1	434	7641792219913153	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	44822e2c001eedf2
+8	464	7641792220204485	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	14b9f7aed29ddb53
+5	491	7641792220469524	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	eebd5ca000254202
+491	577	7641792221272334	D:/Projets/Unity/The Greenhouse/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/494w663b/obj/arm64-v8a/libgame.so	d23b0ecf24d79793
