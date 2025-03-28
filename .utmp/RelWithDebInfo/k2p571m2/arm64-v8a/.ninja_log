@@ -1,0 +1,10 @@
+# ninja log v5
+16	445	7642657498155373	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d9f797f691f94a81
+0	454	7642657498245031	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	b2707d5a985d46b5
+19	467	7642657498364629	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	4546a5c2939b7424
+9	468	7642657498324768	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	dcaf95ead1194a27
+22	498	7642657498703498	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	1b964869e55301a1
+6	526	7642657498987738	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	ca7766232455bc1d
+12	600	7642657499715377	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	2c766d55ed36b8dd
+3	657	7642657500283584	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	9d4568a1a807585d
+657	720	7642657500986379	D:/GitDesktop/2025-Escape-VR-TheGreenHouse/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/k2p571m2/obj/arm64-v8a/libgame.so	f674fe8af5212855
