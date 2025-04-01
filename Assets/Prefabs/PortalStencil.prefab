@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 8537491930634807123}
   - component: {fileID: 4113076379307506644}
   - component: {fileID: 7414665545837557367}
-  - component: {fileID: 2223070475570004997}
+  - component: {fileID: 1056256716991534811}
+  - component: {fileID: 5935001032279380691}
   m_Layer: 0
   m_Name: PortalStencil
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 1.5, z: 0.05}
+  m_LocalScale: {x: 0.9, y: 2.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -41,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5774148269707387512}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &7414665545837557367
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -65,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 85be6d0988f30a44e9fae7dfe7cff069, type: 2}
+  - {fileID: 2100000, guid: 6e5bbe50c8497c7469d351ebbc1c1162, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -87,7 +88,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2223070475570004997
+--- !u!65 &1056256716991534811
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,9 +103,26 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.0000001, y: 1.0000001, z: 6.123235e-17}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5935001032279380691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774148269707387512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b71c6187c5ec30498efd674a974e688, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomToActivate: {fileID: 0}
+  roomToDeactivate: {fileID: 0}
+  activeLayerName: Default
+  inactiveLayerName: Preview 1
+  triggerCooldown: 1

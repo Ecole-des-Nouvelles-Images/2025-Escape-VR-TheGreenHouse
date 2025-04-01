@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
-  m_Name: View 1
+  m_Name: Preview 1
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
-    passTag: View 1
+    passTag: Preview 1
     Event: 300
     filterSettings:
       RenderQueueType: 0
@@ -106,11 +106,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
-  m_Name: View 3
+  m_Name: Preview 3
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
-    passTag: View 3
+    passTag: Preview 3
     Event: 300
     filterSettings:
       RenderQueueType: 0
@@ -148,11 +148,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
-  m_Name: View 2
+  m_Name: Preview 2
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
-    passTag: View 2
+    passTag: Preview 2
     Event: 300
     filterSettings:
       RenderQueueType: 0
