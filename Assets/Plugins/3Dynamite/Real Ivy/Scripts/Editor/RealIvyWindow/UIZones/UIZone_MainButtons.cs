@@ -1,6 +1,4 @@
 ﻿using System;
-using _3Dynamite.Real_Ivy.Scripts.Common;
-using _3Dynamite.Real_Ivy.Scripts.Runtime.Baked;
 using UnityEditor;
 using UnityEngine;
 

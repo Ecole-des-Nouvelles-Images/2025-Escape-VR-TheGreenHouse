@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.Scripts.Common{
+namespace Dynamite3D.RealIvy{
 	public class GrowthBuilder : ScriptableObject {
 		public InfoPool infoPool;
 		public Vector3 origin;

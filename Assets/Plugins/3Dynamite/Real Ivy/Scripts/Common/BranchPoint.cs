@@ -1,11 +1,10 @@
 ﻿using System.Collections.Generic;
-using _3Dynamite.Real_Ivy.Scripts.Runtime;
-using UnityEditor;
-using UnityEngine;
 #if UNITY_EDITOR
+using UnityEditor;
 #endif
+using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.Scripts.Common
+namespace Dynamite3D.RealIvy
 {
 	[System.Serializable]
 	public class BranchPoint

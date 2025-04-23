@@ -1,8 +1,6 @@
 using System;
 using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.SampleResources.Scripts
-{
     [Serializable]
     public class MouseLook
     {
@@ -111,4 +109,3 @@ namespace _3Dynamite.Real_Ivy.SampleResources.Scripts
         }
 
     }
-}

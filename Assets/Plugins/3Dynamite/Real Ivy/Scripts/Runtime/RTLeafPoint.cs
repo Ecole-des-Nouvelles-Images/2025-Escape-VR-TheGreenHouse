@@ -1,7 +1,8 @@
-﻿using _3Dynamite.Real_Ivy.Scripts.Common;
+﻿using Dynamite3D.RealIvy;
+using System.Collections.Generic;
 using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.Scripts.Runtime
+namespace Dynamite3D.RealIvy
 {
     public class RTLeafPoint
     {

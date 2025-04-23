@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.Scripts.Common{
+namespace Dynamite3D.RealIvy{
 	public class EditorIvyGrowth : GrowthBuilder {
 		public Random.State randomstate;
 		//Creamos las estructuras de info para las ramas y asignamos las variables iniciales de la primera rama

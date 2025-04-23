@@ -1,9 +1,10 @@
 ﻿using System.Collections.Generic;
-using _3Dynamite.Real_Ivy.Scripts.Runtime;
-using UnityEditor;
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
-namespace _3Dynamite.Real_Ivy.Scripts.Common{
+namespace Dynamite3D.RealIvy{
 	public class EditorMeshBuilder : ScriptableObject{
 		public InfoPool infoPool;
 		//La malla final de la enredadera en su conjunto
