@@ -4,7 +4,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
-namespace Unity.VRTemplate
+namespace VRTemplateAssets.Scripts
 {
     /// <summary>
     /// Add this to your interactable to make it snap to the source of the XR Ray Interactor
@@ -37,8 +37,8 @@ namespace Unity.VRTemplate
             if (!(args.interactorObject is XRRayInteractor))
                 return;
 
-            var attachTransform = args.interactorObject.GetAttachTransform(m_SelectInteractable);
-            var originalAttachPose = args.interactorObject.GetLocalAttachPoseOnSelect(m_SelectInteractable);
+            Transform attachTransform = args.interactorObject.GetAttachTransform(m_SelectInteractable);
+            Pose originalAttachPose = args.interactorObject.GetLocalAttachPoseOnSelect(m_SelectInteractable);
             attachTransform.SetLocalPose(originalAttachPose);
         }
     }
