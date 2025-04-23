@@ -1,7 +1,6 @@
-using System;
 using UnityEngine;
 
-namespace Unity.VRTemplate
+namespace VRTemplateAssets.Scripts
 {
     /// <summary>
     /// Draws a bezier curve from a starting point transform to an end point transform
@@ -120,14 +119,14 @@ namespace Unity.VRTemplate
         [ContextMenu("Draw")]
         public void DrawCurve()
         {
-            var startPointPosition = m_StartPoint.position;
-            var endPointPosition = m_EndPoint.position;
+            Vector3 startPointPosition = m_StartPoint.position;
+            Vector3 endPointPosition = m_EndPoint.position;
 
             if (startPointPosition == m_LastStartPosition &&
                 endPointPosition == m_LastEndPosition)
                 return; // Return early if the start and end have not changed to avoid recalculating the curve
 
-            var dist = Vector3.Distance(startPointPosition, endPointPosition);
+            float dist = Vector3.Distance(startPointPosition, endPointPosition);
 
             m_ControlPoints[0] = startPointPosition;
             m_ControlPoints[1] = startPointPosition + (m_StartPoint.right * (dist * m_CurveFactorStart));
@@ -147,10 +146,10 @@ namespace Unity.VRTemplate
 
             m_LineRenderer.positionCount = segmentCount + 1;
             m_LineRenderer.SetPosition(0, m_ControlPoints[0]);
-            for (var i = 1; i <= segmentCount; i++)
+            for (int i = 1; i <= segmentCount; i++)
             {
-                var t = i / (float)segmentCount;
-                var pixel = CalculateCubicBezierPoint(t, m_ControlPoints[0], m_ControlPoints[1], m_ControlPoints[2], m_ControlPoints[3]);
+                float t = i / (float)segmentCount;
+                Vector3 pixel = CalculateCubicBezierPoint(t, m_ControlPoints[0], m_ControlPoints[1], m_ControlPoints[2], m_ControlPoints[3]);
                 m_LineRenderer.SetPosition(i, pixel);
             }
 
@@ -160,13 +159,13 @@ namespace Unity.VRTemplate
 
         static Vector3 CalculateCubicBezierPoint(float t, Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3)
         {
-            var u = 1 - t;
-            var tt = t * t;
-            var uu = u * u;
-            var uuu = uu * u;
-            var ttt = tt * t;
+            float u = 1 - t;
+            float tt = t * t;
+            float uu = u * u;
+            float uuu = uu * u;
+            float ttt = tt * t;
 
-            var p = uuu * p0;
+            Vector3 p = uuu * p0;
             p += 3 * uu * t * p1;
             p += 3 * u * tt * p2;
             p += ttt * p3;
@@ -176,16 +175,16 @@ namespace Unity.VRTemplate
 
         void AnimateCurve()
         {
-            var newGrad = new Gradient();
+            Gradient newGrad = new Gradient();
 
-            var colorKeys = new GradientColorKey[1];
-            var alphaKeys = new GradientAlphaKey[2];
+            GradientColorKey[] colorKeys = new GradientColorKey[1];
+            GradientAlphaKey[] alphaKeys = new GradientAlphaKey[2];
 
-            var colorKey = new GradientColorKey(m_GradientKeyColor, 0f);
+            GradientColorKey colorKey = new GradientColorKey(m_GradientKeyColor, 0f);
             colorKeys[0] = colorKey;
 
-            var alphaKeyStart = new GradientAlphaKey(.25f, m_Time);
-            var alphaKeyEnd = new GradientAlphaKey(1f, 1f);
+            GradientAlphaKey alphaKeyStart = new GradientAlphaKey(.25f, m_Time);
+            GradientAlphaKey alphaKeyEnd = new GradientAlphaKey(1f, 1f);
             alphaKeys[0] = alphaKeyStart;
             alphaKeys[1] = alphaKeyEnd;
 

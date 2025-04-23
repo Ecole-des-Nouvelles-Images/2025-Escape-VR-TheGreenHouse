@@ -1,10 +1,7 @@
-using System;
-using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.Serialization;
 
-namespace Unity.VRTemplate
+namespace VRTemplateAssets.Scripts
 {
     /// <summary>
     /// Fires events when this object is is within the field of view of the gaze transform. This is currently used to
@@ -44,7 +41,7 @@ namespace Unity.VRTemplate
             if (m_LargeMovementCoolDown < m_LargeMovementCoolDownTime)
                 return;
 
-            var dotProduct = Vector3.Dot(m_GazeTransform.forward, (transform.position - m_GazeTransform.position).normalized);
+            float dotProduct = Vector3.Dot(m_GazeTransform.forward, (transform.position - m_GazeTransform.position).normalized);
             if (dotProduct > m_FacingThreshold && !m_IsFacing)
                 FacingEntered();
             else if (dotProduct < m_FacingThreshold && m_IsFacing)
@@ -54,8 +51,8 @@ namespace Unity.VRTemplate
         void CheckLargeMovement()
         {
             // Check if there is large movement
-            var currentPosition = transform.position;
-            var positionDelta = Mathf.Abs(Vector3.Distance(m_LastPosition, currentPosition));
+            Vector3 currentPosition = transform.position;
+            float positionDelta = Mathf.Abs(Vector3.Distance(m_LastPosition, currentPosition));
             if (positionDelta > m_LargeMovementDistanceThreshold)
             {
                 m_LargeMovementCoolDown = 0.0f;

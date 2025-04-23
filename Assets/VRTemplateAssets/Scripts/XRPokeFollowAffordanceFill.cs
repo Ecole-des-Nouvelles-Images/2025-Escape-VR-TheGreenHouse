@@ -1,11 +1,10 @@
 using Unity.Mathematics;
 using Unity.XR.CoreUtils.Bindings;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.State;
 using UnityEngine.XR.Interaction.Toolkit.Filtering;
 using UnityEngine.XR.Interaction.Toolkit.Utilities.Tweenables.Primitives;
 
-namespace Unity.VRTemplate
+namespace VRTemplateAssets.Scripts
 {
     /// <summary>
     /// Follow animation affordance for <see cref="IPokeStateDataProvider"/>, such as <see cref="XRPokeFilter"/>.
@@ -211,21 +210,21 @@ namespace Unity.VRTemplate
 
         void OnPokeStrengthChanged(float newStrength)
         {
-            var newX = m_PokeFillMaxSizeX * newStrength;
-            var newY = m_PokeFillMaxSizeY * newStrength;
+            float newX = m_PokeFillMaxSizeX * newStrength;
+            float newY = m_PokeFillMaxSizeY * newStrength;
             m_PokeFill.sizeDelta = new Vector2(newX, newY);
         }
 
         void OnPokeStateDataUpdated(PokeStateData data)
         {
-            var pokeTarget = data.target;
-            var applyFollow = m_ApplyIfChildIsTarget
+            Transform pokeTarget = data.target;
+            bool applyFollow = m_ApplyIfChildIsTarget
                 ? pokeTarget != null && pokeTarget.IsChildOf(transform)
                 : pokeTarget == transform;
 
             if (applyFollow)
             {
-                var targetPosition = pokeTarget.InverseTransformPoint(data.axisAlignedPokeInteractionPoint);
+                Vector3 targetPosition = pokeTarget.InverseTransformPoint(data.axisAlignedPokeInteractionPoint);
 
                 if (m_ClampToMinDistance && targetPosition.sqrMagnitude < m_MinDistance * m_MinDistance)
                     targetPosition = Vector3.ClampMagnitude(targetPosition, m_MinDistance);

@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Unity.VRTemplate
+namespace VRTemplateAssets.Scripts
 {
     /// <summary>
     /// Controls the visual states of a boolean toggle switch UI
@@ -71,7 +71,7 @@ namespace Unity.VRTemplate
         {
             if (m_Knob != null)
             {
-                var backgroundLocalPosition = m_Knob.localPosition;
+                Vector3 backgroundLocalPosition = m_Knob.localPosition;
                 backgroundLocalPosition.z = m_InitialBackground - m_ZTranslation;
                 m_Knob.localPosition = backgroundLocalPosition;
             }
@@ -81,7 +81,7 @@ namespace Unity.VRTemplate
         {
             if (m_Knob != null)
             {
-                var backgroundLocalPosition = m_Knob.localPosition;
+                Vector3 backgroundLocalPosition = m_Knob.localPosition;
                 backgroundLocalPosition.z = m_InitialBackground;
                 m_Knob.localPosition = backgroundLocalPosition;
                 m_Knob.localScale = Vector3.one;
