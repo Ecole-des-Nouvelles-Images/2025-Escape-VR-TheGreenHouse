@@ -1,7 +1,7 @@
-﻿using _3Dynamite.Real_Ivy.Scripts.Common;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.Scripts.Runtime.Procedural
+namespace Dynamite3D.RealIvy
 {
 	public class RuntimeIvyGrowth
 	{

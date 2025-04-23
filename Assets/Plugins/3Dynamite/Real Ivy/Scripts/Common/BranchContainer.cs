@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
-using UnityEditor;
-using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
 #if UNITY_EDITOR
+using UnityEditor;
 #endif
+using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.Scripts.Common
+namespace Dynamite3D.RealIvy
 {
     [System.Serializable]
     //Contenedor de rama, para toda la información necesaria para componer cada rama

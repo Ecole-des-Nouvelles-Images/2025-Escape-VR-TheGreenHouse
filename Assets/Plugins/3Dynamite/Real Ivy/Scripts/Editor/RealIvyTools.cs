@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System.Linq;
-using _3Dynamite.Real_Ivy.Scripts.Common;
 
 namespace Dynamite3D.RealIvy{
 	public class RealIvyTools : EditorWindow {

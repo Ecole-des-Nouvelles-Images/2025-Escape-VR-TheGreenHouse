@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.Scripts.Runtime
+namespace Dynamite3D.RealIvy
 {
 	[System.Serializable]
 	public class RuntimeGrowthParameters

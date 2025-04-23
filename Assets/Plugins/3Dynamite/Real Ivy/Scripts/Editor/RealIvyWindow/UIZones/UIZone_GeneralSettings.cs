@@ -1,5 +1,4 @@
-﻿using _3Dynamite.Real_Ivy.Scripts.Common;
-using Dynamite3D.RealIvy;
+﻿using Dynamite3D.RealIvy;
 using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;

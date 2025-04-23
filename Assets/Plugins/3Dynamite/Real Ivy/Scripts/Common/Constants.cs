@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.Scripts.Common
+namespace Dynamite3D.RealIvy
 {
 	public static class Constants
 	{

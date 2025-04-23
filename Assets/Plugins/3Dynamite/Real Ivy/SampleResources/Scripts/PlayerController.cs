@@ -1,18 +1,16 @@
-﻿using UnityEngine;
+﻿using Dynamite3D.RealIvy;
+using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.SampleResources.Scripts
+public class PlayerController : MonoBehaviour
 {
-	public class PlayerController : MonoBehaviour
-	{
-		public IvyCaster ivyCaster;
-		public Transform trIvy;
+	public IvyCaster ivyCaster;
+	public Transform trIvy;
 
-		private void Update()
+	private void Update()
+	{
+		if (Input.GetMouseButtonDown(0))
 		{
-			if (Input.GetMouseButtonDown(0))
-			{
-				ivyCaster.CastRandomIvy(trIvy.position, trIvy.rotation);
-			}
+			ivyCaster.CastRandomIvy(trIvy.position, trIvy.rotation);
 		}
 	}
 }

@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
-using _3Dynamite.Real_Ivy.Scripts.Common;
-using _3Dynamite.Real_Ivy.Scripts.Runtime;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.SampleResources.Scripts
+namespace Dynamite3D.RealIvy
 {
 	public class IvyCaster : MonoBehaviour
 	{

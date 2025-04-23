@@ -1,6 +1,9 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
+using System.Linq;
+using System;
 
-namespace _3Dynamite.Real_Ivy.Scripts.Common
+namespace Dynamite3D.RealIvy
 {
     [System.Serializable]
     public class IvyPreset : ScriptableObject

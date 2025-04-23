@@ -1,7 +1,6 @@
-﻿using _3Dynamite.Real_Ivy.Scripts.Common;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.Scripts.Runtime.Baked
+namespace Dynamite3D.RealIvy
 {
 	public class RuntimeBakedIvy : RTIvy
 	{

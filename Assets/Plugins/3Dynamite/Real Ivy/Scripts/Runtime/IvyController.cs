@@ -1,9 +1,8 @@
-﻿using System;
-using _3Dynamite.Real_Ivy.Scripts.Common;
-using _3Dynamite.Real_Ivy.Scripts.Runtime.Baked;
+﻿using Dynamite3D.RealIvy;
+using System;
 using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.Scripts.Runtime
+namespace Dynamite3D.RealIvy
 {
 	public class IvyController : MonoBehaviour
 	{

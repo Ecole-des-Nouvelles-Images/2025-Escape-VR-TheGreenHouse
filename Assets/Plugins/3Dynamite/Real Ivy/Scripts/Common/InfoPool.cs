@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.Scripts.Common{
+namespace Dynamite3D.RealIvy{
 
 	[System.Serializable]
 	public class InfoPool : ScriptableObject{

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.SampleResources.Scripts
+namespace Dynamite3D.RealIvy
 {
     [RequireComponent(typeof (Rigidbody))]
     [RequireComponent(typeof (CapsuleCollider))]

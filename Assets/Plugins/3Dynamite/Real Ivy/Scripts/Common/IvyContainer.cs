@@ -1,8 +1,11 @@
-﻿using System.Collections.Generic;
-using UnityEditor;
+﻿
 using UnityEngine;
+using System.Collections.Generic;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
-namespace _3Dynamite.Real_Ivy.Scripts.Common{
+namespace Dynamite3D.RealIvy{
 	[System.Serializable]
 	//Este será el contenedor de la enredadera, tendrá a su vez otros contenedores
 

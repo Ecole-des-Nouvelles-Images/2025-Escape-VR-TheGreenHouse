@@ -1,6 +1,8 @@
+using System;
 using UnityEngine;
 
-namespace _3Dynamite.Real_Ivy.SampleResources.Scripts
+
+namespace UnityStandardAssets.SceneUtils
 {
     public class PlaceTargetWithMouse : MonoBehaviour
     {
