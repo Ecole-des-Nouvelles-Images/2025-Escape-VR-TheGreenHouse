@@ -1,9 +1,8 @@
-using System;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Utilities.Tweenables.Primitives;
 
-namespace Unity.VRTemplate
+namespace VRTemplateAssets.Scripts
 {
     /// <summary>
     /// Helper script used to control the Teleport Anchor visuals animations.
@@ -35,8 +34,8 @@ namespace Unity.VRTemplate
         {
             if (m_FadeAnimation != null)
             {
-                var fadeAnim = m_FadeAnimation;
-                var clipName = m_FadeAnimation.clip.name;
+                Animation fadeAnim = m_FadeAnimation;
+                string clipName = m_FadeAnimation.clip.name;
                 fadeAnim[clipName].normalizedTime = 1f;
             }
 
@@ -61,8 +60,8 @@ namespace Unity.VRTemplate
 
             if (m_FadeAnimation != null)
             {
-                var fadeAnim = m_FadeAnimation;
-                var clipName = m_FadeAnimation.clip.name;
+                Animation fadeAnim = m_FadeAnimation;
+                string clipName = m_FadeAnimation.clip.name;
                 fadeAnim[clipName].normalizedTime = 0f;
                 fadeAnim[clipName].speed = 1f;
                 fadeAnim.Play();
@@ -71,7 +70,7 @@ namespace Unity.VRTemplate
             if (m_ArrowCoroutine != null)
                 StopCoroutine(m_ArrowCoroutine);
 
-            var arrowPosition = m_Arrow.localPosition;
+            Vector3 arrowPosition = m_Arrow.localPosition;
             m_ArrowCoroutine = StartCoroutine(m_ArrowHeight.PlaySequence(arrowPosition, new float3(arrowPosition.x, m_TargetArrowHeight, arrowPosition.z), m_ArrowAnimationDuration));
         }
 
@@ -83,8 +82,8 @@ namespace Unity.VRTemplate
             if (m_FadeAnimation != null)
             {
                 // Set time to 1, at the end of the animation, play at 1.5x speed
-                var fadeAnim = m_FadeAnimation;
-                var clipName = m_FadeAnimation.clip.name;
+                Animation fadeAnim = m_FadeAnimation;
+                string clipName = m_FadeAnimation.clip.name;
                 fadeAnim[clipName].normalizedTime = 1f;
                 fadeAnim[clipName].speed = -1.5f;
                 fadeAnim.Play();
@@ -93,7 +92,7 @@ namespace Unity.VRTemplate
             if (m_ArrowCoroutine != null)
                 StopCoroutine(m_ArrowCoroutine);
 
-            var arrowPosition = m_Arrow.localPosition;
+            Vector3 arrowPosition = m_Arrow.localPosition;
             m_ArrowCoroutine = StartCoroutine(m_ArrowHeight.PlaySequence(arrowPosition, new float3(arrowPosition.x, 0, arrowPosition.z), m_ArrowAnimationDuration));
         }
 

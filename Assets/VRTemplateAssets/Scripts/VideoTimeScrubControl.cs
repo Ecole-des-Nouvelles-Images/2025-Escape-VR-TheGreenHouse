@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
-namespace Unity.VRTemplate
+namespace VRTemplateAssets.Scripts
 {
     /// <summary>
     /// Connects a UI slider control to a video player, allowing users to scrub to a particular time in th video.
@@ -97,7 +97,7 @@ namespace Unity.VRTemplate
             {
                 if (m_VideoPlayer.frameCount > 0)
                 {
-                    var progress = (float)m_VideoPlayer.frame / m_VideoPlayer.frameCount;
+                    float progress = (float)m_VideoPlayer.frame / m_VideoPlayer.frameCount;
                     m_Slider.value = progress;
                 }
             }
@@ -137,7 +137,7 @@ namespace Unity.VRTemplate
         void VideoJump()
         {
             m_VideoJumpPending = true;
-            var frame = m_VideoPlayer.frameCount * m_Slider.value;
+            float frame = m_VideoPlayer.frameCount * m_Slider.value;
             m_LastFrameBeforeScrub = m_VideoPlayer.frame;
             m_VideoPlayer.frame = (long)frame;
         }
@@ -158,14 +158,14 @@ namespace Unity.VRTemplate
         {
             if (m_VideoPlayer != null && m_VideoTimeText != null)
             {
-                var currentTimeTimeSpan = TimeSpan.FromSeconds(m_VideoPlayer.time);
-                var totalTimeTimeSpan = TimeSpan.FromSeconds(m_VideoPlayer.length);
-                var currentTimeString = string.Format("{0:D2}:{1:D2}",
+                TimeSpan currentTimeTimeSpan = TimeSpan.FromSeconds(m_VideoPlayer.time);
+                TimeSpan totalTimeTimeSpan = TimeSpan.FromSeconds(m_VideoPlayer.length);
+                string currentTimeString = string.Format("{0:D2}:{1:D2}",
                     currentTimeTimeSpan.Minutes,
                     currentTimeTimeSpan.Seconds
                 );
 
-                var totalTimeString = string.Format("{0:D2}:{1:D2}",
+                string totalTimeString = string.Format("{0:D2}:{1:D2}",
                     totalTimeTimeSpan.Minutes,
                     totalTimeTimeSpan.Seconds
                 );
