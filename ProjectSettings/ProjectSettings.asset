@@ -1008,11 +1008,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 296a30f4-ba88-4720-8485-7dd16d461918
+  cloudProjectId: 44e30fd8-49b7-4389-ac2e-10e4e578f6ea
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: The Greenhouse
-  organizationId: the-greenhouse
+  projectName: Vr Template
+  organizationId: michael-elie
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
