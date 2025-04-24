@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 8372501396263459418}
   - component: {fileID: 8210896177728162690}
   - component: {fileID: 8473847439597916090}
-  - component: {fileID: 8085788222140366227}
+  - component: {fileID: 1601250198990214346}
   m_Layer: 5
   m_Name: ShowcaseLoader
   m_TagString: Untagged
@@ -357,8 +357,8 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
---- !u!114 &8085788222140366227
+  m_PresetInfoIsWorld: 0
+--- !u!114 &1601250198990214346
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -367,14 +367,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2224583574245441630}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &3766720521898509839
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,7 +442,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Living
+  m_text: Salon
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5b036e831c0c90547b32a8a896d80f79, type: 2}
   m_sharedMaterial: {fileID: 2427308795250815149, guid: 5b036e831c0c90547b32a8a896d80f79, type: 2}
@@ -576,7 +578,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Laboratory
+  m_text: Laboratoire
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5b036e831c0c90547b32a8a896d80f79, type: 2}
   m_sharedMaterial: {fileID: 2427308795250815149, guid: 5b036e831c0c90547b32a8a896d80f79, type: 2}
@@ -781,6 +783,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 226cba1d14b732c4c8d3918e285bb28a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _soundVolume: 0.3
+  _feedbackDuration: 2
 --- !u!1 &7285224568816285318
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,6 +919,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 226cba1d14b732c4c8d3918e285bb28a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _soundVolume: 0.3
+  _feedbackDuration: 2
 --- !u!1 &7389198000578218633
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,7 +986,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Greenhouse
+  m_text: Serre
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5b036e831c0c90547b32a8a896d80f79, type: 2}
   m_sharedMaterial: {fileID: 2427308795250815149, guid: 5b036e831c0c90547b32a8a896d80f79, type: 2}
@@ -1185,6 +1191,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 226cba1d14b732c4c8d3918e285bb28a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _soundVolume: 0.3
+  _feedbackDuration: 2
 --- !u!1 &8702117439118642348
 GameObject:
   m_ObjectHideFlags: 0
@@ -1406,3 +1414,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 226cba1d14b732c4c8d3918e285bb28a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _soundVolume: 0.3
+  _feedbackDuration: 2
