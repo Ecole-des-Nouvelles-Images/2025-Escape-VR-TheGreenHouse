@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: 7400000, guid: 926580566af9a6445bf2999e3310a653, type: 2}
-  m_Position: {x: -0.8898656, y: 0, z: -1.1323663}
-  m_EulerAngles: {x: 0, y: 180, z: 0}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
-  m_RemoveStartOffset: 1
+  m_RemoveStartOffset: 0
   m_ApplyFootIK: 1
   m_Loop: 1
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!114 &-5428966002016988397
+--- !u!114 &-4390433906298909247
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -34,11 +34,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
   m_Name: AudioPlayableAsset
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: a04ad8e1a87890d43b7b2179508ad487, type: 3}
-  m_Loop: 1
+  m_Clip: {fileID: 8300000, guid: 0cb3d7a1a35c9d54a94ac320f83dddd5, type: 3}
+  m_Loop: 0
   m_bufferingTime: 0.1
   m_ClipProperties:
-    volume: 0.124
+    volume: 0.3
 --- !u!114 &-3755915264825464807
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -284,9 +284,9 @@ MonoBehaviour:
   m_Clips:
   - m_Version: 1
     m_Start: 0
-    m_ClipIn: 0.614212536936005
-    m_Asset: {fileID: -5428966002016988397}
-    m_Duration: 4
+    m_ClipIn: 14.550000000000008
+    m_Asset: {fileID: -4390433906298909247}
+    m_Duration: 4.000000000000001
     m_TimeScale: 1
     m_ParentTrack: {fileID: 815086612441501115}
     m_EaseInDuration: 0
@@ -299,8 +299,8 @@ MonoBehaviour:
       - serializedVersion: 3
         time: 0
         value: 0
-        inSlope: 2
-        outSlope: 2
+        inSlope: -0
+        outSlope: -0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
@@ -308,8 +308,8 @@ MonoBehaviour:
       - serializedVersion: 3
         time: 1
         value: 1
-        inSlope: 0
-        outSlope: 0
+        inSlope: -0
+        outSlope: -0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
@@ -341,8 +341,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    m_BlendInCurveMode: 1
-    m_BlendOutCurveMode: 1
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
     m_Recordable: 0
@@ -350,7 +350,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 427265__get_accel__4-minion-squeak
+    m_DisplayName: happy-and-sad-flower-creatures-66371
   m_Markers:
     m_Objects: []
   m_TrackProperties:
