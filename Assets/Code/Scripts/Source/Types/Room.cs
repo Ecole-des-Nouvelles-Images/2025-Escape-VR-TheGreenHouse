@@ -3,7 +3,7 @@ namespace Code.Scripts.Source.Types
     public enum Room
     {
         Hall,
-        Living,
+        Lounge,
         Backyard,
         Greenhouse,
         Laboratory,
