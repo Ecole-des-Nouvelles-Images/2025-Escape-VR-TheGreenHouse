@@ -56,8 +56,8 @@ MonoBehaviour:
       animationStateStartValue: {r: 0.90196085, g: 0.90196085, b: 0.90196085, a: 0}
       animationStateEndValue: {r: 0.90196085, g: 0.90196085, b: 0.90196085, a: 0}
     - stateName: hovered
-      animationStateStartValue: {r: 1, g: 0.78431374, b: 0.5686275, a: 1}
-      animationStateEndValue: {r: 1, g: 0.7843138, b: 0.5686275, a: 1}
+      animationStateStartValue: {r: 0.33490568, g: 0.985809, b: 1, a: 1}
+      animationStateEndValue: {r: 0.40650588, g: 0.990566, b: 0.98453754, a: 1}
     - stateName: hoveredPriority
       animationStateStartValue: {r: 1, g: 0.7843138, b: 0.5686275, a: 1}
       animationStateEndValue: {r: 1, g: 0.7843138, b: 0.5686275, a: 1}
