@@ -5,21 +5,24 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Showcase/Showcase-Loader.unity
     guid: 58c8d452e9946624abd265f4762f3158
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Showcase/Hall.unity
     guid: 8e784407402fea54d8d600758c6cb72f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Showcase/Salon.unity
     guid: 0ba9ec31a3d74aa4da394600c28fa94d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Showcase/Serre.unity
     guid: 909fc60525d13a64e84e7ef010243d8d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Showcase/Laboratoire.unity
     guid: 852ae0dc1013cab4084fa194d1bfba91
+  - enabled: 1
+    path: Assets/Test sequence/Sequence test/Hall.unity
+    guid: 7a9fe6bea252b444999463893881f14c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
