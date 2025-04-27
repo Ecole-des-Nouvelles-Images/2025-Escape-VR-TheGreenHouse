@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Anchor
   - Book
+  - Vhs
   layers:
   - Default
   - TransparentFX
