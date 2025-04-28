@@ -1,8 +1,8 @@
-namespace Code.Scripts.Source.Managers.GameStates
+namespace Code.Scripts.Source.GameStates
 {
     public enum GameState
     {
-        GameStart,
+        Launch,
         HallIntro, HallInProgress, HallResolved,
         LoungeIntro, LoungePhase1, LoungePhase2, LoungeResolved,
         BackyardTransition,
