@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Showcase/Laboratoire.unity
     guid: 852ae0dc1013cab4084fa194d1bfba91
   - enabled: 0
-    path: Assets/Test sequence/Sequence test/Hall.unity
+    path: Assets/Scenes/Test/Hall sequence test.unity
     guid: 7a9fe6bea252b444999463893881f14c
   - enabled: 1
     path: Assets/Scenes/Test/Socket Salon.unity
