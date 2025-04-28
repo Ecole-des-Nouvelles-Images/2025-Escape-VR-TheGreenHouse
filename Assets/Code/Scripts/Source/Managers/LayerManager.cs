@@ -12,16 +12,6 @@ namespace Code.Scripts.Source.Managers
 
         [SerializeField] private StencilTrigger _stencilTrigger;
         private static Camera _playerCamera;
-
-        private void OnEnable()
-        {
-            _stencilTrigger.OnTriggerEntered += ChangeRoom;
-        }
-         
-        private void OnDisable()
-        {
-            _stencilTrigger.OnTriggerEntered -= ChangeRoom;
-        }
         
         private void Awake()
         {
