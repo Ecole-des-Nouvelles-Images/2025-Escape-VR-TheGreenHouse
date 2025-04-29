@@ -950,6 +950,7 @@ GameObject:
   - component: {fileID: 162161505}
   - component: {fileID: 162161504}
   - component: {fileID: 162161503}
+  - component: {fileID: 162161506}
   - component: {fileID: 162161502}
   m_Layer: 0
   m_Name: Book  (4)
@@ -1144,6 +1145,19 @@ Transform:
   - {fileID: 1746536941}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 21.866, y: -180, z: 0}
+--- !u!114 &162161506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162161501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618f365299e70e54891b90862b3c88c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bookName: 
 --- !u!65 &170880998
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6395,6 +6409,7 @@ GameObject:
   - component: {fileID: 1837586243}
   - component: {fileID: 1837586242}
   - component: {fileID: 1837586241}
+  - component: {fileID: 1837586244}
   - component: {fileID: 1837586240}
   m_Layer: 0
   m_Name: Book  (1)
@@ -6589,6 +6604,19 @@ Transform:
   - {fileID: 842822312}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 21.866, y: -180, z: 0}
+--- !u!114 &1837586244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837586239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618f365299e70e54891b90862b3c88c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bookName: 
 --- !u!1 &1857952234
 GameObject:
   m_ObjectHideFlags: 0
@@ -6671,6 +6699,7 @@ GameObject:
   - component: {fileID: 1881423810}
   - component: {fileID: 1881423809}
   - component: {fileID: 1881423808}
+  - component: {fileID: 1881423811}
   - component: {fileID: 1881423807}
   m_Layer: 0
   m_Name: 'Book '
@@ -6865,6 +6894,19 @@ Transform:
   - {fileID: 862067853}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 21.866, y: -180, z: 0}
+--- !u!114 &1881423811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881423806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618f365299e70e54891b90862b3c88c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bookName: 
 --- !u!1 &1891283116
 GameObject:
   m_ObjectHideFlags: 0
@@ -7149,6 +7191,7 @@ GameObject:
   - component: {fileID: 1946465981}
   - component: {fileID: 1946465980}
   - component: {fileID: 1946465979}
+  - component: {fileID: 1946465982}
   - component: {fileID: 1946465978}
   m_Layer: 0
   m_Name: Book  (3)
@@ -7343,6 +7386,19 @@ Transform:
   - {fileID: 915199405}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 21.866, y: -180, z: 0}
+--- !u!114 &1946465982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946465977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618f365299e70e54891b90862b3c88c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bookName: 
 --- !u!1 &1973461361
 GameObject:
   m_ObjectHideFlags: 0
@@ -7354,6 +7410,7 @@ GameObject:
   - component: {fileID: 1973461365}
   - component: {fileID: 1973461364}
   - component: {fileID: 1973461363}
+  - component: {fileID: 1973461366}
   - component: {fileID: 1973461362}
   m_Layer: 0
   m_Name: Book  (2)
@@ -7548,6 +7605,19 @@ Transform:
   - {fileID: 974422462}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 21.866, y: -180, z: 0}
+--- !u!114 &1973461366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973461361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618f365299e70e54891b90862b3c88c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bookName: 
 --- !u!1 &2038910070
 GameObject:
   m_ObjectHideFlags: 0
