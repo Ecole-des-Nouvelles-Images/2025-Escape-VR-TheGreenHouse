@@ -1,8 +1,9 @@
+using Code.Scripts.Source.XR;
 using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.XR.Interaction.Toolkit;
 
-namespace Code.Scripts.Source.XR
+namespace Code.Scripts.Source.Gameplay.Lounge
 {
     public class TVController : MonoBehaviour
     {

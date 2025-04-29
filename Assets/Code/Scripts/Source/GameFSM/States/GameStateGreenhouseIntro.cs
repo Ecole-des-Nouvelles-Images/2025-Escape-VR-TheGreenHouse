@@ -1,8 +1,8 @@
 using Code.Scripts.Source.Managers;
 
-namespace Code.Scripts.Source.GameStates
+namespace Code.Scripts.Source.GameFSM.States
 {
-    public class GameStateLaboratoryResolved : GameBaseState
+    public class GameStateGreenhouseIntro : GameBaseState
     {
         public override void EnterState(GameStateManager context)
         {

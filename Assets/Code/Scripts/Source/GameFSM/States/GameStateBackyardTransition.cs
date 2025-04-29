@@ -1,8 +1,8 @@
 using Code.Scripts.Source.Managers;
 
-namespace Code.Scripts.Source.GameStates
+namespace Code.Scripts.Source.GameFSM.States
 {
-    public class GameStateEscapeTransition : GameBaseState
+    public class GameStateBackyardTransition: GameBaseState
     {
         public override void EnterState(GameStateManager context)
         {

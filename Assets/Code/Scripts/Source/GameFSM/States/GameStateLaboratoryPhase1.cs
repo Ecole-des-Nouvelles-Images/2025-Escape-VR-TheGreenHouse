@@ -1,6 +1,6 @@
 using Code.Scripts.Source.Managers;
 
-namespace Code.Scripts.Source.GameStates
+namespace Code.Scripts.Source.GameFSM.States
 {
     public class GameStateLaboratoryPhase1 : GameBaseState
     {
