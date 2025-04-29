@@ -1,8 +1,7 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace Test_sequence
+namespace Code.Scripts.Source.Managers
 {
     public class CinematicManager : MonoBehaviour
     {
