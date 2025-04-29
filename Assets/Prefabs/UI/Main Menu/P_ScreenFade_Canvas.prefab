@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 7332719874668106660}
   - component: {fileID: 5224120917829067570}
   m_Layer: 5
-  m_Name: FadeScreen Canvas
+  m_Name: P_ScreenFade_Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

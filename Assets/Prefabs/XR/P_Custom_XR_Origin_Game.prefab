@@ -1839,7 +1839,7 @@ GameObject:
   - component: {fileID: 4930456457986980862}
   - component: {fileID: 4905802839166813402}
   m_Layer: 2
-  m_Name: XR Origin + hands + grab
+  m_Name: P_Custom_XROrigin_Game
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

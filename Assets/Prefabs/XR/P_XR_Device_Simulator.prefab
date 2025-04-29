@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8477477680821523469}
   - component: {fileID: 1689558038395899221}
   m_Layer: 0
-  m_Name: XR Device Simulator
+  m_Name: P_XR_Device_Simulator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
