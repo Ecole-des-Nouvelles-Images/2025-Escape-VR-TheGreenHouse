@@ -1,8 +1,8 @@
 using Code.Scripts.Source.Managers;
 
-namespace Code.Scripts.Source.GameStates
+namespace Code.Scripts.Source.GameState.States
 {
-    public class GameStateGreenhouseInProgress : GameBaseState
+    public class GameStateEscapeTransition : GameBaseState
     {
         public override void EnterState(GameStateManager context)
         {
@@ -10,12 +10,10 @@ namespace Code.Scripts.Source.GameStates
 
         public override void UpdateState(GameStateManager context)
         {
-
         }
 
         public override void ExitState(GameStateManager context)
         {
-
         }
     }
 }
