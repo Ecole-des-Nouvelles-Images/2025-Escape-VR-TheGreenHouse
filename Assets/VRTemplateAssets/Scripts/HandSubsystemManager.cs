@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Hands;
 
-namespace Unity.VRTemplate
+namespace VRTemplateAssets.Scripts
 {
     /// <summary>
     /// This class is a convenience wrapper to handle external start/stop
@@ -60,7 +60,7 @@ namespace Unity.VRTemplate
 
             if (s_HandSubsystems.Count > 1)
             {
-                for (var i = 0; i < s_HandSubsystems.Count; ++i)
+                for (int i = 0; i < s_HandSubsystems.Count; ++i)
                 {
                     handSubsystem = s_HandSubsystems[i];
                     if (handSubsystem.running)

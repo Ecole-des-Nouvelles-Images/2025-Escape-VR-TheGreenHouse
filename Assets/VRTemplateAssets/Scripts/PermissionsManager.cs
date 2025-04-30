@@ -2,13 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 #if UNITY_ANDROID
 using UnityEngine.Android;
 #endif // UNITY_ANDROID
-using UnityEngine.Events;
 
-namespace Unity.VRTemplate
+namespace VRTemplateAssets.Scripts
 {
     /// <summary>
     /// Utility class to help define and manage Android device permissions and specify corresponding permission callbacks via <see cref="UnityEvent"/>.
@@ -60,7 +59,7 @@ namespace Unity.VRTemplate
 
         public IEnumerator ProcessPermissions()
         {
-            var permissions = new List<string>();
+            List<string> permissions = new List<string>();
 
 #if UNITY_ANDROID
             for (m_CurrentPermissionIdx = 0; m_CurrentPermissionIdx < m_PermissionRequests.Count;)
@@ -99,7 +98,7 @@ namespace Unity.VRTemplate
 
         void OnPermissionGranted(string permissionStr)
         {
-            var permission = m_PermissionRequests[m_CurrentPermissionIdx];
+            PermissionRequest permission = m_PermissionRequests[m_CurrentPermissionIdx];
             permission.m_Granted = true;
             permission.m_ResponseReceived = true;
             m_CurrentPermissionIdx++;
@@ -110,7 +109,7 @@ namespace Unity.VRTemplate
 
         void OnPermissionDenied(string permissionStr)
         {
-            var permission = m_PermissionRequests[m_CurrentPermissionIdx];
+            PermissionRequest permission = m_PermissionRequests[m_CurrentPermissionIdx];
             permission.m_Granted = false;
             permission.m_ResponseReceived = true;
             m_CurrentPermissionIdx++;

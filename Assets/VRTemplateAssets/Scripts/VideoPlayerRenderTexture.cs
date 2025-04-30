@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Video;
 
-namespace Unity.VRTemplate
+namespace VRTemplateAssets.Scripts
 {
     /// <summary>
     /// Create a RenderTexture for rendering video to a target renderer.
@@ -29,9 +29,9 @@ namespace Unity.VRTemplate
 
         void Start()
         {
-            var renderTexture = new RenderTexture(m_RenderTextureWidth, m_RenderTextureHeight, m_RenderTextureDepth);
+            RenderTexture renderTexture = new RenderTexture(m_RenderTextureWidth, m_RenderTextureHeight, m_RenderTextureDepth);
             renderTexture.Create();
-            var material = new Material(Shader.Find(k_ShaderName));
+            Material material = new Material(Shader.Find(k_ShaderName));
             material.mainTexture = renderTexture;
             GetComponent<VideoPlayer>().targetTexture = renderTexture;
             m_Renderer.material = material;

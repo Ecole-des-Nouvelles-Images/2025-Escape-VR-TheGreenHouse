@@ -70,3 +70,11 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Rider .idea folder
+.idea
+
+# Real Ivy plugin compatibility pack ghost meta files
+Assets/3Dynamite/Real Ivy/Compatibility Pack - Built-In.unitypackage.meta
+Assets/3Dynamite/Real Ivy/Compatibility Pack - HDRP.unitypackage.meta
+Assets/3Dynamite/Real Ivy/Compatibility Pack - URP.unitypackage.meta
