@@ -1,5 +1,7 @@
 using JetBrains.Annotations;
+using Unity.VRTemplate;
 using UnityEngine;
+
 
 namespace Code.Scripts.Source.XR
 {
@@ -8,24 +10,24 @@ namespace Code.Scripts.Source.XR
         [SerializeField] private Transform _selectedTransform;
         [SerializeField] private Transform _playerCameraTransform;
         [SerializeField] XRLockWheel[] _lockWheels;
-        [SerializeField] private int[] _correctCode;
+        [SerializeField] private string correctCode = "2736";
+
         
         private Vector3 _initialPosition;
         private Quaternion _initialRotation;
-        private int[] _currentCode;
+        private string _currentCode;
         private bool _zoomed;
 
         private void Start()
         {
             _initialPosition = transform.position;
             _initialRotation = transform.rotation;
-            _currentCode = new int[_lockWheels.Length];
-
             
-            for (int i = 0; i < _lockWheels.Length; i++)
+            
+            foreach (XRLockWheel lockWheel in _lockWheels)
             {
-                int index = i;
-                _lockWheels[i].onValueChange.AddListener(value => OnWheelMoved(index, value));
+                lockWheel.onValueChange.AddListener(value => OnWheelMoved());
+                Debug.Log(lockWheel.onValueChange);
             }
         }
         
@@ -50,20 +52,26 @@ namespace Code.Scripts.Source.XR
             if (_zoomed) transform.LookAt(_playerCameraTransform);
         }
 
-        private void OnWheelMoved(int wheelIndex, float wheelValue)
+        private void OnWheelMoved()
         {
-            int wheelNumber = Mathf.RoundToInt(wheelValue * 9f);
-            _currentCode[wheelIndex] = wheelNumber;
-            Debug.Log($"OnWheelMoved {wheelNumber}");
+            _currentCode = "";
+
+            foreach (XRLockWheel lockWheel in _lockWheels)
+            {
+                int number = Mathf.RoundToInt(lockWheel.value * 9f); 
+                _currentCode += number.ToString();
+            }
+
+            Debug.Log("Voici le code actuel : " + _currentCode);
             VerifyCode();
         }
+
         
         private void VerifyCode()
         {
-            if (_correctCode == _currentCode)
+            if (_currentCode == correctCode)
             {
                 UnlockLock();
-                // GameEvents.OnCorrectCodeSubmitted.Invoke();
             }
         }
 
