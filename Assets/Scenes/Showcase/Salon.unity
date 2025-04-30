@@ -332,7 +332,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &937001083
+--- !u!1001 &1595331112
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -390,20 +390,20 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8771091787928289351, guid: 97b5d6fa4e52e4a49a30a04c54ce50ed, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 937001085}
+      addedObject: {fileID: 1595331114}
   m_SourcePrefab: {fileID: -4161369568681901532, guid: 97b5d6fa4e52e4a49a30a04c54ce50ed, type: 3}
---- !u!1 &937001084 stripped
+--- !u!1 &1595331113 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8771091787928289351, guid: 97b5d6fa4e52e4a49a30a04c54ce50ed, type: 3}
-  m_PrefabInstance: {fileID: 937001083}
+  m_PrefabInstance: {fileID: 1595331112}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &937001085
+--- !u!65 &1595331114
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 937001084}
+  m_GameObject: {fileID: 1595331113}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -482,4 +482,4 @@ SceneRoots:
   - {fileID: 403490236}
   - {fileID: 129819102}
   - {fileID: 1871835360}
-  - {fileID: 937001083}
+  - {fileID: 1595331112}
