@@ -1,29 +1,21 @@
 using System;
+using Code.Scripts.Source.GameFSM.States;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
-public class BookSocket : MonoBehaviour
+namespace Code.Scripts.Source.Gameplay.Lounge
 {
-    public static event Action OnAnySocketChanged;
-
-    private XRSocketInteractor _socket;
-
-    private void Awake() => _socket = GetComponent<XRSocketInteractor>();
-
-    private void OnEnable()
+    public class BookSocket : MonoBehaviour
     {
-        _socket.selectEntered.AddListener(_ => OnAnySocketChanged?.Invoke());
-        _socket.selectExited.AddListener(_ => OnAnySocketChanged?.Invoke());
-    }
+        private XRSocketInteractor _socket;
 
-    private void OnDisable()
-    {
-        _socket.selectEntered.RemoveAllListeners();
-        _socket.selectExited.RemoveAllListeners();
-    }
-    
-    
-    /*private void OnEnable()
+        private void Awake()
+        {  
+            _socket = GetComponent<XRSocketInteractor>();
+        }
+        
+        private void OnEnable()
     {
         _socket.selectEntered.AddListener(OnBookPlaced);
         _socket.selectExited.AddListener(OnBookRemoved);
@@ -37,12 +29,23 @@ public class BookSocket : MonoBehaviour
 
     private void OnBookPlaced(SelectEnterEventArgs args)
     {
-        OnAnySocketChanged?.Invoke();
+        if (_socket.firstInteractableSelected.transform.CompareTag("Fuse"))
+        {
+            Debug.Log("Fuse placed");
+            GameStateLoungePhase2.OnFusePlugged?.Invoke(true);
+        }
+        GameStateLoungePhase2.OnSocketChanged?.Invoke();
     }
 
     private void OnBookRemoved(SelectExitEventArgs args)
     {
-        OnAnySocketChanged?.Invoke();
+        if (_socket.firstInteractableSelected.transform.CompareTag("Fuse"))
+        {
+            Debug.Log("Fuse removed");
+            GameStateLoungePhase2.OnFusePlugged?.Invoke(false);
+        }
+        GameStateLoungePhase2.OnSocketChanged?.Invoke();
     }
-}*/
+}
+    
 }

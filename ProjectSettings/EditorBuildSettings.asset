@@ -5,25 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Showcase/Showcase-Loader.unity
     guid: 58c8d452e9946624abd265f4762f3158
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Showcase/Hall.unity
     guid: 8e784407402fea54d8d600758c6cb72f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Showcase/Salon.unity
     guid: 0ba9ec31a3d74aa4da394600c28fa94d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Showcase/Serre.unity
     guid: 909fc60525d13a64e84e7ef010243d8d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Showcase/Laboratoire.unity
     guid: 852ae0dc1013cab4084fa194d1bfba91
   - enabled: 0
     path: Assets/Scenes/Test/Hall sequence test.unity
     guid: 7a9fe6bea252b444999463893881f14c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Test/Socket Salon.unity
     guid: a2f11958a602cce4ebc060451da6f0e0
   m_configObjects:
