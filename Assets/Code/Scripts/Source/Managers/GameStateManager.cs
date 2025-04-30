@@ -21,11 +21,12 @@ namespace Code.Scripts.Source.Managers
 
         public bool GamePaused { get; set; }
 
-        private InputAction _menuButton;
+        private InputAction _menuButton, _menuButtonInteraction;
 
         private void Awake()
         {
             _menuButton = InputSystem.actions.FindAction("XRI Left/MenuButton", true);
+            _menuButtonInteraction = InputSystem.actions.FindAction("XRI Left Interaction/MenuButton", true);
             DontDestroyOnLoad(this);
         }
 
@@ -42,8 +43,11 @@ namespace Code.Scripts.Source.Managers
 
         private void Update()
         {
-            if (_menuButton.WasPerformedThisFrame())
+            if (_menuButton.WasPressedThisFrame() || _menuButtonInteraction.WasPressedThisFrame())
+            {
                 SwitchState(GameStates.Pause);
+                return;
+            }
 
             CurrentState.UpdateState(this);
         }
