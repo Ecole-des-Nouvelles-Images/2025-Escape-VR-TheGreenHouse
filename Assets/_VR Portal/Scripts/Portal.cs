@@ -11,6 +11,8 @@ public class Portal : MonoBehaviour
     [SerializeField] Camera playerCam;
     [SerializeField] Transform leftEye, rightEye, center;
     [SerializeField] MeshRenderer meshRenderer;
+    [SerializeField] private Matrix4x4 testMatrix;
+    [SerializeField] Vector3 rightOffset;
 
     InputDevice _hmd;
     Camera _portalCamLeft, _portalCamRight;
@@ -130,8 +132,8 @@ public class Portal : MonoBehaviour
         // Go from otherPortal position in world > otherPortal position in this portal > otherPortal position displaced by camera position in this portal
         var portalMatrixLeft = otherPortal.transform.localToWorldMatrix * transform.worldToLocalMatrix * leftEye.localToWorldMatrix;
         _portalCamLeft.transform.SetPositionAndRotation(portalMatrixLeft.GetPosition(), portalMatrixLeft.rotation);
-        var portalMatrixRight = otherPortal.transform.localToWorldMatrix * transform.worldToLocalMatrix * rightEye.localToWorldMatrix;
-        _portalCamRight.transform.SetPositionAndRotation(portalMatrixRight.GetPosition(), portalMatrixRight.rotation);
+        var portalMatrixRight = otherPortal.transform.localToWorldMatrix * transform.worldToLocalMatrix * rightEye.localToWorldMatrix*testMatrix;
+        _portalCamRight.transform.SetPositionAndRotation(portalMatrixRight.GetPosition()+rightOffset, portalMatrixRight.rotation);
 
         _portalCamLeft.projectionMatrix = ObliqueProjection(_portalCamLeft);
         _portalCamRight.projectionMatrix = ObliqueProjection(_portalCamRight);
