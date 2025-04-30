@@ -27,12 +27,18 @@ namespace Code.Scripts.Source.Managers
         private void Awake()
         {
             _menuButton = InputSystem.actions.FindAction("XRI Left/MenuButton", true);
+            DontDestroyOnLoad(this);
         }
 
         private void Start()
         {
             CurrentState = GameStates.Launch;
             CurrentState.EnterState(this);
+        }
+
+        private void OnApplicationQuit()
+        {
+            Destroy(this);
         }
 
         private void Update()
