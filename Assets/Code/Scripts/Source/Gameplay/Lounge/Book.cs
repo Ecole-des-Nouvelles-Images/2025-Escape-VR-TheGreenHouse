@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Code.Scripts.Source.Gameplay.Salon
+namespace Code.Scripts.Source.Gameplay.Lounge
 {
     public class Book : MonoBehaviour
     {

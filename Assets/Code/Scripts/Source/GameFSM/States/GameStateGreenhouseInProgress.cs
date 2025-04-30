@@ -1,8 +1,12 @@
 using Code.Scripts.Source.Managers;
 
+<<<<<<<< HEAD:Assets/Code/Scripts/Source/GameState/States/GameStateGreenhouseInProgress.cs
 namespace Code.Scripts.Source.GameState.States
+========
+namespace Code.Scripts.Source.GameFSM.States
+>>>>>>>> feature/game-management:Assets/Code/Scripts/Source/GameFSM/States/GameStateGreenhouseInProgress.cs
 {
-    public class GameStateHallIntro : GameBaseState
+    public class GameStateGreenhouseInProgress : GameBaseState
     {
         public override void EnterState(GameStateManager context)
         {

@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.XR.Interaction.Toolkit;
 
-namespace Code.Scripts.Source.Gameplay.Salon
+namespace Code.Scripts.Source.Gameplay.Lounge
 {
     public class TVController : MonoBehaviour
     {
