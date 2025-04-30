@@ -1,7 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
-using Code.Scripts.Source.Managers;
 using UnityEngine;
+
+using Code.Scripts.Source.Managers;
 
 namespace Code.Scripts.Source.GameFSM.States
 {

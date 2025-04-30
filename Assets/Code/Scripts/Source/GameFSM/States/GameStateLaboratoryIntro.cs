@@ -1,10 +1,6 @@
 using Code.Scripts.Source.Managers;
 
-<<<<<<<< HEAD:Assets/Code/Scripts/Source/GameState/States/GameStateLaboratoryIntro.cs
-namespace Code.Scripts.Source.GameState.States
-========
 namespace Code.Scripts.Source.GameFSM.States
->>>>>>>> feature/game-management:Assets/Code/Scripts/Source/GameFSM/States/GameStateLaboratoryIntro.cs
 {
     public class GameStateLaboratoryIntro: GameBaseState
     {
