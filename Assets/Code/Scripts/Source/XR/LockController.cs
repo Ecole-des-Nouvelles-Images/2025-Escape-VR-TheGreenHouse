@@ -1,5 +1,4 @@
 using JetBrains.Annotations;
-using Unity.VRTemplate;
 using UnityEngine;
 
 
@@ -27,7 +26,6 @@ namespace Code.Scripts.Source.XR
             foreach (XRLockWheel lockWheel in _lockWheels)
             {
                 lockWheel.onValueChange.AddListener(value => OnWheelMoved());
-                Debug.Log(lockWheel.onValueChange);
             }
         }
         
