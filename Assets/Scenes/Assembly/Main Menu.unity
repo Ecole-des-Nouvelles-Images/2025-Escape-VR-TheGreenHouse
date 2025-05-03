@@ -18339,54 +18339,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1723232580980308241, guid: ccdc829352e42a74798e70f532e11dd2, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 7388696266180043838}
-    - target: {fileID: 1925028694202721313, guid: ccdc829352e42a74798e70f532e11dd2, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1925028694202721313, guid: ccdc829352e42a74798e70f532e11dd2, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1925028694202721313, guid: ccdc829352e42a74798e70f532e11dd2, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1925028694202721313, guid: ccdc829352e42a74798e70f532e11dd2, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1925028694202721313, guid: ccdc829352e42a74798e70f532e11dd2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1925028694202721313, guid: ccdc829352e42a74798e70f532e11dd2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1925028694202721313, guid: ccdc829352e42a74798e70f532e11dd2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1925028694202721313, guid: ccdc829352e42a74798e70f532e11dd2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1925028694202721313, guid: ccdc829352e42a74798e70f532e11dd2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1925028694202721313, guid: ccdc829352e42a74798e70f532e11dd2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1925028694202721313, guid: ccdc829352e42a74798e70f532e11dd2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2094566269425567374, guid: ccdc829352e42a74798e70f532e11dd2, type: 3}
       propertyPath: m_Name
       value: P_Custom_XR_Origin_Menu
