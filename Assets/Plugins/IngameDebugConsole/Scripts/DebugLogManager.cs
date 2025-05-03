@@ -15,13 +15,13 @@ using Screen = UnityEngine.Device.Screen; // To support Device Simulator on Unit
 
 // Receives debug entries and custom events (e.g. Clear, Collapse, Filter by Type)
 // and notifies the recycled list view of changes to the list of debug entries
-// 
+//
 // - Vocabulary -
 // Debug/Log entry: a Debug.Log/LogError/LogWarning/LogException/LogAssertion request made by
 //                   the client and intercepted by this manager object
 // Debug/Log item: a visual (uGUI) representation of a debug entry
-// 
-// There can be a lot of debug entries in the system but there will only be a handful of log items 
+//
+// There can be a lot of debug entries in the system but there will only be a handful of log items
 // to show their properties on screen (these log items are recycled as the list is scrolled)
 
 // An enum to represent filtered log types
@@ -355,7 +355,7 @@ namespace IngameDebugConsole
 		// Dictionary to quickly find if a log already exists in collapsedLogEntries
 		private Dictionary<DebugLogEntry, DebugLogEntry> collapsedLogEntriesMap;
 
-		// The order the collapsedLogEntries are received 
+		// The order the collapsedLogEntries are received
 		// (duplicate entries have the same value)
 		private DynamicCircularBuffer<DebugLogEntry> uncollapsedLogEntries;
 		private DynamicCircularBuffer<DebugLogEntryTimestamp> uncollapsedLogEntriesTimestamps;
@@ -440,6 +440,8 @@ namespace IngameDebugConsole
 
 		private void Awake()
 		{
+			Instance = null;
+
 			// Only one instance of debug console is allowed
 			if( !Instance )
 			{
@@ -955,7 +957,7 @@ namespace IngameDebugConsole
 
 			popupManager.Hide();
 
-			// Update the recycled list view 
+			// Update the recycled list view
 			// (in case new entries were intercepted while log window was hidden)
 			OnLogEntriesUpdated( true, true );
 
