@@ -1,18 +1,17 @@
 using System.Collections.Generic;
 using Code.Scripts.Source.GameFSM.States;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 namespace Code.Scripts.Source.Gameplay.Lounge
 {
     public class BookPuzzle : MonoBehaviour
     {
-        
-        public List<XRSocketInteractor> BookSockets = new List<XRSocketInteractor>(5);
-        public List<string> CorrectBookPlacement = new List<string>(5);
-        public bool PuzzleSolved = false;
-        public bool FusePlugged = false;
-        public GameObject puzzleMessage; 
+        public bool PuzzleSolved = false; 
+        [SerializeField] private List<XRSocketInteractor> _bookSockets = new List<XRSocketInteractor>(5);
+        [SerializeField] private List<string> _correctBookPlacement = new List<string>(5);
+        [SerializeField] private  bool _fusePlugged = false;
 
         private void OnEnable()
         {
@@ -29,26 +28,25 @@ namespace Code.Scripts.Source.Gameplay.Lounge
         private void CheckPuzzle()
         {
             Debug.Log("Checking Puzzle");
-            if (PuzzleSolved || !FusePlugged) return;
+            if (PuzzleSolved || !_fusePlugged) return;
 
-            for (int i = 0; i < BookSockets.Count; i++)
+            for (int i = 0; i < _bookSockets.Count; i++)
             {
-                if (!BookSockets[i].hasSelection) return;
+                if (!_bookSockets[i].hasSelection) return;
 
-                GameObject selected = BookSockets[i].GetOldestInteractableSelected().transform.gameObject;
+                GameObject selected = _bookSockets[i].GetOldestInteractableSelected().transform.gameObject;
                 Book book = selected.GetComponent<Book>();
 
-                if (book == null || book.BookName != CorrectBookPlacement[i]) return;
+                if (book == null || book.BookName != _correctBookPlacement[i]) return;
             }
 
             PuzzleSolved = true;
             Debug.Log(" Puzzle terminé");
-            puzzleMessage.SetActive(true);
         }
 
         private void PlugFuseCheck(bool fuseIsPlugged)
         {
-            FusePlugged = fuseIsPlugged;
+            _fusePlugged = fuseIsPlugged;
         }
         
     }
