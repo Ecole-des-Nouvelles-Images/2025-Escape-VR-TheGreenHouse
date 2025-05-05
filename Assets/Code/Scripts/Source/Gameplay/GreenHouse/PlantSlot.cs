@@ -5,27 +5,35 @@ public class PlantSlot : MonoBehaviour
 {
     public Seed CurrentSeed;
     public GameObject CurrentPlant;
-    public bool SeedPlanted = false;
-    public bool PlantGrowned = false; 
+    public bool SeedPlanted  { get; private set; } = false ;
+    public bool PlantGrowed  { get; private set; } = false; 
     [SerializeField] private Transform PlantSpawnPoint;
+    private string _currentPlantName;
     
 
-
-    private void PlantSeed()
+    private void PlantSeed(string seedName)
     {
         Debug.Log("seed Plant");
+        _currentPlantName = seedName;
     }
 
     private void GrownPlant()
     {
-        PlantGrowned = true;
+        PlantGrowed = true;
         Debug.Log("Water Plant");
         Instantiate(CurrentPlant,transform.position,Quaternion.identity, transform);
-        
+        PlantPuzzle.OnPlantGrown?.Invoke(this);
+    }
+    
+    public string GetPlantLatinName()
+    {
+        return _currentPlantName;
     }
 
     private void ResetPlant()
     {
+        PlantGrowed = false;
+        _currentPlantName = null;
         Destroy(CurrentPlant);
         CurrentSeed = null;
     }
@@ -36,10 +44,10 @@ public class PlantSlot : MonoBehaviour
         if (!SeedPlanted) return;
         if (other.CompareTag("Seed"))
         {
-            PlantSeed();
+           // PlantSeed(other.GetComponent<>());
         }
         
-        if (PlantGrowned) return;
+        if (PlantGrowed) return;
         if (other.CompareTag("Water"))
         {
             GrownPlant();

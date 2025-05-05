@@ -219,8 +219,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentSeed: {fileID: 0}
   CurrentPlant: {fileID: 7727276208986606102, guid: 9c6802f5b4a7322478b073e1fde5ee59, type: 3}
-  SeedPlanted: 1
-  PlantGrowned: 0
   PlantSpawnPoint: {fileID: 0}
 --- !u!1001 &197006564
 PrefabInstance:
@@ -12840,8 +12838,8 @@ SceneRoots:
   - {fileID: 23626105}
   - {fileID: 2091645412}
   - {fileID: 737112215}
+  - {fileID: 2050693710}
   - {fileID: 467469630}
   - {fileID: 1342639901}
   - {fileID: 1781633612}
   - {fileID: 1459606727}
-  - {fileID: 2050693710}
