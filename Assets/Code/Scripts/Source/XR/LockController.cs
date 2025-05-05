@@ -21,19 +21,18 @@ namespace Code.Scripts.Source.XR
             _initialPosition = transform.position;
             _initialRotation = transform.rotation;
 
-            _currentCode = new int[] { 0, 0, 0, 0};
-            _correctCode = new int[] { 2, 7, 3, 6};
-            WheelRotation.Rotated += CheckResults;
+            _currentCode = new int[] {0, 0, 0, 0};
+            _correctCode = new int[] {2, 7, 3, 6};
         }
 
         private void OnEnable()
         {
-            WheelRotation.Rotated += CheckResults;
+            WheelRotation.OnRotated += CheckResults;
         }
 
         private void OnDisable()
         {
-            WheelRotation.Rotated -= CheckResults;
+            WheelRotation.OnRotated -= CheckResults;
         }
 
         private void CheckResults(string wheelName, int wheelNumber)

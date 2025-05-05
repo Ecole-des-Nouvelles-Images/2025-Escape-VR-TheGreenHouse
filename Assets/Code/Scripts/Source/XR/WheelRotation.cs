@@ -1,45 +1,77 @@
 using System;
 using System.Collections;
-using JetBrains.Annotations;
 using UnityEngine;
 
-public class WheelRotation : MonoBehaviour
+namespace Code.Scripts.Source.XR
 {
-    public static event Action<string, int> Rotated;
-    
-    private bool _coroutineAllowed;
-    private int _numberShown;
-
-    private void Start()
+    public class WheelRotation : MonoBehaviour
     {
-        _coroutineAllowed = true;
-        _numberShown = 0;
-    }
+        public static event Action<string, int> OnRotated;
 
-    [UsedImplicitly]
-    private void OnWheelInteract()
-    {
-        if (_coroutineAllowed)
+        [SerializeField] [Min(0.1f)] private float _animDelay;
+        [SerializeField] private float _xAngle, _yAngle = -90, _zAngle = 90f;
+        private Coroutine _coroutine;
+        private int _numberShown;
+
+        private void Start()
         {
-            StartCoroutine(RotateWheel());
+            _numberShown = 0;
         }
-    }
-
-    private IEnumerator RotateWheel()
-    {
-        _coroutineAllowed = false;
-        for (int i = 0; i < _numberShown; i++)
+    
+        [ContextMenu("Rotate Wheel")]
+        public void OnWheelInteract()
         {
-            transform.Rotate(0f, 0f, 3f);
+            if (_coroutine != null) return;
+        
+            _coroutine = StartCoroutine(RotateWheel());
+        }
+
+        private IEnumerator RotateWheel()
+        {
+            float t = 0;
+        
+            Quaternion initialRotation = transform.rotation;
+            _xAngle += -36;
+            if (_xAngle <= -360)
+                _xAngle += 360;
+            Vector3 targetAngle = new Vector3(_xAngle, -90, 90f);
+            Quaternion targetRotation = Quaternion.Euler(targetAngle);
+
+            while (t < 1)
+            {
+                t += Time.deltaTime / _animDelay;
+                transform.rotation = Quaternion.Lerp(initialRotation, targetRotation, t);
+                yield return null;
+            }
+        
+            _numberShown++;
+            if (_numberShown > 9)
+            {
+                _numberShown = 0;
+            }
+        
+            OnRotated?.Invoke(name, _numberShown);
+            _coroutine = null;
+        }
+
+        /*private IEnumerator RotateWheel()
+    {
+        Debug.Log("Rotating Wheel");
+        for (int i = 0; i < 11; i++)
+        {
+            Vector3 eulerAngles = transform.rotation.eulerAngles;
+            eulerAngles += new Vector3(36f, 0, 0f);
+            transform.rotation = Quaternion.Euler(eulerAngles);
+            // transform.Rotate(3f, 0f, 0f, Space.Self);
             yield return new WaitForSeconds(0.01f);
         }
-        _coroutineAllowed = true;
-        _numberShown += +1;
+        _numberShown++;
         if (_numberShown > 9)
         {
             _numberShown = 0;
         }
 
-        Rotated(name, _numberShown);
+        OnRotated?.Invoke(name, _numberShown);
+    }*/
     }
 }
