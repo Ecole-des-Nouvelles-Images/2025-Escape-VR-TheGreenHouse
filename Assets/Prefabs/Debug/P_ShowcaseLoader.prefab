@@ -281,6 +281,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8372501396263459418}
+  - component: {fileID: 8706182281170216099}
   - component: {fileID: 8210896177728162690}
   - component: {fileID: 8473847439597916090}
   - component: {fileID: 1601250198990214346}
@@ -300,7 +301,7 @@ RectTransform:
   m_GameObject: {fileID: 2224583574245441630}
   m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
   m_LocalPosition: {x: 0, y: 0, z: 3}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_LocalScale: {x: 0.0005, y: 0.0005, z: 0.0005}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7962294521627517655}
@@ -312,6 +313,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 1}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8706182281170216099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2224583574245441630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b59d46e286fded42ac470f62b8cedba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _loadHall: {fileID: 6829937111386245276}
+  _loadLiving: {fileID: 4499794056370088582}
+  _loadGreenhouse: {fileID: 3648514864440522075}
+  _loadLaboratory: {fileID: 6295055563492541109}
 --- !u!223 &8210896177728162690
 Canvas:
   m_ObjectHideFlags: 0
@@ -1203,7 +1220,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4507423356328064311}
   - component: {fileID: 2282187865588275696}
-  - component: {fileID: 8611818019489395898}
   m_Layer: 5
   m_Name: Navigation
   m_TagString: Untagged
@@ -1260,26 +1276,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &8611818019489395898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8702117439118642348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b59d46e286fded42ac470f62b8cedba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _hall: Hall
-  _living: Salon
-  _greenhouse: Serre
-  _laboratory: Laboratoire
-  _loadHall: {fileID: 6829937111386245276}
-  _loadLiving: {fileID: 4499794056370088582}
-  _loadGreenhouse: {fileID: 3648514864440522075}
-  _loadLaboratory: {fileID: 6295055563492541109}
 --- !u!1 &9037160291185717744
 GameObject:
   m_ObjectHideFlags: 0

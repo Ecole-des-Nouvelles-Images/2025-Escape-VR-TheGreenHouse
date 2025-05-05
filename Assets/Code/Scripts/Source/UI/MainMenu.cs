@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using Code.Scripts.Source.Managers;
+using Code.Scripts.Source.Types;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -46,11 +48,14 @@ namespace Code.Scripts.Source.UI
         private void StartGame()
         {
             HideAllPanels();
-            SceneTransitionManager.Instance.LoadScene("2 Game");
+            SceneLoader.Instance.SwitchScene(SceneType.Hall);
         }
 
         private void QuitGame()
         {
+#if UNITY_EDITOR
+            EditorApplication.ExitPlaymode();
+#endif
             Application.Quit();
         }
 
@@ -81,11 +86,5 @@ namespace Code.Scripts.Source.UI
             _optionsPanel.SetActive(false);
             _creditsPanel.SetActive(true);
         }
-
-
-
-
-
-
     }
 }

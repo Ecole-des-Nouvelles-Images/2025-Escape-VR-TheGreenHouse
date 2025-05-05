@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -22,6 +23,8 @@ namespace Code.Scripts.Source.Managers
         public bool GamePaused { get; set; }
 
         private InputAction _menuButton, _menuButtonInteraction;
+
+        public static Action OnFirstSceneLoaded;
 
         private void Awake()
         {
