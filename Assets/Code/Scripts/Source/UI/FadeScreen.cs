@@ -18,7 +18,8 @@ namespace Code.Scripts.Source.UI
             _fadeDuration = SceneTransitionManager.FadeDuration;
             _fadeCurve = SceneTransitionManager.FadeCurve;
 
-            FadeOut();
+            // FadeOut();// Auto-start fade out on game launch
+            _canvasGroup.alpha = 1; // Start opaque on game launch
         }
 
         public void FadeIn()

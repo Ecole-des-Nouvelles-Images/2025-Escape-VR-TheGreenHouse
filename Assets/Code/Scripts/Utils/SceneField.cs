@@ -41,14 +41,15 @@ namespace Code.Scripts.Utils
             return sceneField.SceneName;
         }
 
-        public static implicit operator SceneField(Scene scene)
-        {
-            return new SceneField { _sceneAsset = AssetDatabase.LoadAssetAtPath<Object>(scene.path) };
-        }
-
         public static implicit operator Scene(SceneField sceneField)
         {
             return sceneField.SceneObject;
+        }
+
+#if UNITY_EDITOR
+        public static implicit operator SceneField(Scene scene)
+        {
+            return new SceneField { _sceneAsset = AssetDatabase.LoadAssetAtPath<Object>(scene.path) };
         }
 
         public static implicit operator SceneField(string sceneName)
@@ -58,5 +59,7 @@ namespace Code.Scripts.Utils
 
             return new SceneField { _sceneAsset = asset };
         }
+#endif
+
     }
 }
