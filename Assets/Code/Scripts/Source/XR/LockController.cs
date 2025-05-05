@@ -1,3 +1,4 @@
+using System;
 using JetBrains.Annotations;
 using UnityEngine;
 
@@ -8,24 +9,55 @@ namespace Code.Scripts.Source.XR
     {
         [SerializeField] private Transform _selectedTransform;
         [SerializeField] private Transform _playerCameraTransform;
-        [SerializeField] XRLockWheel[] _lockWheels;
-        [SerializeField] private string correctCode = "2736";
 
-        
+        private int[] _correctCode;
         private Vector3 _initialPosition;
         private Quaternion _initialRotation;
-        private string _currentCode;
+        private int[] _currentCode;
         private bool _zoomed;
 
         private void Start()
         {
             _initialPosition = transform.position;
             _initialRotation = transform.rotation;
-            
-            
-            foreach (XRLockWheel lockWheel in _lockWheels)
+
+            _currentCode = new int[] { 0, 0, 0, 0};
+            _correctCode = new int[] { 2, 7, 3, 6};
+            WheelRotation.Rotated += CheckResults;
+        }
+
+        private void OnEnable()
+        {
+            WheelRotation.Rotated += CheckResults;
+        }
+
+        private void OnDisable()
+        {
+            WheelRotation.Rotated -= CheckResults;
+        }
+
+        private void CheckResults(string wheelName, int wheelNumber)
+        {
+            switch (wheelName)
             {
-                lockWheel.onValueChange.AddListener(value => OnWheelMoved());
+                case "Wheel1":
+                    _currentCode[0] = wheelNumber;
+                    break;
+                case "Wheel2":
+                    _currentCode[1] = wheelNumber;
+                    break;
+                case "Wheel3":
+                    _currentCode[2] = wheelNumber;
+                    break;
+                case "Wheel4":
+                    _currentCode[3] = wheelNumber;
+                    break;
+            }
+
+            if (_currentCode[0] == _correctCode[0] && _currentCode[1] == _correctCode[1] &&
+                _currentCode[2] == _correctCode[2] && _currentCode[3] == _correctCode[3])
+            {
+                UnlockLock();
             }
         }
         
@@ -49,29 +81,7 @@ namespace Code.Scripts.Source.XR
         {
             if (_zoomed) transform.LookAt(_playerCameraTransform);
         }
-
-        private void OnWheelMoved()
-        {
-            _currentCode = "";
-
-            foreach (XRLockWheel lockWheel in _lockWheels)
-            {
-                int number = Mathf.RoundToInt(lockWheel.value * 9f); 
-                _currentCode += number.ToString();
-            }
-
-            Debug.Log("Voici le code actuel : " + _currentCode);
-            VerifyCode();
-        }
-
         
-        private void VerifyCode()
-        {
-            if (_currentCode == correctCode)
-            {
-                UnlockLock();
-            }
-        }
 
         private void UnlockLock()
         {
