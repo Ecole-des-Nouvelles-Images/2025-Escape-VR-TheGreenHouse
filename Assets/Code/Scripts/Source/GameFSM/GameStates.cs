@@ -4,6 +4,8 @@ namespace Code.Scripts.Source.GameFSM
 {
     public class GameStates
     {
+        public GameStateUninitialized Uninitialized { get; private set; } = new();
+        public GameStateMainMenu MainMenu { get; private set; } = new();
         public GameStateLaunch Launch { get; private set; } = new();
         public GameStatePause Pause { get; private set; } = new();
 

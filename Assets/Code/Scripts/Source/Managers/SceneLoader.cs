@@ -26,24 +26,43 @@ namespace Code.Scripts.Source.Managers
 #if UNITY_EDITOR
         private void OnValidate()
         {
-            SceneAssets.Clear();
-
-            foreach (SceneField field in _sceneAssets)
-                SceneAssets.Add(field.SceneType, field);
+            BuildSceneDatabase();
         }
 #endif
 
         private void Awake()
         {
+            BuildSceneDatabase();
             _transitionManager = new(_fadeDuration, _fadeCurve);
+
             LoadScene(SceneType.MainMenu);
+            GameStateManager.OnFirstSceneLoaded.Invoke();
         }
 
+        private void BuildSceneDatabase()
+        {
+            SceneAssets.Clear();
+
+            foreach (SceneField field in _sceneAssets)
+                SceneAssets.Add(field.SceneType, field);
+        }
+
+        /// <summary>
+        /// Start loading a scene asynchronously through a coroutine.
+        /// </summary>
+        /// <param name="sceneType">
+        /// The <c>SceneType</c> of the necessary scene, as stored into the statically available Dictionary "SceneAssets".
+        /// </param>
         public void LoadScene(SceneType sceneType)
         {
             StartCoroutine(LoadSceneCoroutine(SceneAssets[sceneType], true, _fadeDuration));
         }
 
+        /// <summary>
+        /// Switch asynchronously to a new scene through a coroutine, unloading the current one before loading the new one.<br/>
+        /// Also, fully plays the transition animations.
+        /// </summary>
+        /// <param name="sceneType">The <c>SceneType</c> of the necessary scene, as stored into the statically available Dictionary "SceneAssets".</param>
         public void SwitchScene(SceneType sceneType)
         {
             StartCoroutine(SwitchLoadedScene(SceneAssets[sceneType]));
@@ -68,7 +87,7 @@ namespace Code.Scripts.Source.Managers
         }
 
         /// <summary>
-        /// Load asynchronously the specified scene, additively.
+        /// Load asynchronously the specified scene additively and call the "out" transition.
         /// </summary>
         /// <param name="scene"><c>SceneField</c> wrapper or convertable scene name string or <c>Scene</c> object.</param>
         /// <param name="loadAsActive">Should the scene be immediately marked as active when loaded or not. <c>true</c> by default.</param>
@@ -92,6 +111,8 @@ namespace Code.Scripts.Source.Managers
 
             if (loadAsActive)
                 SceneManager.SetActiveScene(scene);
+
+            _transitionManager.Crossfade.FadeOut();
         }
 
         /// <summary>
