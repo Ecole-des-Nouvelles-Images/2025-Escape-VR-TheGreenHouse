@@ -30,13 +30,22 @@ namespace Code.Scripts.Source.Managers
         {
             _menuButton = InputSystem.actions.FindAction("XRI Left/MenuButton", true);
             _menuButtonInteraction = InputSystem.actions.FindAction("XRI Left Interaction/MenuButton", true);
-            DontDestroyOnLoad(this);
         }
 
         private void Start()
         {
-            CurrentState = GameStates.Launch;
+            CurrentState = GameStates.Uninitialized;
             CurrentState.EnterState(this);
+        }
+
+        private void OnEnable()
+        {
+            OnFirstSceneLoaded += InitializeFSM;
+        }
+
+        private void OnDisable()
+        {
+            OnFirstSceneLoaded -= InitializeFSM;
         }
 
         private void OnApplicationQuit()
@@ -55,9 +64,18 @@ namespace Code.Scripts.Source.Managers
             CurrentState.UpdateState(this);
         }
 
+        private void InitializeFSM()
+        {
+            SwitchState(GameStates.MainMenu);
+        }
+
         public void SwitchState(GameBaseState newState)
         {
+            if (CurrentState != null)
+                CurrentState.ExitState(this);
+
             CurrentState = newState;
+
             newState.EnterState(this);
         }
     }
