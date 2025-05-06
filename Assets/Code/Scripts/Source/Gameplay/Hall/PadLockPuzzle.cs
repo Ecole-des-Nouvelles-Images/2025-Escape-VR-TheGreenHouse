@@ -15,7 +15,7 @@ namespace Code.Scripts.Source.XR
         [SerializeField] private int[] _correctCode;
         private Vector3 _initialPosition;
         private Quaternion _initialRotation;
-        private int[] _currentCode;
+        [SerializeField] private int[] _currentCode;
         private bool _zoomed;
 
         private void Start()
@@ -38,6 +38,7 @@ namespace Code.Scripts.Source.XR
 
         private void CheckResults(string wheelName, int wheelNumber)
         {
+            Debug.Log("check");
             switch (wheelName)
             {
                 case "Wheel1":
