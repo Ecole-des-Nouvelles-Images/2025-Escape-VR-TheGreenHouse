@@ -6,17 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5cf7b60e-abc0-40ab-8900-427106e30966" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/LockController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/LockController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/WheelRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/WheelRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Props/Lock.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Props/Lock.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Environment/Props/S_Cadena.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Environment/Props/S_Cadena.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Environment/Props/S_Cadena.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Environment/Props/S_Cadena.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Environment/Props/chest.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Environment/Props/chest.obj.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Props/Wheel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Wheel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Props/Wheel.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Wheel.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/XR/P_Custom_XR_Origin_Game.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/XR/P_Custom_XR_Origin_Game.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/XRI Default Input Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/XRI Default Input Actions.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/XRI Default Input Actions.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/XRI Default Input Actions.inputactions.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Experiments/XR Features.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Experiments/XR Features.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,6 +119,7 @@
       <workItem from="1746433868432" duration="1768000" />
       <workItem from="1746437687782" duration="9337000" />
       <workItem from="1746454765763" duration="1322000" />
+      <workItem from="1746520968340" duration="1472000" />
     </task>
     <servers />
   </component>

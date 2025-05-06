@@ -8,8 +8,8 @@ namespace Code.Scripts.Source.XR
     {
         public static event Action<string, int> OnRotated;
 
-        [SerializeField] [Min(0.1f)] private float _animDelay;
-        [SerializeField] private float _xAngle, _yAngle = -90, _zAngle = 90f;
+        [SerializeField] private float _animDelay = 0.5f;
+        [SerializeField] private float _xAngle, _yAngle, _zAngle;
         private Coroutine _coroutine;
         private int _numberShown;
 
@@ -31,10 +31,10 @@ namespace Code.Scripts.Source.XR
             float t = 0;
         
             Quaternion initialRotation = transform.rotation;
-            _xAngle += -36;
+            _zAngle += -36;
             if (_xAngle <= -360)
                 _xAngle += 360;
-            Vector3 targetAngle = new Vector3(_xAngle, -90, 90f);
+            Vector3 targetAngle = new Vector3(_xAngle, _yAngle, _zAngle);
             Quaternion targetRotation = Quaternion.Euler(targetAngle);
 
             while (t < 1)
