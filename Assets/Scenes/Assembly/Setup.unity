@@ -580,11 +580,11 @@ MonoBehaviour:
   m_PositionFollowMode: 1
   m_MinDistanceAllowed: 0.1
   m_MaxDistanceAllowed: 3
-  m_TimeUntilThresholdReachesMaxDistance: 3
-  m_RotationFollowMode: 3
+  m_TimeUntilThresholdReachesMaxDistance: 0
+  m_RotationFollowMode: 1
   m_MinAngleAllowed: 0.1
   m_MaxAngleAllowed: 5
-  m_TimeUntilThresholdReachesMaxAngle: 3
+  m_TimeUntilThresholdReachesMaxAngle: 0
 --- !u!114 &465811254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1775,6 +1775,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_SceneLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
+      propertyPath: _object
+      value: 
+      objectReference: {fileID: 102900000, guid: a0072d476746ee546abbef9ba428de36, type: 3}
+    - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
+      propertyPath: _scenes.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
+      propertyPath: '_scenes.Array.data[0]'
+      value: Main Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
+      propertyPath: '_scenes.Array.data[1]'
+      value: Hall
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
+      propertyPath: '_scenes.Array.data[2]'
+      value: Lounge
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
+      propertyPath: '_scenes.Array.data[3]'
+      value: Greenhouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
+      propertyPath: '_scenes.Array.data[4]'
+      value: Laboratory
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
+      propertyPath: _sceneAssets.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
+      propertyPath: _sceneAssets.Array.data[0]._sceneAsset
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
+      propertyPath: _sceneAssets.Array.data[1]._sceneAsset
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1976,6 +2016,14 @@ PrefabInstance:
       propertyPath: m_Target
       value: 
       objectReference: {fileID: 1623986074}
+    - target: {fileID: 5065551596977521022, guid: 95d134de38f0dd440bc06845101a6c56, type: 3}
+      propertyPath: m_TimeUntilThresholdReachesMaxAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065551596977521022, guid: 95d134de38f0dd440bc06845101a6c56, type: 3}
+      propertyPath: m_TimeUntilThresholdReachesMaxDistance
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6788082872999562365, guid: 95d134de38f0dd440bc06845101a6c56, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
