@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 namespace Code.Scripts.Source.UI
 {
-    public class ButtonFeedBack : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
+    public class ButtonFeedback : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
     {
         [SerializeField] private float _soundVolume = 0.3f;
         [SerializeField] private float _feedbackDuration = 2f;

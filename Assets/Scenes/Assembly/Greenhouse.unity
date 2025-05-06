@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fontColor: {r: 1, g: 0.19339621, b: 0.37728932, a: 1}
-  backgroundColor: {r: 0.4056604, g: 0, b: 0, a: 1}
+  backgroundColor: {r: 0.31132078, g: 0, b: 0, a: 1}
 --- !u!4 &383023788
 Transform:
   m_ObjectHideFlags: 0
@@ -319,18 +319,6 @@ PrefabInstance:
     - target: {fileID: 8372501396263459418, guid: 53a8a287205ec88499b0bdf8bc4224dc, type: 3}
       propertyPath: m_SizeDelta.y
       value: 1080
-      objectReference: {fileID: 0}
-    - target: {fileID: 8372501396263459418, guid: 53a8a287205ec88499b0bdf8bc4224dc, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.0005
-      objectReference: {fileID: 0}
-    - target: {fileID: 8372501396263459418, guid: 53a8a287205ec88499b0bdf8bc4224dc, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.0005
-      objectReference: {fileID: 0}
-    - target: {fileID: 8372501396263459418, guid: 53a8a287205ec88499b0bdf8bc4224dc, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.0005
       objectReference: {fileID: 0}
     - target: {fileID: 8372501396263459418, guid: 53a8a287205ec88499b0bdf8bc4224dc, type: 3}
       propertyPath: m_LocalPosition.x
