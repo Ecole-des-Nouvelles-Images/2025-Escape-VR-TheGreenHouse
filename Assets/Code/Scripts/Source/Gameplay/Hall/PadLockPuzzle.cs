@@ -5,12 +5,14 @@ using UnityEngine;
 
 namespace Code.Scripts.Source.XR
 {
-    public class LockController : MonoBehaviour
+    
+    public class PadLockPuzzle : MonoBehaviour
     {
-        [SerializeField] private Transform _selectedTransform;
-        [SerializeField] private Transform _playerCameraTransform;
-
-        private int[] _correctCode;
+       // [SerializeField] private Transform _selectedTransform;
+      //  [SerializeField] private Transform _playerCameraTransform;
+        public static Action<string, int> OnRotated;
+        
+        [SerializeField] private int[] _correctCode;
         private Vector3 _initialPosition;
         private Quaternion _initialRotation;
         private int[] _currentCode;
@@ -22,17 +24,16 @@ namespace Code.Scripts.Source.XR
             _initialRotation = transform.rotation;
 
             _currentCode = new int[] {0, 0, 0, 0};
-            _correctCode = new int[] {2, 7, 3, 6};
         }
 
         private void OnEnable()
         {
-            WheelRotation.OnRotated += CheckResults;
+            OnRotated += CheckResults;
         }
 
         private void OnDisable()
         {
-            WheelRotation.OnRotated -= CheckResults;
+            OnRotated -= CheckResults;
         }
 
         private void CheckResults(string wheelName, int wheelNumber)
@@ -61,7 +62,7 @@ namespace Code.Scripts.Source.XR
         }
         
         [UsedImplicitly]
-        public void ZoomLock()
+      /*  public void ZoomLock()
         {
             if (!_zoomed)
             {
@@ -79,7 +80,7 @@ namespace Code.Scripts.Source.XR
         private void Update()
         {
             if (_zoomed) transform.LookAt(_playerCameraTransform);
-        }
+        }*/
         
 
         private void UnlockLock()

@@ -6,14 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5cf7b60e-abc0-40ab-8900-427106e30966" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/WheelRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/WheelRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment/Props/S_Cadena.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment/Props/S_Cadena.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment/Props/S_Cadena.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment/Props/S_Cadena.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment/Props/chest.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment/Props/chest.obj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Props/Wheel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Wheel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungePhase2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungePhase2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/LockController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/LockController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/WheelRotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/WheelRotation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Props/Locker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Locker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall/Hall Baking Set.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall/Hall Baking Set.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Experiments/XR Features.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Experiments/XR Features.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/lock-wheel-xr&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "integration-unity/gameplay",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Unity.exe" />
@@ -76,9 +76,6 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
-      <option name="runtimes">
-        <list />
-      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -89,9 +86,6 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
-      <option name="runtimes">
-        <list />
-      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -120,6 +114,7 @@
       <workItem from="1746437687782" duration="9337000" />
       <workItem from="1746454765763" duration="1322000" />
       <workItem from="1746520968340" duration="1472000" />
+      <workItem from="1746540526030" duration="2284000" />
     </task>
     <servers />
   </component>

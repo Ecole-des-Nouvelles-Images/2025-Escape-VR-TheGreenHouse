@@ -6,7 +6,7 @@ namespace Code.Scripts.Source.XR
 {
     public class WheelRotation : MonoBehaviour
     {
-        public static event Action<string, int> OnRotated;
+     
 
         [SerializeField] private float _animDelay = 0.5f;
         [SerializeField] private float _xAngle, _yAngle, _zAngle;
@@ -50,7 +50,7 @@ namespace Code.Scripts.Source.XR
                 _numberShown = 0;
             }
         
-            OnRotated?.Invoke(name, _numberShown);
+            PadLockPuzzle.OnRotated?.Invoke(name, _numberShown);
             _coroutine = null;
         }
 

@@ -174,8 +174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheel2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedComponents:
+    - {fileID: 5366158025445150543, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 2121279492132313675, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
@@ -236,8 +238,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheel4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedComponents:
+    - {fileID: 5366158025445150543, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 2121279492132313675, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
@@ -298,8 +302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheel3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedComponents:
+    - {fileID: 5366158025445150543, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 2121279492132313675, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
@@ -360,8 +366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheel1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedComponents:
+    - {fileID: 5366158025445150543, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 2121279492132313675, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
