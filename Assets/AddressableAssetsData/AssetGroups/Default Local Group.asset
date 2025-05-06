@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: e7b5339781ce91d4a8dd64295cac6f30
+  m_SerializeEntries:
+  - m_GUID: 6087ae04ff4d5f4428c9a04e11532372
+    m_Address: Assets/Models/couloir1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8780b0df67be9a408f8b19142380d29
+    m_Address: Assets/Models/Prefabs/Hall Copie.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f97168c3a1d9483469ed894673fa4760
+    m_Address: Assets/Models/Prefabs/Couloir2 Copie.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffc4963272f599e4cadfdf38e0cbac65
+    m_Address: Assets/Models/Prefabs/Couloir1 Copie.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b0a4fcd9708b6844094c80765859fb1a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 02bc60f50c2d00449bf676f6511f7516, type: 2}
+    - {fileID: 11400000, guid: 0434749d2e538c84dbb31f0581b9c97e, type: 2}
