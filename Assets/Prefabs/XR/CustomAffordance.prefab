@@ -44,4 +44,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d6b935e5a5426c4bb92546f05da5b95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _highlightMaterial: {fileID: 2100000, guid: 4426a01903aafb14da2196fc2310771e, type: 2}
+  highlightMaterial: {fileID: -876546973899608171, guid: b41b200050e874a44b66bf59a6c93d6a, type: 3}

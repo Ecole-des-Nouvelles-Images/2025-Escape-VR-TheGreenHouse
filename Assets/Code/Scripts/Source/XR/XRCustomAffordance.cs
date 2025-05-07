@@ -4,39 +4,69 @@ using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class XRCustomAffordance : MonoBehaviour
-{
-    [SerializeField] private Material _highlightMaterial;
+{ 
+    [SerializeField] private Material highlightMaterial;
 
-    private Renderer objectRenderer;
     private XRBaseInteractable interactable;
-    private Material _initialMaterial;
+    private MeshRenderer originalRenderer;
+    private GameObject highlightClone;
+
     void Awake()
     {
-        objectRenderer = GetComponentInParent<Renderer>();
-        _initialMaterial = objectRenderer.material;
         interactable = GetComponentInParent<XRBaseInteractable>();
+        originalRenderer = GetComponentInParent<MeshRenderer>();
+
+        CreateHighlightMesh();
+        highlightClone.SetActive(false);
     }
 
-    private void OnEnable()
+    void OnEnable()
     {
         interactable.hoverEntered.AddListener(OnHoverEnter);
         interactable.hoverExited.AddListener(OnHoverExit);
     }
 
-    private void OnDisable()
+    void OnDisable()
     {
         interactable.hoverEntered.RemoveListener(OnHoverEnter);
         interactable.hoverExited.RemoveListener(OnHoverExit);
     }
 
-
     void OnHoverEnter(HoverEnterEventArgs args)
     {
-        objectRenderer.material = _highlightMaterial;
+        if (highlightClone != null)
+            highlightClone.SetActive(true);
     }
 
     void OnHoverExit(HoverExitEventArgs args)
     {
-        objectRenderer.material = _initialMaterial;
+        if (highlightClone != null)
+            highlightClone.SetActive(false);
+    }
+
+    void CreateHighlightMesh()
+    {
+        if (originalRenderer == null) return;
+
+        highlightClone = new GameObject("HighlighMesh");
+        highlightClone.transform.SetParent(originalRenderer.transform, false);
+        highlightClone.transform.localPosition = Vector3.zero;
+        highlightClone.transform.localRotation = Quaternion.identity;
+        highlightClone.transform.localScale = Vector3.one;
+
+        MeshFilter meshFilter = highlightClone.AddComponent<MeshFilter>();
+        MeshRenderer meshRenderer = highlightClone.AddComponent<MeshRenderer>();
+
+        meshFilter.sharedMesh = originalRenderer.GetComponent<MeshFilter>().sharedMesh;
+        Material mat = new Material(highlightMaterial);
+
+        // Récupération de la texture du material initial
+        if (originalRenderer.material.HasProperty("_BaseMap"))
+        {
+            Texture albedoTexture = originalRenderer.material.GetTexture("_BaseMap");
+            mat.SetTexture("_Texture", albedoTexture);
+            // texture initial dans le highlightMaterial
+        }
+        meshRenderer.material = mat;
     }
 }
