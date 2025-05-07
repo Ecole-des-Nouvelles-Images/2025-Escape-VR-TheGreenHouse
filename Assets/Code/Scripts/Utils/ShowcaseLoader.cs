@@ -2,17 +2,12 @@ using UnityEngine;
 using UnityEngine.UI;
 
 using Code.Scripts.Source.Managers;
+using Code.Scripts.Source.Types;
 
 namespace Code.Scripts.Utils
 {
     public class ShowcaseLoader : MonoBehaviour
     {
-        [Header("Scenes")]
-        [SerializeField] private string _hall;
-        [SerializeField] private string _living;
-        [SerializeField] private string _greenhouse;
-        [SerializeField] private string _laboratory;
-
         [Header("Buttons")]
         [SerializeField] private Button _loadHall;
         [SerializeField] private Button _loadLiving;
@@ -22,7 +17,7 @@ namespace Code.Scripts.Utils
         private void OnEnable()
         {
             _loadHall.onClick.AddListener(LoadHall);
-            _loadLiving.onClick.AddListener(LoadLiving);
+            _loadLiving.onClick.AddListener(LoadLounge);
             _loadGreenhouse.onClick.AddListener(LoadGreenhouse);
             _loadLaboratory.onClick.AddListener(LoadLaboratory);
         }
@@ -30,29 +25,29 @@ namespace Code.Scripts.Utils
         private void OnDisable()
         {
             _loadHall.onClick.RemoveListener(LoadHall);
-            _loadLiving.onClick.RemoveListener(LoadLiving);
+            _loadLiving.onClick.RemoveListener(LoadLounge);
             _loadGreenhouse.onClick.RemoveListener(LoadGreenhouse);
             _loadLaboratory.onClick.RemoveListener(LoadLaboratory);
         }
 
         private void LoadLaboratory()
         {
-            SceneTransitionManager.Instance.LoadScene(_laboratory);
+            SceneLoader.Instance.LoadScene(SceneType.Laboratory);
         }
 
         private void LoadGreenhouse()
         {
-            SceneTransitionManager.Instance.LoadScene(_greenhouse);
+            SceneLoader.Instance.LoadScene(SceneType.Greenhouse);
         }
 
-        private void LoadLiving()
+        private void LoadLounge()
         {
-            SceneTransitionManager.Instance.LoadScene(_living);
+            SceneLoader.Instance.LoadScene(SceneType.Lounge);
         }
 
         private void LoadHall()
         {
-            SceneTransitionManager.Instance.LoadScene(_hall);
+            SceneLoader.Instance.LoadScene(SceneType.Hall);
         }
     }
 }

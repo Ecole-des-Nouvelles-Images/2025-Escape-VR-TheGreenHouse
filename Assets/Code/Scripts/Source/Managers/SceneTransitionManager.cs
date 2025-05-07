@@ -1,35 +1,21 @@
-using System.Collections;
-using Code.Scripts.Utils;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using Code.Scripts.Source.UI;
 
 namespace Code.Scripts.Source.Managers
 {
-    public class SceneTransitionManager : MonoBehaviourSingleton<SceneTransitionManager>
+    public class SceneTransitionManager
     {
-        [SerializeField] private UI.FadeScreen _fadeScreen;
-       
-        public void LoadScene(string sceneName)
-        {
-            StartCoroutine(GoToSceneAsyncRoutine(sceneName));
-        }
-        
-        IEnumerator GoToSceneAsyncRoutine(string sceneName)
-        {
-            _fadeScreen.FadeIn();
-            //Launch the new scene
-            AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName);
-            operation.allowSceneActivation = false;
+        public FadeScreen Crossfade { get; private set; }
 
-            float timer = 0;
-            while(timer <= _fadeScreen.FadeDuration && !operation.isDone)
-            {
-                timer += Time.deltaTime;
-                yield return null;
-            }
+        public static float FadeDuration { get; private set; }
+        public static AnimationCurve FadeCurve { get; private set; }
 
-            operation.allowSceneActivation = true;
+        public SceneTransitionManager(float fadeDuration, AnimationCurve fadeCurve)
+        {
+            Crossfade = Object.FindFirstObjectByType<FadeScreen>();
+            FadeDuration = fadeDuration;
+            FadeCurve = fadeCurve;
         }
     }
-    
+
 }
