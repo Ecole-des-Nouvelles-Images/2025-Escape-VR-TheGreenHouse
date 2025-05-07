@@ -1,3 +1,4 @@
+using Code.Scripts.Source.Audio;
 using Code.Scripts.Source.Managers;
 using DG.Tweening;
 using UnityEngine;
@@ -11,16 +12,25 @@ namespace Code.Scripts.Source.UI
         [SerializeField] private float _soundVolume = 0.3f;
         [SerializeField] private float _feedbackDuration = 2f;
 
+        private AudioSource _audio;
         private Button _button;
+
         private void Start()
         {
+            _audio = GetComponent<AudioSource>();
+            if (!_audio)
+            {
+                _audio = gameObject.AddComponent<AudioSource>();
+                _audio.outputAudioMixerGroup = AudioManager.Instance.SFX;
+            }
+
             _button = GetComponent<Button>();
         }
 
         public void OnPointerClick(PointerEventData eventData)
         {
             if (AudioManager.Instance.gameObject.activeSelf)
-                AudioManager.Instance.PlaySound(SoundType.Pressed,_soundVolume);
+                _audio.PlayOneShot(AudioManager.Instance.ClipsIndex.UIButtonHoverEnter);
         }
 
         public void OnPointerEnter(PointerEventData eventData)
@@ -28,7 +38,7 @@ namespace Code.Scripts.Source.UI
             _button.transform.DOScale(1.1f, _feedbackDuration/2);
 
             if (AudioManager.Instance.gameObject.activeSelf)
-                AudioManager.Instance.PlaySound(SoundType.Selected,_soundVolume);
+                _audio.PlayOneShot(AudioManager.Instance.ClipsIndex.UIButtonSelected);
         }
 
         public void OnPointerExit(PointerEventData eventData)
@@ -36,7 +46,7 @@ namespace Code.Scripts.Source.UI
             _button.transform.DOScale(1f, _feedbackDuration/2);
 
             if (AudioManager.Instance.gameObject.activeSelf)
-                AudioManager.Instance.PlaySound(SoundType.Canceled,_soundVolume);
+                _audio.PlayOneShot(AudioManager.Instance.ClipsIndex.UIButtonHoverExit);
         }
 
     }
