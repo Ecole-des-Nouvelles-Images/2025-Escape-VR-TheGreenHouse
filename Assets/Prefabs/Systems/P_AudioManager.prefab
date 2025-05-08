@@ -40,17 +40,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8874438760460186290}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 36092326117e35c4cba3437c04b5e65e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mixer: {fileID: 0}
-  _initialAmbienVolume: 0
-  _initialSFXVolume: 0
-  Master: {fileID: 0}
-  SFX: {fileID: 0}
-  Ambient: {fileID: 0}
+  _mixerSystem: {fileID: 24100000, guid: 42fb11a823e959c4fa6f116060d78441, type: 2}
+  ClipsIndex:
+    <UIButtonSelected>k__BackingField: {fileID: 0}
+    <UIButtonHoverEnter>k__BackingField: {fileID: 0}
+    <UIButtonHoverExit>k__BackingField: {fileID: 0}
+    <CaseHammering>k__BackingField: {fileID: 0}
+    <CaseOpening>k__BackingField: {fileID: 0}
+  _initialAmbienVolume: 0.5
+  _initialSFXVolume: 0.5
+  Master: {fileID: 24300002, guid: 42fb11a823e959c4fa6f116060d78441, type: 2}
+  SFX: {fileID: 8790450471183128491, guid: 42fb11a823e959c4fa6f116060d78441, type: 2}
+  Ambient: {fileID: 9137229251004968622, guid: 42fb11a823e959c4fa6f116060d78441, type: 2}
 --- !u!114 &1612277171945978863
 MonoBehaviour:
   m_ObjectHideFlags: 0

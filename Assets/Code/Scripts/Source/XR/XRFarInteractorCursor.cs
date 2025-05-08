@@ -1,10 +1,7 @@
-using System;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 using UnityEngine.XR.Interaction.Toolkit.Interactors.Casters;
-using UnityEngine.XR.Interaction.Toolkit.Interactors.Visuals;
 
 public class XRFarInteractorCursor : MonoBehaviour
 {

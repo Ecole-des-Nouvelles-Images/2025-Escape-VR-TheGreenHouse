@@ -1,5 +1,4 @@
 using Code.Scripts.Source.Audio;
-using Code.Scripts.Source.Managers;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -21,7 +20,7 @@ namespace Code.Scripts.Source.UI
             if (!_audio)
             {
                 _audio = gameObject.AddComponent<AudioSource>();
-                _audio.outputAudioMixerGroup = AudioManager.Instance.SFX;
+                _audio.outputAudioMixerGroup = AudioManager.Instance.SFXMixerModule;
             }
 
             _button = GetComponent<Button>();
