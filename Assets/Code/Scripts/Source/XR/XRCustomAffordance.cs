@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
+//Mettre le prefabs en enfant de l'objet contenant le meshRenderer
 public class XRCustomAffordance : MonoBehaviour
 { 
     [SerializeField] private Material highlightMaterial;

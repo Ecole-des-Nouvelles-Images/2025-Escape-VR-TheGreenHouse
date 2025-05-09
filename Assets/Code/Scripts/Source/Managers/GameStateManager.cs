@@ -10,13 +10,6 @@ namespace Code.Scripts.Source.Managers
 {
     public class GameStateManager: MonoBehaviour
     {
-        #region Serialized Fields
-
-        [Header("Lounge")]
-        public List<string> CorrectBookPlacement ;
-
-        #endregion
-
         public GameBaseState CurrentState { get; private set; }
         public GameStates GameStates { get; private set; } = new();
 

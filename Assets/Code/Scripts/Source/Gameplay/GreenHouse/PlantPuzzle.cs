@@ -6,13 +6,22 @@ using UnityEngine;
 
 public class PlantPuzzle : MonoBehaviour
 {
-   public static Action<PlantSlot> OnPlantGrown;
+   public static Action OnPlantGrown;
+   public static Action OnPuzzleSolved;
    public bool PuzzleSolved { get; private set; }
    
    [SerializeField] private List<PlantSlot> _plantSlots;
    [SerializeField] private List<string> _correctPlants;
 
- 
+   private void OnEnable()
+   {
+      OnPlantGrown += CheckPuzzle;
+   }
+
+   private void OnDisable()
+   {
+      OnPlantGrown -= CheckPuzzle;
+   }
 
    private void CheckPuzzle()
    {
@@ -29,8 +38,12 @@ public class PlantPuzzle : MonoBehaviour
       if (allCorrect)
       {
          // puzlle solved
+         Debug.Log("puzzle slved");
+         PuzzleSolved = true;
+         //OnPuzzleSolved.Invoke();
       }
    }
 
+   
 
 }

@@ -1,18 +1,35 @@
+using System;
 using UnityEngine;
 
 public class OnTilt : MonoBehaviour
 {
-    [SerializeField] ParticleSystem _waterParticle;
-    [Range(0,180)] [SerializeField] private float _orientationTreshold = 60f;
+    private enum ToolType
+    {
+        WateringCan,
+        SeedBag
+    }
     
-    void Update()
+    [SerializeField] private ParticleSystem _particle;
+    [SerializeField] private ToolType _toolType;
+    [Range(0,180)] [SerializeField] private float _orientationTreshold = 40f;
+    private float angle;
+
+    private void Update()
     {
         CheckOrientation();
     }
 
     private void CheckOrientation()
     {
-        float angle = Vector3.Angle(transform.forward, Vector3.down);
+        switch (_toolType)
+        {
+            case ToolType.SeedBag:
+                angle = Vector3.Angle(transform.up, Vector3.down);
+                break;
+            case ToolType.WateringCan:
+                angle = Vector3.Angle(transform.forward, Vector3.down);
+                break;
+        }
 
         if (angle < _orientationTreshold)
         {
@@ -26,11 +43,12 @@ public class OnTilt : MonoBehaviour
     
     private void OnWaterBegin()
     {
-        if (!_waterParticle.isPlaying) _waterParticle.Play();
+        if (!_particle.isPlaying) _particle.Play();
     }
     
     private void OnWaterEnd()
     {
-        if (_waterParticle.isPlaying) _waterParticle.Stop();
+        if (_particle.isPlaying) _particle.Stop();
     }
+    
 }

@@ -9,6 +9,7 @@ TagManager:
   - Vhs
   - Water
   - Seed
+  - Shears
   layers:
   - Default
   - TransparentFX
