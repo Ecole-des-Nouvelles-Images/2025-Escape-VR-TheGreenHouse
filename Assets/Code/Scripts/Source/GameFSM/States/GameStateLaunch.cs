@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -5,6 +6,7 @@ using Code.Scripts.Source.Managers;
 
 namespace Code.Scripts.Source.GameFSM.States
 {
+    [Serializable]
     public class GameStateLaunch : GameBaseState
     {
         public override void EnterState(GameStateManager context)
