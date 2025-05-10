@@ -6,6 +6,8 @@ namespace Code.Scripts.Source.GameFSM.States
     [Serializable]
     public class GameStateHallInProgress: GameBaseState
     {
+        public static Action OnCodeFound;
+        
         public override void EnterState(GameStateManager context)
         {
         }

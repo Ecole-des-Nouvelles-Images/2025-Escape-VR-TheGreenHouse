@@ -26,8 +26,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.48999998, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1417996067360556115}
   - {fileID: 6251032887989160429}
@@ -170,6 +170,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 5410399925520176101, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
+      propertyPath: _yAngle
+      value: -90
+      objectReference: {fileID: 0}
     - target: {fileID: 7934025623422383424, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
       propertyPath: m_Name
       value: Wheel2
@@ -233,6 +237,10 @@ PrefabInstance:
     - target: {fileID: 4592351508779542944, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5410399925520176101, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
+      propertyPath: _yAngle
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 7934025623422383424, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
       propertyPath: m_Name
@@ -298,6 +306,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 5410399925520176101, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
+      propertyPath: _yAngle
+      value: -90
+      objectReference: {fileID: 0}
     - target: {fileID: 7934025623422383424, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
       propertyPath: m_Name
       value: Wheel3
@@ -361,6 +373,10 @@ PrefabInstance:
     - target: {fileID: 4592351508779542944, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5410399925520176101, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
+      propertyPath: _yAngle
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 7934025623422383424, guid: 9e85d63bb6c89dd40948b9fb454e33cb, type: 3}
       propertyPath: m_Name

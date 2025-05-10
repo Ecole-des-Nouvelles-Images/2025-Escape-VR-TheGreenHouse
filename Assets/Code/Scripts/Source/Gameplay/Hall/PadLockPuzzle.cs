@@ -1,28 +1,19 @@
 using System;
+using Code.Scripts.Source.GameFSM.States;
+using Code.Scripts.Source.Managers;
 using JetBrains.Annotations;
 using UnityEngine;
 
-
-namespace Code.Scripts.Source.XR
+namespace Code.Scripts.Source.Gameplay.Hall
 {
-    
-    public class PadLockPuzzle : MonoBehaviour
+    public class PadlockPuzzle : MonoBehaviour
     {
-       // [SerializeField] private Transform _selectedTransform;
-      //  [SerializeField] private Transform _playerCameraTransform;
         public static Action<string, int> OnRotated;
-        
         [SerializeField] private int[] _correctCode;
-        private Vector3 _initialPosition;
-        private Quaternion _initialRotation;
         [SerializeField] private int[] _currentCode;
-        private bool _zoomed;
 
         private void Start()
         {
-            _initialPosition = transform.position;
-            _initialRotation = transform.rotation;
-
             _currentCode = new int[] {0, 0, 0, 0};
         }
 
@@ -38,7 +29,6 @@ namespace Code.Scripts.Source.XR
 
         private void CheckResults(string wheelName, int wheelNumber)
         {
-            Debug.Log("check");
             switch (wheelName)
             {
                 case "Wheel1":
@@ -62,32 +52,9 @@ namespace Code.Scripts.Source.XR
             }
         }
         
-        [UsedImplicitly]
-      /*  public void ZoomLock()
-        {
-            if (!_zoomed)
-            {
-                transform.position = _selectedTransform.position;
-                _zoomed = true;
-            }
-            else
-            {
-                transform.position = _initialPosition;
-                transform.rotation = _initialRotation;
-                _zoomed = false;
-            }
-        }
-
-        private void Update()
-        {
-            if (_zoomed) transform.LookAt(_playerCameraTransform);
-        }*/
-        
-
         private void UnlockLock()
         {
-            Debug.Log("Unlocking lock");
-            gameObject.SetActive(false);
+            GameStateHallInProgress.OnCodeFound?.Invoke();
         }
     }
 }

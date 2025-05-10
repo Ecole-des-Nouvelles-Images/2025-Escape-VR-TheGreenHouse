@@ -1,13 +1,11 @@
-using System;
 using System.Collections;
+using Code.Scripts.Source.XR;
 using UnityEngine;
 
-namespace Code.Scripts.Source.XR
+namespace Code.Scripts.Source.Gameplay.Hall
 {
     public class WheelRotation : MonoBehaviour
     {
-     
-
         [SerializeField] private float _animDelay = 0.5f;
         [SerializeField] private float _xAngle, _yAngle, _zAngle;
         private Coroutine _coroutine;
@@ -50,28 +48,8 @@ namespace Code.Scripts.Source.XR
                 _numberShown = 0;
             }
         
-            PadLockPuzzle.OnRotated?.Invoke(name, _numberShown);
+            PadlockPuzzle.OnRotated?.Invoke(name, _numberShown);
             _coroutine = null;
         }
-
-        /*private IEnumerator RotateWheel()
-    {
-        Debug.Log("Rotating Wheel");
-        for (int i = 0; i < 11; i++)
-        {
-            Vector3 eulerAngles = transform.rotation.eulerAngles;
-            eulerAngles += new Vector3(36f, 0, 0f);
-            transform.rotation = Quaternion.Euler(eulerAngles);
-            // transform.Rotate(3f, 0f, 0f, Space.Self);
-            yield return new WaitForSeconds(0.01f);
-        }
-        _numberShown++;
-        if (_numberShown > 9)
-        {
-            _numberShown = 0;
-        }
-
-        OnRotated?.Invoke(name, _numberShown);
-    }*/
     }
 }
