@@ -1,23 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7634675145169632629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80208694ce17a504ea9c40bfd73b8c41, type: 3}
-  m_Name: CopyTextureRenderFeature
-  m_EditorClassIdentifier: 
-  m_Active: 1
-  m_passSettings:
-    isEnabled: 1
-    renderPassEvent: 1000
-    cameraName: PortalCameraB
-    copyShader: {fileID: 4800000, guid: edd1497dbc5ef1543a4601cd90eff4e1, type: 3}
 --- !u!114 &-1527315739325704338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,9 +45,7 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: 188967590263776686}
   - {fileID: -1527315739325704338}
-  - {fileID: -7634675145169632629}
-  - {fileID: 4485780073865057212}
-  m_RendererFeatureMap: aee5bbab05599f026ed7a0596de2cdea8b02a9dc672f0c96bc9340e335b1403e
+  m_RendererFeatureMap: aee5bbab05599f026ed7a0596de2cdea
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   postProcessData: {fileID: 0}
@@ -109,21 +89,3 @@ MonoBehaviour:
     renderPassEvent: 1000
     cameraName: PortalCameraA
     copyShader: {fileID: 4800000, guid: edd1497dbc5ef1543a4601cd90eff4e1, type: 3}
---- !u!114 &4485780073865057212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e450905e8eb730941b3019a114fda8ea, type: 3}
-  m_Name: GrabTextureRenderFeature
-  m_EditorClassIdentifier: 
-  m_Active: 1
-  m_passSettings:
-    isEnabled: 1
-    renderPassEvent: 1000
-    cameraName: Main Camera
-    portalMaterial: {fileID: 2100000, guid: e4d1057d6e44fe3459b0229fb94ef7db, type: 2}
