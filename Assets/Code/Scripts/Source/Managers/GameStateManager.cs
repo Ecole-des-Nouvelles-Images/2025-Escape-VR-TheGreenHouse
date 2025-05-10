@@ -10,17 +10,12 @@ namespace Code.Scripts.Source.Managers
 {
     public class GameStateManager: MonoBehaviour
     {
-        #region Serialized Fields
-
-        [Header("Lounge")]
-        public List<string> CorrectBookPlacement ;
-
-        #endregion
-
+        [field: SerializeField] public GameStates GameStates { get; private set; } = new();
         public GameBaseState CurrentState { get; private set; }
-        public GameStates GameStates { get; private set; } = new();
 
         public bool GamePaused { get; set; }
+
+        public bool EnableStateExit { get; set; } = true;
 
         private InputAction _menuButton, _menuButtonInteraction;
 
@@ -71,7 +66,7 @@ namespace Code.Scripts.Source.Managers
 
         public void SwitchState(GameBaseState newState)
         {
-            if (CurrentState != null)
+            if (CurrentState != null && this.EnableStateExit)
                 CurrentState.ExitState(this);
 
             CurrentState = newState;

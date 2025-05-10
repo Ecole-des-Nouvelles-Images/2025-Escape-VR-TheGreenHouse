@@ -1,8 +1,10 @@
+using System;
 using Code.Scripts.Source.Managers;
 using UnityEngine;
 
 namespace Code.Scripts.Source.GameFSM.States
 {
+    [Serializable]
     public class GameStateMainMenu : GameBaseState
     {
         public override void EnterState(GameStateManager context)
