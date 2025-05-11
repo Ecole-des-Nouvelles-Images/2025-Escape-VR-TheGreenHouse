@@ -1,4 +1,5 @@
 using System.Collections;
+using Code.Scripts.Source.GameFSM.States;
 using Code.Scripts.Source.XR;
 using UnityEngine;
 
@@ -48,7 +49,7 @@ namespace Code.Scripts.Source.Gameplay.Hall
                 _numberShown = 0;
             }
         
-            PadlockPuzzle.OnRotated?.Invoke(name, _numberShown);
+            GameStateHallInProgress.OnRotated?.Invoke(name, _numberShown);
             _coroutine = null;
         }
     }
