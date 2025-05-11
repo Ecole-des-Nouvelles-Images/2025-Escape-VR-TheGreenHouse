@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 using Code.Scripts.Source.GameFSM;
 using Code.Scripts.Source.GameFSM.States;
+using UnityEngine.Serialization;
 
 namespace Code.Scripts.Source.Managers
 {
@@ -15,11 +16,12 @@ namespace Code.Scripts.Source.Managers
 
         public bool GamePaused { get; set; }
 
-        public bool EnableStateExit { get; set; } = true;
-
         private InputAction _menuButton, _menuButtonInteraction;
 
         public static Action OnFirstSceneLoaded;
+
+        [Obsolete]
+        public InputAction PauseDebugInput; // TODO: DEBUG
 
         private void Awake()
         {
@@ -50,9 +52,11 @@ namespace Code.Scripts.Source.Managers
 
         private void Update()
         {
-            if (_menuButton.WasPressedThisFrame() || _menuButtonInteraction.WasPressedThisFrame())
+            bool pauseButtonPressed = _menuButton.WasPressedThisFrame() || _menuButtonInteraction.WasPressedThisFrame() || PauseDebugInput.WasPressedThisFrame();
+
+            if (pauseButtonPressed && !GamePaused)
             {
-                SwitchState(GameStates.Pause);
+                SwitchToPauseState();
                 return;
             }
 
@@ -64,14 +68,25 @@ namespace Code.Scripts.Source.Managers
             SwitchState(GameStates.MainMenu);
         }
 
-        public void SwitchState(GameBaseState newState)
+        public void SwitchState(GameBaseState newState, bool bypassEntry = false, bool bypassExit = false)
         {
-            if (CurrentState != null && this.EnableStateExit)
+            if (CurrentState == null || CurrentState == newState)
+            {
+                Debug.LogWarning("[GameStateManager] Warning: switching to " + (CurrentState == null ? "null state" : $"same state {{{CurrentState}}}"));
+                return;
+            }
+
+            if (!bypassExit)
                 CurrentState.ExitState(this);
 
             CurrentState = newState;
 
             newState.EnterState(this);
+        }
+
+        public void SwitchToPauseState()
+        {
+            SwitchState(GameStates.Pause, false, true);
         }
     }
 }

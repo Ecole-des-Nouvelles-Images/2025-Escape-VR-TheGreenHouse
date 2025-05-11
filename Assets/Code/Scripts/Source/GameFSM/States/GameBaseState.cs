@@ -9,5 +9,10 @@ namespace Code.Scripts.Source.GameFSM.States
         public abstract void UpdateState(GameStateManager context);
 
         public abstract void ExitState(GameStateManager context);
+
+        public override string ToString()
+        {
+            return this.GetType().Name;
+        }
     }
 }

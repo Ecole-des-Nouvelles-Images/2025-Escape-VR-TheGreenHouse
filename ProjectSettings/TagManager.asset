@@ -7,11 +7,12 @@ TagManager:
   - Anchor
   - Book
   - Vhs
+  - PostRenderVolume
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PostRender
   - Water
   - UI
   - 
