@@ -5,136 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cf7b60e-abc0-40ab-8900-427106e30966" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/DirtSeed.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/DirtSeed.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/EarthHill.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/EarthHill.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/Shears.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/Shears.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/ShearsCut.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/ShearsCut.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/Plant.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/Plant.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Materials/GardenPropsMaterial.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Materials/GardenPropsMaterial.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/EarthHill.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/EarthHill.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Fence.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Fence.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/FenceCorner.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/FenceCorner.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/GrassSmall.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/GrassSmall.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/GrassTall.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/GrassTall.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Hydrangea.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Hydrangea.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Mint.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Mint.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/NameStake.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/NameStake.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotBig.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotBig.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotRectangle.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotRectangle.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotSmall.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotSmall.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Pruner.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Pruner.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Rake.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Rake.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Shovel.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Shovel.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/TulipRed.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/TulipRed.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/TulipYellow.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/TulipYellow.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/WateringCup.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/WateringCup.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/EarthHill.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/EarthHill.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Fence.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Fence.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/FenceCorner.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/FenceCorner.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/GrassSmall.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/GrassSmall.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/GrassTall.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/GrassTall.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Hydrangea.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Hydrangea.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Mint.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Mint.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/NameStake.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/NameStake.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/PotBig.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/PotBig.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/PotRectangle.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/PotRectangle.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/PotSmall.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/PotSmall.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Pruner.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Pruner.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Rake.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Rake.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Shovel.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Shovel.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/TulipRed.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/TulipRed.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/TulipYellow.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/TulipYellow.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/WateringCup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/WateringCup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Textures/GrassTexture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Textures/GrassTexture.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Textures/TextureAtlas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Textures/TextureAtlas.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/GreenHouse.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/GreenHouse/Bag Seed.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/GreenHouse/Bag Seed.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/GreenHouse/Shears.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/GreenHouse/Shears.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/GreenHouse/flower01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Hall.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/GreenHouse/GrownPlant.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/GrownPlant.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateGreenhouseInProgress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateGreenhouseInProgress.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/OnTilt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/OnTilt.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/PlantPuzzle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/PlantPuzzle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/PlantSlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/PlantSlot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/Seed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/SeedBag.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/Seed.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/SeedBag.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/flower01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/flower01.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/GreenHouse/flower01.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Managers/GameStateManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Managers/GameStateManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/XRCustomAffordance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/XRCustomAffordance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Generic/M_Door.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Generic/M_Door.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/atom_particle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/atom_particle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/atom_particle_2-2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/atom_particle_2-2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/atom_particle_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/atom_particle_2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/ring.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/ring.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/smoke1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/smoke1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/water1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/water1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_CuttingSmallTree.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_CuttingSmallTree.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/SowingSeeds.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/SowingSeeds.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/WateringCan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/WateringCan.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Mineing/FX_Mineing.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Mineing/FX_Mineing.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/GrabInteractables/Prefabs/WateringCan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/GreenHouse/WateringCan.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/GrabInteractables/Prefabs/WateringCan.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/GreenHouse/WateringCan.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn16.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn16.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn18.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn18.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Props/Locker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Hall/Locker.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Props/Locker.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Hall/Locker.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Props/Wheel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Hall/Wheel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Props/Wheel.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Hall/Wheel.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Test Serre.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Test Serre.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Shaders/Shadergraph/Highlight Shader.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Shaders/Shadergraph/Highlight Shader.shadergraph" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,6 +129,7 @@
       <workItem from="1746637425775" duration="2334000" />
       <workItem from="1746705838159" duration="13045000" />
       <workItem from="1746789133106" duration="19146000" />
+      <workItem from="1746974437782" duration="2951000" />
     </task>
     <servers />
   </component>
@@ -267,6 +143,17 @@
     <option name="unityProjectFolder" value="true" />
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

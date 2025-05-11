@@ -1,5 +1,7 @@
 using Code.Scripts.Source.Managers;
 using UnityEngine;using System;
+using System.Collections.Generic;
+using System.Linq;
 using Code.Scripts.Source.Gameplay.Lounge;
 using Code.Scripts.Source.Managers;
 using UnityEngine;
@@ -8,32 +10,55 @@ using Object = UnityEngine.Object;
 
 namespace Code.Scripts.Source.GameFSM.States
 {
-    
+    [Serializable]
     public class GameStateGreenhouseInProgress : GameBaseState
     {
-        private PlantPuzzle _plantPuzzle;
+        public static Action OnPlantGrown;
+        public bool PuzzleSolved { get; private set; }
+   
+        [SerializeField] private List<PlantSlot> _plantSlots;
+        [SerializeField] private List<string> _correctPlants;
+
+        private GameStateManager _ctx;
+        private Action<GameBaseState> OnPuzzleSolved;
+        
         public override void EnterState(GameStateManager context)
         {
-            _plantPuzzle = GameObject.FindFirstObjectByType<PlantPuzzle>();
-            /* PlantPuzzle.OnPuzzleSolved += () =>
-            
-                 context.SwitchState(context.GameStates.LoungePhase2);
-                 Debug.Log("switched GameState");
-             };*/
+            _ctx = context;
+            OnPuzzleSolved += context.SwitchState;
+            OnPlantGrown += CheckPuzzle;
         }
 
         public override void UpdateState(GameStateManager context)
         {
-            if (_plantPuzzle.PuzzleSolved)
-            {
-                context.SwitchState(context.GameStates.LoungePhase2);
-                Debug.Log("switched GameState");
-            }
+          
         }
 
         public override void ExitState(GameStateManager context)
         {
-           // PlantPuzzle.OnPuzzleSolved = null;
+            OnPlantGrown -= CheckPuzzle;
+            OnPuzzleSolved -= context.SwitchState;
+        }
+        
+        
+        private void CheckPuzzle()
+        {
+            if (PuzzleSolved) return;
+     
+            if(_plantSlots.Any(slot => !slot.PlantGrowed)) return;
+      
+            var grownPlants = _plantSlots
+                .Select(slot => slot.GetPlantLatinName())
+                .ToList();
+
+            bool allCorrect = new HashSet<string>(grownPlants).SetEquals(_correctPlants);
+
+            if (allCorrect)
+            {
+                // puzlle solved
+                Debug.Log("puzzle slved");
+                OnPuzzleSolved.Invoke(_ctx.GameStates.LoungePhase2);
+            }
         }
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using Code.Scripts.Source.GameFSM.States;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -39,7 +40,8 @@ public class PlantSlot : MonoBehaviour
         PlantGrowed = true;
         Debug.Log("Water Plant");
         Instantiate(CurrentPlantPrefab,_plantSpawnPoint);
-        PlantPuzzle.OnPlantGrown?.Invoke();
+        //PlantPuzzle.OnPlantGrown?.Invoke();
+        GameStateGreenhouseInProgress.OnPlantGrown?.Invoke();
     }
     
     public string GetPlantLatinName()

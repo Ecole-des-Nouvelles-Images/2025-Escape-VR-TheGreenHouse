@@ -7,7 +7,6 @@ using UnityEngine;
 public class PlantPuzzle : MonoBehaviour
 {
    public static Action OnPlantGrown;
-   public static Action OnPuzzleSolved;
    public bool PuzzleSolved { get; private set; }
    
    [SerializeField] private List<PlantSlot> _plantSlots;
@@ -40,7 +39,6 @@ public class PlantPuzzle : MonoBehaviour
          // puzlle solved
          Debug.Log("puzzle slved");
          PuzzleSolved = true;
-         //OnPuzzleSolved.Invoke();
       }
    }
 
