@@ -15,14 +15,14 @@ namespace Code.Scripts.Source.Gameplay.Lounge
 
         private void OnEnable()
         {
-            GameStateLoungePhase2.OnSocketChanged += CheckPuzzle;
-            GameStateLoungePhase2.OnFusePlugged += PlugFuseCheck;
+            //GameStateLoungePhase2.OnSocketChanged += CheckPuzzle;
+            //GameStateLoungePhase2.OnFusePlugged += PlugFuseCheck;
         }
 
         private void OnDisable()
         {
-            GameStateLoungePhase2.OnSocketChanged -= CheckPuzzle;
-            GameStateLoungePhase2.OnFusePlugged -= PlugFuseCheck;
+            //GameStateLoungePhase2.OnSocketChanged -= CheckPuzzle;
+           // GameStateLoungePhase2.OnFusePlugged -= PlugFuseCheck;
         }
 
         private void CheckPuzzle()
