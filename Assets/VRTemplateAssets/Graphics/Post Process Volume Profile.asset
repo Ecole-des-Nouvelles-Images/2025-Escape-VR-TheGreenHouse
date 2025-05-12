@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8175944365485479075
+--- !u!114 &-2617769875522539682
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,44 +9,69 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
-  m_Name: Bloom
+  m_Script: {fileID: 11500000, guid: a074ec59f6e910b4e8c49f57e56cf95a, type: 3}
+  m_Name: VolumetricFogVolumeComponent
   m_EditorClassIdentifier: 
   active: 1
-  skipIterations:
+  <displayName>k__BackingField: Volumetric Fog
+  distance:
+    m_OverrideState: 1
+    m_Value: 228
+  baseHeight:
+    m_OverrideState: 0
+    m_Value: 0
+  maximumHeight:
+    m_OverrideState: 0
+    m_Value: 50
+  enableGround:
+    m_OverrideState: 0
+    m_Value: 0
+  groundHeight:
+    m_OverrideState: 0
+    m_Value: 0
+  density:
+    m_OverrideState: 0
+    m_Value: 0.2
+  attenuationDistance:
+    m_OverrideState: 0
+    m_Value: 128
+  enableAPVContribution:
+    m_OverrideState: 0
+    m_Value: 0
+  APVContributionWeight:
+    m_OverrideState: 0
+    m_Value: 1
+  enableMainLightContribution:
+    m_OverrideState: 1
+    m_Value: 0
+  anisotropy:
+    m_OverrideState: 0
+    m_Value: 0.4
+  scattering:
+    m_OverrideState: 0
+    m_Value: 0.15
+  tint:
+    m_OverrideState: 0
+    m_Value:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+  enableAdditionalLightsContribution:
+    m_OverrideState: 0
+    m_Value: 0
+  maxSteps:
+    m_OverrideState: 0
+    m_Value: 128
+  blurIterations:
+    m_OverrideState: 0
+    m_Value: 2
+  enabled:
     m_OverrideState: 1
     m_Value: 1
-  threshold:
-    m_OverrideState: 1
-    m_Value: 0.5
-  intensity:
-    m_OverrideState: 1
-    m_Value: 0.1
-  scatter:
-    m_OverrideState: 1
-    m_Value: 0.5
-  clamp:
-    m_OverrideState: 1
-    m_Value: 65472
-  tint:
-    m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
-  highQualityFiltering:
-    m_OverrideState: 1
-    m_Value: 0
-  downscale:
+  renderPassEvent:
     m_OverrideState: 0
-    m_Value: 0
-  maxIterations:
-    m_OverrideState: 0
-    m_Value: 6
-  dirtTexture:
-    m_OverrideState: 0
-    m_Value: {fileID: 0}
-    dimension: 1
-  dirtIntensity:
-    m_OverrideState: 0
-    m_Value: 0
+    m_Value: 550
 --- !u!114 &-1360232469857127578
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -100,7 +125,6 @@ MonoBehaviour:
   m_Name: Post Process Volume Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: -8175944365485479075}
   - {fileID: 8339455231178082067}
   - {fileID: -1360232469857127578}
 --- !u!114 &8339455231178082067
@@ -130,4 +154,4 @@ MonoBehaviour:
     m_Value: 0
   saturation:
     m_OverrideState: 1
-    m_Value: 50
+    m_Value: 1
