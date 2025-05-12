@@ -18,10 +18,9 @@ namespace Code.Scripts.Source.Managers
         [SerializeField] private AnimationCurve _fadeCurve;
 
         public static Dictionary<SceneType, SceneField> SceneAssets { get; private set; } = new();
+        public SceneField CurrentScene { get; private set; }
 
         private SceneTransitionManager _transitionManager;
-
-        private SceneField _currentScene;
 
 #if UNITY_EDITOR
         private void OnValidate()
@@ -80,8 +79,8 @@ namespace Code.Scripts.Source.Managers
 
             yield return new WaitForSeconds(_fadeDuration);
 
-            if (_currentScene != null)
-                yield return UnloadSceneCoroutine(_currentScene);
+            if (CurrentScene != null)
+                yield return UnloadSceneCoroutine(CurrentScene);
 
             yield return LoadSceneCoroutine(scene, loadAsActive);
         }
@@ -106,7 +105,7 @@ namespace Code.Scripts.Source.Managers
             while (!asyncLoadOperation.isDone)
                 yield return null;
 
-            _currentScene = scene;
+            CurrentScene = scene;
             asyncLoadOperation.allowSceneActivation = true;
 
             if (loadAsActive)

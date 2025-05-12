@@ -1,11 +1,9 @@
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 using Code.Scripts.Source.GameFSM;
 using Code.Scripts.Source.GameFSM.States;
-using UnityEngine.Serialization;
 
 namespace Code.Scripts.Source.Managers
 {
@@ -20,7 +18,7 @@ namespace Code.Scripts.Source.Managers
 
         public static Action OnFirstSceneLoaded;
 
-        [Obsolete]
+        [Obsolete("\nThis is a debug input action and should not be used in production code.")]
         public InputAction PauseDebugInput; // TODO: DEBUG
 
         private void Awake()
@@ -68,6 +66,7 @@ namespace Code.Scripts.Source.Managers
             SwitchState(GameStates.MainMenu);
         }
 
+        // TODO: rework GameStates to initialize inside their first EnterState() instead of using a bypass here.
         public void SwitchState(GameBaseState newState, bool bypassEntry = false, bool bypassExit = false)
         {
             if (CurrentState == null || CurrentState == newState)

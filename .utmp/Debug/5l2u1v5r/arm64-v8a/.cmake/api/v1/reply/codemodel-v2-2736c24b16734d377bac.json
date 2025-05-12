@@ -66,7 +66,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "game::@d02bb112ea9f9c2ed29f",
-					"jsonFile" : "target-game-Debug-36bfa3dc446a99c342ab.json",
+					"jsonFile" : "target-game-Debug-7d5527b9fe26f1affad5.json",
 					"name" : "game",
 					"projectIndex" : 1
 				}
@@ -77,7 +77,7 @@
 	"paths" : 
 	{
 		"build" : "D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/.utmp/Debug/5l2u1v5r/arm64-v8a",
-		"source" : "D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp"
+		"source" : "D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Library/PramData/AndroidApplicationController/Cache/com.ensi.thegreenhouse/gradle-project/unityLibrary/src/main/cpp"
 	},
 	"version" : 
 	{
