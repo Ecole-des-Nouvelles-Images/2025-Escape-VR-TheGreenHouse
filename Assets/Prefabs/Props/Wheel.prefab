@@ -257,7 +257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animDelay: 0.5
   _xAngle: 0
-  _yAngle: 0
+  _yAngle: 90
   _zAngle: 0
 --- !u!114 &3715293692519927436
 MonoBehaviour:

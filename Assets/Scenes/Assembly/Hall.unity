@@ -18950,8 +18950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe74dc6b5e281c04ea0d12c1c9c805dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _correctCode: 02000000070000000300000006000000
-  _currentCode: 
 --- !u!4 &2067207183
 Transform:
   m_ObjectHideFlags: 0
@@ -19682,6 +19680,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 976041556115233460, guid: 39c74d4b96339eb4596b23770178eba0, type: 3}
+      propertyPath: _zoomCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 976041556115233460, guid: 39c74d4b96339eb4596b23770178eba0, type: 3}
+      propertyPath: _zoomCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 976041556115233460, guid: 39c74d4b96339eb4596b23770178eba0, type: 3}
+      propertyPath: _zoomCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 976041556115233460, guid: 39c74d4b96339eb4596b23770178eba0, type: 3}
+      propertyPath: _zoomCurve.m_Curve.Array.data[0].inSlope
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 976041556115233460, guid: 39c74d4b96339eb4596b23770178eba0, type: 3}
+      propertyPath: _zoomCurve.m_Curve.Array.data[0].outSlope
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7957585880093553656, guid: 39c74d4b96339eb4596b23770178eba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.1911

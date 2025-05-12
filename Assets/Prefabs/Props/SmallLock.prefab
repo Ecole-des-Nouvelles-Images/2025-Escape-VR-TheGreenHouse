@@ -661,6 +661,18 @@ MonoBehaviour:
   _zoomTargetPoint: {fileID: 8211373652443942148}
   _zoomedScale: {x: 2, y: 2, z: 2}
   _zoomDuration: 1.5
+  _moveCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _scaleCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &6492215343536716189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -669,6 +681,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7957585880093553656}
     m_Modifications:
+    - target: {fileID: 68908143575251888, guid: 7c65c2a7f547f7348a0a4336ef07d77c, type: 3}
+      propertyPath: _yAngle
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 465288742794750904, guid: 7c65c2a7f547f7348a0a4336ef07d77c, type: 3}
+      propertyPath: _yAngle
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2481188753314837416, guid: 7c65c2a7f547f7348a0a4336ef07d77c, type: 3}
+      propertyPath: _yAngle
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 3546912056362310093, guid: 7c65c2a7f547f7348a0a4336ef07d77c, type: 3}
       propertyPath: m_Name
       value: PadLock
@@ -712,6 +736,10 @@ PrefabInstance:
     - target: {fileID: 4051702159267844462, guid: 7c65c2a7f547f7348a0a4336ef07d77c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427206037343519339, guid: 7c65c2a7f547f7348a0a4336ef07d77c, type: 3}
+      propertyPath: _yAngle
+      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

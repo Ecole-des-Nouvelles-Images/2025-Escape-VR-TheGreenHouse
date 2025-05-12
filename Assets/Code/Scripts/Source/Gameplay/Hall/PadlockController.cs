@@ -9,6 +9,9 @@ namespace Code.Scripts.Source.Gameplay.Hall
         [SerializeField] private Transform _zoomTargetPoint;
         [SerializeField] private Vector3 _zoomedScale = new Vector3(2, 2, 2);
         [SerializeField] private float _zoomDuration = 0.5f;
+        [SerializeField] private AnimationCurve _moveCurve;
+        [SerializeField] private AnimationCurve _scaleCurve;
+
 
         private Vector3 _originalScale;
         private Vector3 _originalPosition;
@@ -25,8 +28,8 @@ namespace Code.Scripts.Source.Gameplay.Hall
         {
             if (!_isZoomed)
             {
-                _padlockPrefab.DOMove(_zoomTargetPoint.position, _zoomDuration);
-                _padlockPrefab.DOScale(_zoomedScale, _zoomDuration);
+                _padlockPrefab.DOMove(_zoomTargetPoint.position, _zoomDuration).SetEase(_moveCurve);
+                _padlockPrefab.DOScale(_zoomedScale, _zoomDuration).SetEase(_scaleCurve);
             }
             else
             {
