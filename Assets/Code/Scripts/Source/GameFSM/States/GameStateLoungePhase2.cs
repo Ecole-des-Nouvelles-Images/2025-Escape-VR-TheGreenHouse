@@ -17,7 +17,6 @@ namespace Code.Scripts.Source.GameFSM.States
 
         public override void UpdateState(GameStateManager context)
         {
-
            //action to check
         }
 
