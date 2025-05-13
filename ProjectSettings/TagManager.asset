@@ -8,6 +8,9 @@ TagManager:
   - Book
   - Vhs
   - Fuse
+  - Water
+  - Seed
+  - Shears
   layers:
   - Default
   - TransparentFX
