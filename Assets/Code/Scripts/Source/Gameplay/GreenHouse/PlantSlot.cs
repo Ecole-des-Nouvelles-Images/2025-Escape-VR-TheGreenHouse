@@ -3,10 +3,12 @@ using Code.Scripts.Source.GameFSM.States;
 using UnityEngine;
 using UnityEngine.Serialization;
 
+
+
 public class PlantSlot : MonoBehaviour
 {
     public Action OnPlantCut;
-    
+
     public bool PlantGrowed { get; private set; }
     [SerializeField] private Transform _plantSpawnPoint;
     [SerializeField] private GameObject _DirtHill;
@@ -43,16 +45,16 @@ public class PlantSlot : MonoBehaviour
         //PlantPuzzle.OnPlantGrown?.Invoke();
         GameStateGreenhouseInProgress.OnPlantGrown?.Invoke();
     }
-    
+
     public string GetPlantLatinName()
     {
         return _currentPlantName;
     }
-    
+
     private void ResetPlantSlot()
     {
         if (!PlantGrowed) return;
-       
+
         _DirtHill.SetActive(false);
         PlantGrowed = false;
         SeedPlanted = false;
@@ -60,11 +62,11 @@ public class PlantSlot : MonoBehaviour
         _currentSeed = null;
         CurrentPlantPrefab = null;
     }
-    
+
     private void OnParticleCollision(GameObject other)
     {
         if (PlantGrowed) return;
-        
+
         if (SeedPlanted && other.CompareTag("Water"))
         {
             GrownPlant();

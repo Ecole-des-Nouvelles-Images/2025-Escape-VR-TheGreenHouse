@@ -6,7 +6,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 using Code.Scripts.Utils;
-using Object = UnityEngine.Object;
 
 namespace Code.Scripts.Source.Managers
 {

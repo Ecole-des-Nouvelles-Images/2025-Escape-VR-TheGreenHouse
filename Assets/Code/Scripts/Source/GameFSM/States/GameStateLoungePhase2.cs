@@ -4,7 +4,6 @@ using Code.Scripts.Source.Gameplay.Lounge;
 using Code.Scripts.Source.Managers;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
-using Object = UnityEngine.Object;
 
 namespace Code.Scripts.Source.GameFSM.States
 {

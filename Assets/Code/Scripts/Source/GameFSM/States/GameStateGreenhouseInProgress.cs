@@ -1,12 +1,8 @@
 using System;
 using Code.Scripts.Source.Managers;
-using UnityEngine;using System;
+using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
-using Code.Scripts.Source.Gameplay.Lounge;
-using Code.Scripts.Source.Managers;
-using UnityEngine;
-using Object = UnityEngine.Object;
 
 
 namespace Code.Scripts.Source.GameFSM.States
@@ -16,13 +12,13 @@ namespace Code.Scripts.Source.GameFSM.States
     {
         public static Action OnPlantGrown;
         public bool PuzzleSolved { get; private set; }
-   
+
         [SerializeField] private List<PlantSlot> _plantSlots;
         [SerializeField] private List<string> _correctPlants;
 
         private GameStateManager _ctx;
         private Action<GameBaseState> OnPuzzleSolved;
-        
+
         public override void EnterState(GameStateManager context)
         {
             _ctx = context;
@@ -32,7 +28,7 @@ namespace Code.Scripts.Source.GameFSM.States
 
         public override void UpdateState(GameStateManager context)
         {
-          
+
         }
 
         public override void ExitState(GameStateManager context)
@@ -40,14 +36,14 @@ namespace Code.Scripts.Source.GameFSM.States
             OnPlantGrown -= CheckPuzzle;
             OnPuzzleSolved -= context.SwitchState;
         }
-        
-        
+
+
         private void CheckPuzzle()
         {
             if (PuzzleSolved) return;
-     
+
             if(_plantSlots.Any(slot => !slot.PlantGrowed)) return;
-      
+
             var grownPlants = _plantSlots
                 .Select(slot => slot.GetPlantLatinName())
                 .ToList();
