@@ -4,13 +4,15 @@ using UnityEngine.InputSystem;
 
 using Code.Scripts.Source.GameFSM;
 using Code.Scripts.Source.GameFSM.States;
+using Code.Scripts.Utils;
 
 namespace Code.Scripts.Source.Managers
 {
-    public class GameStateManager: MonoBehaviour
+    public class GameStateManager: MonoBehaviourSingleton<GameStateManager>
     {
         [field: SerializeField] public GameStates GameStates { get; private set; } = new();
         public GameBaseState CurrentState { get; private set; }
+        public GameBaseState PreviousState { get; private set; }
 
         public bool GamePaused { get; set; }
 
@@ -54,7 +56,7 @@ namespace Code.Scripts.Source.Managers
 
             if (pauseButtonPressed && !GamePaused)
             {
-                SwitchToPauseState();
+                SwitchState(GameStates.Pause, false, true);
                 return;
             }
 
@@ -69,23 +71,20 @@ namespace Code.Scripts.Source.Managers
         // TODO: rework GameStates to initialize inside their first EnterState() instead of using a bypass here.
         public void SwitchState(GameBaseState newState, bool bypassEntry = false, bool bypassExit = false)
         {
-            if (CurrentState == null || CurrentState == newState)
+            PreviousState = CurrentState;
+
+            if (newState == null || CurrentState == newState)
             {
-                Debug.LogWarning("[GameStateManager] Warning: switching to " + (CurrentState == null ? "null state" : $"same state {{{CurrentState}}}"));
+                Debug.LogWarning("[GameStateManager] Warning: switching to " + (newState == null ? "null state" : $"same state {{{CurrentState}}}"));
                 return;
             }
 
-            if (!bypassExit)
+            if (!bypassExit && CurrentState != null)
                 CurrentState.ExitState(this);
 
             CurrentState = newState;
 
             newState.EnterState(this);
-        }
-
-        public void SwitchToPauseState()
-        {
-            SwitchState(GameStates.Pause, false, true);
         }
     }
 }
