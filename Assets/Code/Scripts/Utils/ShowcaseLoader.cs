@@ -32,22 +32,22 @@ namespace Code.Scripts.Utils
 
         private void LoadLaboratory()
         {
-            SceneLoader.Instance.LoadScene(SceneType.Laboratory);
+            SceneLoader.Instance.SwitchScene(SceneType.Laboratory);
         }
 
         private void LoadGreenhouse()
         {
-            SceneLoader.Instance.LoadScene(SceneType.Greenhouse);
+            SceneLoader.Instance.SwitchScene(SceneType.Greenhouse);
         }
 
         private void LoadLounge()
         {
-            SceneLoader.Instance.LoadScene(SceneType.Lounge);
+            SceneLoader.Instance.SwitchScene(SceneType.Lounge);
         }
 
         private void LoadHall()
         {
-            SceneLoader.Instance.LoadScene(SceneType.Hall);
+            SceneLoader.Instance.SwitchScene(SceneType.Hall);
         }
     }
 }

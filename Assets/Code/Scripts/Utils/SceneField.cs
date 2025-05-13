@@ -12,28 +12,32 @@ namespace Code.Scripts.Utils
     {
         [SerializeField] private Object _sceneAsset;
 
-        public string SceneName => _sceneAsset.name;
-        public Scene SceneObject => SceneManager.GetSceneByName(SceneName);
-        public string ScenePath => SceneObject.path;
+        public string SceneName { get; private set; }
+        public string ScenePath { get; private set; }
+
         public SceneType SceneType {
-            get {
-                switch (SceneName)
+            get
+            {
+                return SceneName switch
                 {
-                    case "MainMenu" or "Main Menu":
-                        return SceneType.MainMenu;
-                    case "Hall":
-                        return SceneType.Hall;
-                    case "Lounge":
-                        return SceneType.Lounge;
-                    case "Greenhouse":
-                        return SceneType.Greenhouse;
-                    case "Laboratory":
-                        return SceneType.Laboratory;
-                    default:
-                        throw new Exception($"Unable to determine the SceneType of scene: {SceneName}. "+
-                                            $"Verify that scene '{SceneName}' is correctly named.");
-                }
+                    "MainMenu" or "Main Menu" => SceneType.MainMenu,
+                    "Hall" => SceneType.Hall,
+                    "Lounge" => SceneType.Lounge,
+                    "Greenhouse" => SceneType.Greenhouse,
+                    "Laboratory" => SceneType.Laboratory,
+
+                    _ => SceneType.Invalid
+                };
             }
+        }
+
+        public SceneField(Object asset)
+        {
+            _sceneAsset = asset;
+            SceneName = asset.name;
+
+            if (SceneType == SceneType.Invalid)
+                Debug.LogError($"Unable to determine the SceneType of scene: {SceneName}. " + $"Verify that scene '{SceneName}' is correctly named.");
         }
 
         public static implicit operator string(SceneField sceneField)
@@ -43,13 +47,18 @@ namespace Code.Scripts.Utils
 
         public static implicit operator Scene(SceneField sceneField)
         {
-            return sceneField.SceneObject;
+            return SceneManager.GetSceneByName(sceneField.SceneName);
+        }
+
+        public override string ToString()
+        {
+            return SceneName;
         }
 
 #if UNITY_EDITOR
         public static implicit operator SceneField(Scene scene)
         {
-            return new SceneField { _sceneAsset = AssetDatabase.LoadAssetAtPath<Object>(scene.path) };
+            return new SceneField (AssetDatabase.LoadAssetAtPath<Object>(scene.path));
         }
 
         public static implicit operator SceneField(string sceneName)
@@ -57,7 +66,7 @@ namespace Code.Scripts.Utils
             string path = SceneManager.GetSceneByName(sceneName).path;
             Object asset = AssetDatabase.LoadAssetAtPath<Object>(path);
 
-            return new SceneField { _sceneAsset = asset };
+            return new SceneField (asset);
         }
 #endif
 

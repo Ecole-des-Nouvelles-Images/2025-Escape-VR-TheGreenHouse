@@ -44,12 +44,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53531433c9b7eff4f9d0cf39f9d903b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sceneAssets:
-  - _sceneAsset: {fileID: 102900000, guid: 92d8eefc85405cb4d9d2d69e9b4eea5b, type: 3}
-  - _sceneAsset: {fileID: 102900000, guid: e3e2770a8b1a5f44d9aab6319d9db53e, type: 3}
-  - _sceneAsset: {fileID: 102900000, guid: 0af0faeb036e8dd4e907a6bbc97280f5, type: 3}
-  - _sceneAsset: {fileID: 102900000, guid: a0072d476746ee546abbef9ba428de36, type: 3}
-  - _sceneAsset: {fileID: 102900000, guid: 35ed03bd676260d458d8fa7ba5226833, type: 3}
+  _scenes:
+  - {fileID: 102900000, guid: 92d8eefc85405cb4d9d2d69e9b4eea5b, type: 3}
+  - {fileID: 102900000, guid: 8e784407402fea54d8d600758c6cb72f, type: 3}
+  - {fileID: 102900000, guid: 0af0faeb036e8dd4e907a6bbc97280f5, type: 3}
+  - {fileID: 102900000, guid: a0072d476746ee546abbef9ba428de36, type: 3}
+  - {fileID: 102900000, guid: 852ae0dc1013cab4084fa194d1bfba91, type: 3}
   _fadeDuration: 2
   _fadeCurve:
     serializedVersion: 2

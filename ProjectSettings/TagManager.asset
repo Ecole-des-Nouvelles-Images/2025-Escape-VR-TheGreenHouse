@@ -7,6 +7,10 @@ TagManager:
   - Anchor
   - Book
   - Vhs
+  - Fuse
+  - Water
+  - Seed
+  - Shears
   layers:
   - Default
   - TransparentFX
