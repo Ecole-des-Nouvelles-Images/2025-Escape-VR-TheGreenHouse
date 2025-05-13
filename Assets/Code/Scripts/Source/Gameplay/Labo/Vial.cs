@@ -5,7 +5,7 @@ namespace Code.Scripts.Source.Gameplay.Labo
 {
     public class Vial : MonoBehaviour
     {
-        enum PotionType
+        public enum PotionType
         {
             Tulénium,
             Yzora,
@@ -14,30 +14,35 @@ namespace Code.Scripts.Source.Gameplay.Labo
             Agent,
             Base
         }
-        
-        [SerializeField] private PotionType _potionType;
+
+        [SerializeField] public PotionType _potionType;
         public float correctQuantitative
         {
             get
             {
                 switch (_potionType)
                 {
-                    case PotionType.Tulénium :
+                    case PotionType.Tulénium:
                         return 0.25f;
-                    case PotionType.Yzora :
+                    case PotionType.Yzora:
                         return 0.75f;
-                    case PotionType.Morazium :
+                    case PotionType.Morazium:
                         return 0.50f;
-                    case PotionType.Veridox :
+                    case PotionType.Veridox:
                         return 1f;
-                    case PotionType.Agent :
+                    case PotionType.Agent:
                         return 0.5f;
-                    case PotionType.Base :
+                    case PotionType.Base:
                         return 1f;
-                    default: return 0f;
+                    default:
+                        return 0f;
                 }
             }
         }
-        
+
+        public void Initialize(PotionType type)
+        {
+            _potionType = type;
+        }
     }
 }
