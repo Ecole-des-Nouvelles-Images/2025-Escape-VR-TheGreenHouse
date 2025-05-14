@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4fc90d18-a5ed-4a91-a841-26a0379011bc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/Vial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/Vial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/MixRules.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/MixRules.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/VialMixer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/VialMixer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/Morazium Vial.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/Morazium Vial.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Laboratory.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Laboratory.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Setup.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Setup.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +22,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/PlantSlot.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/MixRules.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.core-utils/Runtime/XRLoggingUtils.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -104,7 +106,7 @@
       <workItem from="1747125983914" duration="14709000" />
       <workItem from="1747167383276" duration="5436000" />
       <workItem from="1747209248332" duration="8958000" />
-      <workItem from="1747218275524" duration="1290000" />
+      <workItem from="1747218275524" duration="11380000" />
     </task>
     <servers />
   </component>
