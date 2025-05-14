@@ -815,6 +815,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1539064653356413357, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
+      propertyPath: <GameStates>k__BackingField.<LoungePhase2>k__BackingField._bookSockets.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539064653356413357, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
+      propertyPath: <GameStates>k__BackingField.<HallInProgress>k__BackingField._correctCode.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539064653356413357, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
+      propertyPath: '<GameStates>k__BackingField.<HallInProgress>k__BackingField._correctCode.Array.data[0]'
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539064653356413357, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
+      propertyPath: '<GameStates>k__BackingField.<HallInProgress>k__BackingField._correctCode.Array.data[1]'
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539064653356413357, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
+      propertyPath: '<GameStates>k__BackingField.<HallInProgress>k__BackingField._correctCode.Array.data[2]'
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539064653356413357, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
+      propertyPath: '<GameStates>k__BackingField.<HallInProgress>k__BackingField._correctCode.Array.data[3]'
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539064653356413357, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
+      propertyPath: <GameStates>k__BackingField.<GreenhouseInProgress>k__BackingField._correctPlants.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6401190555539163379, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
       propertyPath: m_Name
       value: P_GameManager

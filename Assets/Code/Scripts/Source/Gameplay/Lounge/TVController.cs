@@ -1,7 +1,9 @@
+using System;
 using Code.Scripts.Source.XR;
 using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 namespace Code.Scripts.Source.Gameplay.Lounge
 {
@@ -15,6 +17,7 @@ namespace Code.Scripts.Source.Gameplay.Lounge
     
         [Header("GameObject References")] 
         [SerializeField] private GameObject _tvScreen;
+        [SerializeField] private XRBaseInteractable _remoteInteractable;
     
         [Header("Sound Effect")]
         [SerializeField] private AudioSource _tvTapeAudioSource;
@@ -27,7 +30,17 @@ namespace Code.Scripts.Source.Gameplay.Lounge
         private bool _tvOn = false;
         private bool _cassetteInserted = false;
         private Material _tvScreenMaterial;
-    
+
+        private void OnEnable()
+        {
+           _remoteInteractable?.activated.AddListener(ToggleTvPower);
+        }
+
+        private void OnDisable()
+        {
+            _remoteInteractable?.activated.RemoveListener(ToggleTvPower);
+        }
+
         private void Start()
         {
             _tvOffColor = _tvScreen.GetComponent<Renderer>().material.color;
@@ -63,7 +76,7 @@ namespace Code.Scripts.Source.Gameplay.Lounge
             _tvScreenMaterial.color = _tvOffColor;
         }
 
-        public void ToggleTvPower()
+        public void ToggleTvPower(ActivateEventArgs args)
         {
             _tvOn = !_tvOn;
             if (_tvOn)

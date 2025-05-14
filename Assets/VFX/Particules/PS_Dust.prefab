@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 19839994}
   - component: {fileID: 19996718}
   m_Layer: 0
-  m_Name: DustIInterior
+  m_Name: PS_Dust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
