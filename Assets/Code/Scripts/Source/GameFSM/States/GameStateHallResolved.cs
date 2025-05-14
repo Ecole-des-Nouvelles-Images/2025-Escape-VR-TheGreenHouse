@@ -8,6 +8,7 @@ namespace Code.Scripts.Source.GameFSM.States
     {
         public override void EnterState(GameStateManager context)
         {
+            
         }
 
         public override void UpdateState(GameStateManager context)

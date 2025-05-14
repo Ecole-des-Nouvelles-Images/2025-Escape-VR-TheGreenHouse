@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff7f65ba-5e09-4db8-94ad-31a7ad8aac47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-3e4bece9d5ae97671512.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/AC_EarthHill.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/AC_EarthHill.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/AC_Flower.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/AC_Flower.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/AC_Shears.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/AC_Shears.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/A_DirtSeed.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/A_DirtSeed.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/A_GrownPlant.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/A_GrownPlant.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/A_ShearsCut.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse/A_ShearsCut.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_1.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_2.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_3.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_4.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_4.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_5.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_6.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_6.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_7.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_7.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_8.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_8.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_9.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_9.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/OnTilt.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/OnTilt.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/Plant.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/Plant.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/PlantPuzzle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/PlantPuzzle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/PlantSlot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/PlantSlot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/SeedBag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/SeedBag.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Hall/PadlockController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Hall/PadlockController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Hall/WheelRotation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Hall/WheelRotation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/Vial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/Vial.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/VialMixer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/VialMixer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Lounge/BookPuzzle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Lounge/BookPuzzle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Lounge/BookSocket.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Lounge/BookSocket.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/XRCustomAffordance.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/XRCustomAffordance.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/XRLockWheel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/XR/XRLockWheel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Shaders/Graphs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Shaders/Graphs/SH_Highlight.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Shaders/Graphs/SH_Highlight.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Shaders/Graphs/SH_YvanPBR.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Shaders/Graphs/SH_YvanPBR.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lighting/Hall Lighting.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lighting/Hall Lighting.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Generic/M_Highlight.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Hall.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Hall/S_Locker_TEST.glb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Hall/S_Locker_TEST.glb.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Lounge/S_BookLogo_2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Lounge/S_BookLogo_3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Lounge/S_BookLogo_4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Lounge/S_BookLogo_4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Lounge/S_BookLogo_5.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Lounge/S_BookLogo_5.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Lounge/S_LoungePoster.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Lounge/S_LoungePoster.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_DoorBuffet_D.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_DoorBuffet_G.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_DrawerBuffet.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_PlantPot.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_PlantPot.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/S_Hall.glb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_Drawer_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_Drawer_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_Drawer_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowBuffet_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowBuffet_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowBuffet_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowChair_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowChair_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowChair_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowChair_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_01_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_01_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_01_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_01_MetallicSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_01_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_02_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_02_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_02_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_02_MetallicSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_02_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_02_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_03_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_03_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_03_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_03_MetallicSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_03_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_03_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_04_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_04_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_04_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_04_MetallicSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_04_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_04_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDrawerBuffet_01_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDrawerBuffet_01_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDrawerBuffet_01_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDrawerBuffet_01_MetallicSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDrawerBuffet_01_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDrawerBuffet_01_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowPot_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowPot_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowPot_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowPot_MetallicSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowPot_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowPot_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowTable_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowTable_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowTable_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lab/Laboratoire.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lab/Laboratoire.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire/T_Armoire_low_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire/T_Armoire_low_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire/T_Armoire_low_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire/T_Armoire_low_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire/T_Armoire_low_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire/T_Armoire_low_NormalMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Biblio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Biblio/T_Biblio_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Biblio/T_Biblio_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Biblio/T_Biblio_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BiblioBook.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BiblioBook/M_BiblioBook.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BiblioBook/M_BiblioBook.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BiblioBook/T_BiblioBooksTextures_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BiblioBook/T_BiblioBooksTextures_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BiblioBook/T_BiblioBooksTextures_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BoitierElectrique.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BoitierElectrique/M_BoitierElectrique.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BoitierElectrique/M_BoitierElectrique.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BoitierElectrique/T_BoitierElectrique_low_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BoitierElectrique/T_BoitierElectrique_low_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BoitierElectrique/T_BoitierElectrique_low_Emission.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BoitierElectrique/T_BoitierElectrique_low_Emission.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BoitierElectrique/T_BoitierElectrique_low_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BoitierElectrique/T_BoitierElectrique_low_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BoitierElectrique/T_BoitierElectrique_low_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Lampe.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Lampe/M_Lampe.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Lampe/M_Lampe.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Lampe/T_LowLamp_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Lampe/T_LowLamp_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Lampe/T_LowLamp_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Lampe/T_LowLamp_MetallicSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Lampe/T_LowLamp_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Lampe/T_LowLamp_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/M_MusicTVMeuble.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/M_TVMeuble_AlbedoTransparency.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/T_MeubleTV_BaseMap (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/T_MeubleTV_BaseMap (2).png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/T_MeubleTV_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/T_MeubleTV_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/T_MeubleTV_MaskMap (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/T_MeubleTV_MaskMap (2).png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/T_MeubleTV_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/T_MeubleTV_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/T_MeubleTV_NormalMap (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/T_MeubleTV_NormalMap (2).png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/T_MeubleTV_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Mur.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Mur/M_MurSalon.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Mur/M_MurSalon.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Mur/T_MurSalon_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Mur/T_MurSalon_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Mur/T_MurSalon_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Mur/T_MurSalon_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Mur/T_MurSalon_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Mur/T_MurSalon_NormalMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Pendule.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Pendule/M_Pendule.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Pendule/M_Pendule.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Pendule/T_Pendule_low_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Pendule/T_Pendule_low_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Pendule/T_Pendule_low_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Pendule/T_Pendule_low_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Pendule/T_Pendule_low_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Pendule/T_Pendule_low_NormalMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Plafond.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Plafond/M_Plafond.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Plafond/M_Plafond.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Plafond/T_PlafondSalon_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Plafond/T_PlafondSalon_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Plafond/T_PlafondSalon_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Plafond/T_PlafondSalon_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Plafond/T_PlafondSalon_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Plafond/T_PlafondSalon_NormalMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Rug.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Rug/M_Rug.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Rug/M_Rug.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Rug/T_Tapis_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Rug/T_Tapis_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Rug/T_Tapis_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Rug/T_Tapis_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Rug/T_Tapis_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Rug/T_Tapis_NormalMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sofa.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sofa/T_Sofa_low_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sofa/T_Sofa_low_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sofa/T_Sofa_low_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sofa/T_Sofa_low_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sofa/T_Sofa_low_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sofa/T_Sofa_low_NormalMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sol.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sol/M_SolSalon.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sol/M_SolSalon.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sol/T_SolSalon_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sol/T_SolSalon_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sol/T_SolSalon_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sol/T_SolSalon_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sol/T_SolSalon_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sol/T_SolSalon_NormalMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV/M_TV01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV/M_TV01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV/T_TV_low_BaseMap (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV/T_TV_low_BaseMap (2).png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV/T_TV_low_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV/T_TV_low_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV/T_TV_low_MaskMap (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV/T_TV_low_MaskMap (2).png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV/T_TV_low_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV/T_TV_low_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV/T_TV_low_NormalMap (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV/T_TV_low_NormalMap (2).png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV/T_TV_low_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TV/T_TV_low_NormalMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TVRemote.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TVRemote/T_TVRemote_CassetteVideo_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TVRemote/T_TVRemote_CassetteVideo_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TVRemote/T_TVRemote_CassetteVideo_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TVRemote/T_TVRemote_CassetteVideo_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TVRemote/T_TVRemote_CassetteVideo_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TVRemote/T_TVRemote_CassetteVideo_NormalMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableBasse.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableBasse/T_TableBasse_low_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableBasse/T_TableBasse_low_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableBasse/T_TableBasse_low_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableBasse/T_TableBasse_low_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableBasse/T_TableBasse_low_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableBasse/T_TableBasse_low_NormalMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableDeco.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableDeco/T_TableDeco_low_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableDeco/T_TableDeco_low_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableDeco/T_TableDeco_low_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableDeco/T_TableDeco_low_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableDeco/T_TableDeco_low_NormalMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableDeco/T_TableDeco_low_NormalMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/DemoScene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/DemoScene/DemoScene.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/DemoScene/DemoScene.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/DemoScene/DemoScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/DemoScene/DemoScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Documentation/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Documentation/README.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/atom_particle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/atom_particle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/atom_particle_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/atom_particle_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/leaf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/leaf.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/ring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/ring.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/ring2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/ring2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/rock-alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/rock-alpha.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/rock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/rock.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/seed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/seed.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/smoke1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/smoke1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/smoke2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/smoke2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/smoke3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/smoke3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/water1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/water1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/water2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/water2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/wing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/Textures/wing.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/atom_particle.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/atom_particle.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/atom_particle_2-2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/atom_particle_2-2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/atom_particle_2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/atom_particle_2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/leaf.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/leaf.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/ring.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/ring.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/ring2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/ring2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/rock-alpha.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/rock-alpha.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/rock.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/rock.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/seed.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/seed.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/smoke1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/smoke1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/smoke2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/smoke2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/smoke3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/smoke3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/water1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/water1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/water2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/water2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/wing.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Materials/Farming/wing.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_CuttingBigTree.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_CuttingBigTree.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_CuttingSmallTree.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_CuttingSmallTree.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_DeleteDig .prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_DeleteDig .prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_Dig.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_Dig.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_Harvest.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_Harvest.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_Sparks.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_Sparks.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_Sprinkler.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/FX_Sprinkler.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/SowingSeeds.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/SowingSeeds.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/WateringCan.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Farming/WateringCan.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Fishing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Fishing/FX_WaterSplash1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Fishing/FX_WaterSplash1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Fishing/FX_WaterSplash2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Fishing/FX_WaterSplash2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Fishing/FishingBait.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Fishing/FishingBait.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Mineing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Mineing/FX_Mineing.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/Prefabs/Mineing/FX_Mineing.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/GrabInteractables.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/GrabInteractables/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/GrabInteractables/Models/WateringCan.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/GrabInteractables/Models/WateringCan.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/GrabInteractables/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/Props.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/Props/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/Props/Materials/WaterSprinkles_Drops.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/Props/Materials/WaterSprinkles_Drops.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/Props/Materials/WaterSprinkles_Streaks.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/Props/Materials/WaterSprinkles_Streaks.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/Props/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/Props/Prefabs/WaterSprinkles.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/Sprites/WaterSprinkles_C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/Sprites/WaterSprinkles_C.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/Sprites/WaterSprinkles_N.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/Sprites/WaterSprinkles_N.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn12.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn12.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn13.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn13.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn14.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn14.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn15.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn15.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn16.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn16.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn18.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn18.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn19.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn19.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn20.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn20.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn21.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn21.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn22.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/Materials/blinn22.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower06.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower07.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower07.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Materials/GardenPropsMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Materials/GardenPropsMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/EarthHill.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/EarthHill.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Fence.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Fence.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/FenceCorner.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/FenceCorner.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/GrassSmall.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/GrassSmall.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/GrassTall.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/GrassTall.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Hydrangea.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Hydrangea.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Mint.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Mint.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/NameStake.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/NameStake.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotBig.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotBig.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotRectangle.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotRectangle.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotSmall.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotSmall.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Pruner.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Pruner.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Rake.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Rake.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Shovel.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Shovel.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/TulipRed.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/TulipRed.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/TulipYellow.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/TulipYellow.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/WateringCup.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/WateringCup.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/EarthHill.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/EarthHill.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Fence.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Fence.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/FenceCorner.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/FenceCorner.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/GrassSmall.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/GrassSmall.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/GrassTall.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/GrassTall.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Hydrangea.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Hydrangea.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Mint.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Mint.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/NameStake.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/NameStake.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/PotBig.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/PotBig.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/PotRectangle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/PotRectangle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/PotSmall.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/PotSmall.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Pruner.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Pruner.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Rake.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Rake.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Shovel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/Shovel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/TulipRed.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/TulipRed.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/TulipYellow.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/TulipYellow.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/WateringCup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Prefabs/WateringCup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Textures/GrassTexture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Textures/GrassTexture.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Textures/TextureAtlas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Textures/TextureAtlas.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/P_IvyVariant_1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/P_IvyVariant_1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/P_IvyVariant_2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/P_IvyVariant_2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/P_IvyVariant_3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/P_IvyVariant_3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/P_IvyVariant_4.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/P_IvyVariant_4.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/P_IvyVariant_5.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/P_IvyVariant_5.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/ivy-1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/ivy-1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/ivy_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/ivy_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/ivy_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/ivy_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/ivy_4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/ivy_4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/ivy_5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Vegetation/ivy_5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/BookPuzzle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/BookPuzzle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Fuse.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Fuse.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/FuseBox.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/FuseBox.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/P_Book.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/P_Book.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/TV.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/TV.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Telecomand.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Telecomand.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/VHS.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/VHS.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/M_Morazium.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/M_Tulenium.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/M_Tulenium.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/M_Veridox.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/M_Veridox.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/M_Yzora.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/M_Yzora.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Morazium Vial.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Morazium Vial.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/GreenHouse.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Greenhouse/P_Flower_TEST.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Greenhouse/P_Flower_TEST.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Greenhouse/P_SeedBag.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Greenhouse/P_SeedBag.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Greenhouse/P_Shears.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Greenhouse/P_Shears.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Greenhouse/P_WateringCan.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Greenhouse/P_WateringCan.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Hall.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Hall/P_CaseLocker_Maximized.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Hall/P_CaseLocker_Maximized.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Hall/P_CaseLocker_Wheel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Hall/P_CaseLocker_Wheel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Hall/P_Case_Lock_Minimized.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/Hall/P_Case_Lock_Minimized.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/P_Drawer.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/P_Drawer.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Tulenium Vial.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Tulenium Vial.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Veridox Vial.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Veridox Vial.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/XR/CustomAffordance.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/XR/CustomAffordance.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Yzora Vial.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Yzora Vial.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall/Hall Baking Set.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall/Hall Baking Set.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall/ReflectionProbe-0.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Experiments.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Experiments/XR Features.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Integration.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Integration/Lounge-Michael.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Test Serre.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Settings/Project Configuration/URP_Preset_HighQuality_Test.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Settings/Project Configuration/URP_Preset_HighQuality_Test.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Lounge.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Lounge/S_BookLogo_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Lounge/S_BookLogo_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Lounge/S_BookLogo_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Lounge/S_BookLogo_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Lounge/S_BookLogo_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Lounge/S_BookLogo_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Lounge/S_BookLogo_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Lounge/S_BookLogo_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Lounge/S_BookLogo_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Lounge/S_BookLogo_5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Lounge/S_LoungePoster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Lounge/S_LoungePoster.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Particules.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Particules/DustIInterior.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Particules/DustIInterior.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Raindrops.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Raindrops/3a149e8d3e77c2c5a46fc75514d5913c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Raindrops/3a149e8d3e77c2c5a46fc75514d5913c.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Raindrops/Rain drop Shader Graph.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Raindrops/Rain drop Shader Graph.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Raindrops/Shader Graphs_Rain drop Shader Graph.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Raindrops/Shader Graphs_Rain drop Shader Graph.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/reply/cache-v2-ae99d89b4289a795e0ec.json" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/reply/cache-v2-0df90b7bf44d3867018c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-a4cd48c7668a5a55cb2f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/reply/index-2025-04-25T15-03-57-0934.json" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/reply/index-2025-05-06T10-30-51-0430.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/tools/release/arm64-v8a/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/tools/release/arm64-v8a/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Living room/A_VHS_Insertion.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Living room/A_VHS_Insertion.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixers/Application.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixers/SMX_Application.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixers/Application.mixer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixers/SMX_Application.mixer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateGreenhouseInProgress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateGreenhouseInProgress.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateHallInProgress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateHallInProgress.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateHallResolved.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateHallResolved.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungePhase2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungePhase2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungeResolved.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungeResolved.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Lounge/Book.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Lounge/Book.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/UI/UpdateTrackedOffset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/UI/UpdateTrackedOffset.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/GreenHouse.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/HierarchySwatches.colors" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/HierarchySwatches.colors" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/HierarchySwatches.colors.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/HierarchySwatches.colors.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generic.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Generic.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generic/M_HallCase_Test.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/M_Morazium.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Generic/M_HallCase_Test.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Lounge/S_BookLogo_2.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRI.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRI/HDRI.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Lounge/S_BookLogo_1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRI/HDRI.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Lounge/S_BookLogo_3.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRI/overcast_soil_puresky_4k.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/HDRi/HDR_Cloudy_Puresky_Sergej Majboroda_Jarod Guest.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRI/overcast_soil_puresky_4k.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medias/Playables/Hall/PL_Case_Opening.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medias/Playables/Hall/PL_Case_Opening.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medias/Playables/Hall/PL_Ivy-leafy_Run.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medias/Playables/Hall/PL_Ivy-leafy_Run.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/HDRi/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/HDRi/M_Skybox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/HDRi/Skybox.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/HDRi/M_Skybox.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/HDRi/overcast_soil_puresky_4k_Sergej Majboroda_Jarod Guest.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/HDRi/overcast_soil_puresky_4k_Sergej Majboroda_Jarod Guest.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/HDRi/HDR_Cloudy_Puresky_Sergej Majboroda_Jarod Guest.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Hall.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Hall.glb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/S_Hall.glb.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_Buffet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_Buffet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_Chair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_Chair.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_CoatStand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_CoatStand.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_DrawerTable.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_DrawerTable.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_Frame_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_Frame_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_Frame_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_Frame_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_Frame_03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_Frame_03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_Frame_04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_Frame_04.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_KeyRing.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_KeyRing.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_Table.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_Table.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowBuffet_M_MaterailBuffet_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowBuffet_M_MaterailBuffet_AlbedoTransparency.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_Drawer_MetallicSmoothness.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowBuffet_M_MaterailBuffet_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowBuffet_M_MaterailBuffet_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowBuffet_AlbedoTransparency.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowBuffet_M_MaterailBuffet_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowBuffet_M_MaterailBuffet_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowDoB_01_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowChair_M_MaterailChair_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowChair_M_MaterailChair_AlbedoTransparency.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowChair_AlbedoTransparency.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowChair_M_MaterailChair_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowChair_M_MaterailChair_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowChair_MetallicSmoothness.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowChair_M_MaterailChair_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowChair_M_MaterailChair_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_Drawer_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowCoatStand_M_MaterialCoatStand_AlbedoTransparency.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowCoatStand_AlbedoTransparency.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowCoatStand_M_MaterialCoatStand_AlbedoTransparency.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowCoatStand_AlbedoTransparency.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowCoatStand_M_MaterialCoatStand_MetallicSmoothness.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowCoatStand_MetallicSmoothness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowCoatStand_M_MaterialCoatStand_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowCoatStand_MetallicSmoothness.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowCoatStand_M_MaterialCoatStand_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowCoatStand_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowCoatStand_M_MaterialCoatStand_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowCoatStand_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowDrawerTable_M_MaterialDrawerTable_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowDrawerTable_M_MaterialDrawerTable_AlbedoTransparency.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_Drawer_AlbedoTransparency.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowDrawerTable_M_MaterialDrawerTable_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowDrawerTable_M_MaterialDrawerTable_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowBuffet_MetallicSmoothness.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowDrawerTable_M_MaterialDrawerTable_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowDrawerTable_M_MaterialDrawerTable_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowBuffet_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_01_M_MaterialFrame_AlbedoTransparency.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_01_AlbedoTransparency.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_01_M_MaterialFrame_AlbedoTransparency.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_01_AlbedoTransparency.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_01_M_MaterialFrame_MetallicSmoothness.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_01_MetallicSmoothness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_01_M_MaterialFrame_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_01_MetallicSmoothness.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_01_M_MaterialFrame_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_01_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_01_M_MaterialFrame_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_01_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_02_M_MaterialFrame_AlbedoTransparency.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_02_AlbedoTransparency.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_02_M_MaterialFrame_AlbedoTransparency.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_02_AlbedoTransparency.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_02_M_MaterialFrame_MetallicSmoothness.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_02_MetallicSmoothness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_02_M_MaterialFrame_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_02_MetallicSmoothness.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_02_M_MaterialFrame_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_02_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_02_M_MaterialFrame_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_02_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_03_M_MaterialFrame_AlbedoTransparency.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_03_AlbedoTransparency.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_03_M_MaterialFrame_AlbedoTransparency.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_03_AlbedoTransparency.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_03_M_MaterialFrame_MetallicSmoothness.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_03_MetallicSmoothness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_03_M_MaterialFrame_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_03_MetallicSmoothness.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_03_M_MaterialFrame_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_03_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_03_M_MaterialFrame_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_03_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_04_M_MaterialFrame_AlbedoTransparency.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_04_AlbedoTransparency.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_04_M_MaterialFrame_AlbedoTransparency.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_04_AlbedoTransparency.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_04_M_MaterialFrame_MetallicSmoothness.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_04_MetallicSmoothness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_04_M_MaterialFrame_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_04_MetallicSmoothness.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_04_M_MaterialFrame_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_04_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowFrame_04_M_MaterialFrame_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowFrame_04_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowKeyRing_M_MaterialKeyRing_AlbedoTransparency.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowKeyRing_AlbedoTransparency.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowKeyRing_M_MaterialKeyRing_AlbedoTransparency.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowKeyRing_AlbedoTransparency.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowKeyRing_M_MaterialKeyRing_MetallicSmoothness.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowKeyRing_MetallicSmoothness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowKeyRing_M_MaterialKeyRing_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowKeyRing_MetallicSmoothness.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowKeyRing_M_MaterialKeyRing_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowKeyRing_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowKeyRing_M_MaterialKeyRing_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowKeyRing_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowKey_M_MaterialKey_AlbedoTransparency.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowKey_AlbedoTransparency.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowKey_M_MaterialKey_AlbedoTransparency.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowKey_AlbedoTransparency.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowKey_M_MaterialKey_MetallicSmoothness.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowKey_MetallicSmoothness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowKey_M_MaterialKey_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowKey_MetallicSmoothness.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowKey_M_MaterialKey_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowKey_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowKey_M_MaterialKey_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowKey_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowLamp_M_MaterialLamp_AlbedoTransparency.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowLamp_AlbedoTransparency.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowLamp_M_MaterialLamp_AlbedoTransparency.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowLamp_AlbedoTransparency.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowLamp_M_MaterialLamp_MetallicSmoothness.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowLamp_MetallicSmoothness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowLamp_M_MaterialLamp_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowLamp_MetallicSmoothness.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowLamp_M_MaterialLamp_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowLamp_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowLamp_M_MaterialLamp_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowLamp_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowTable_M_MaterialTable_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowTable_M_MaterialTable_AlbedoTransparency.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowTable_AlbedoTransparency.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowTable_M_MaterialTable_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowTable_M_MaterialTable_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowTable_MetallicSmoothness.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowTable_M_MaterialTable_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/S_LowTable_M_MaterialTable_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Textures/T_LowTable_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Materials/M_TV.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Materials/M_TV.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Materials/M_TV.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Materials/M_TV.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Materials/M_TVScreen off.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Materials/M_TVScreen off.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Materials/M_TVScreen off.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Materials/M_TVScreen off.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Materials/M_TVScreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Materials/M_TVScreen.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Materials/M_TVScreen.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Materials/M_TVScreen.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/S_salon.glb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/S_Lounge.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/S_salon.glb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/S_Lounge.glb.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Armoire.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Armoire/M_Armoire.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire/M_Armoire.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Armoire/M_Armoire.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire/M_Armoire.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Armoire/S_Armoire_low_M_Armoire_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Armoire/S_Armoire_low_M_Armoire_AlbedoTransparency.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Biblio/T_Biblio_MaskMap.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Armoire/S_Armoire_low_M_Armoire_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Armoire/S_Armoire_low_M_Armoire_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BiblioBook/T_BiblioBooksTextures_BaseMap.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Armoire/S_Armoire_low_M_Armoire_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Armoire/S_Armoire_low_M_Armoire_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/T_MeubleTV_NormalMap.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Biblio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Biblio/M_Biblio.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Biblio/M_Biblio.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Biblio/M_Biblio.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Biblio/M_Biblio.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Biblio/S_Biblio_M_Biblio_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Biblio/S_Biblio_M_Biblio_AlbedoTransparency.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BiblioBook/T_BiblioBooksTextures_MaskMap.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Biblio/S_Biblio_M_Biblio_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Biblio/S_Biblio_M_Biblio_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Biblio/T_Biblio_BaseMap.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Biblio/S_Biblio_M_Biblio_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Biblio/S_Biblio_M_Biblio_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Biblio/T_Biblio_NormalMap.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/M_MeubleTV_M_MusicTVMeuble.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_DoorBuffet_G.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/M_MeubleTV_M_MusicTVMeuble.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/M_MusicTVMeuble.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/M_MeubleTV_M_PaperBook.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_DoorBuffet_D.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/M_MeubleTV_M_PaperBook.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Lounge/S_BookLogo_1.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/M_MeubleTV_M_TVMeuble_AlbedoTransparency.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Hall/Materials/M_DrawerBuffet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/M_MeubleTV_M_TVMeuble_AlbedoTransparency.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/MeubleTV/M_TVMeuble_AlbedoTransparency.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_MusicTVMeuble_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_MusicTVMeuble_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_MusicTVMeuble_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_MusicTVMeuble_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_MusicTVMeuble_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_MusicTVMeuble_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BiblioBook/T_BiblioBooksTextures_NormalMap.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_PaperBook_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_PaperBook_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_PaperBook_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_PaperBook_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_PaperBook_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_PaperBook_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/BoitierElectrique/T_BoitierElectrique_low_NormalMap.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_TVMeuble_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_TVMeuble_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_TVMeuble_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_TVMeuble_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_TVMeuble_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_MeubleTV/S_MeubleTV_M_TVMeuble_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Sofa.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Sofa/M_Sofa.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sofa/M_Sofa.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Sofa/M_Sofa.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Sofa/M_Sofa.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Sofa/S_Sofa_low_M_Sofa_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Sofa/S_Sofa_low_M_Sofa_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Sofa/S_Sofa_low_M_Sofa_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Sofa/S_Sofa_low_M_Sofa_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Sofa/S_Sofa_low_M_Sofa_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_Sofa/S_Sofa_low_M_Sofa_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TV.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TV/S_TV_low_M_TV_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TV/S_TV_low_M_TV_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TV/S_TV_low_M_TV_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TV/S_TV_low_M_TV_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TV/S_TV_low_M_TV_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TV/S_TV_low_M_TV_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TVRemote.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TVRemote/M_TVRemote.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TVRemote/M_TVRemote.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TVRemote/M_TVRemote.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TVRemote/M_TVRemote.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TVRemote/S_TVRemote_low_M_TVRemote_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TVRemote/S_TVRemote_low_M_TVRemote_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TVRemote/S_TVRemote_low_M_TVRemote_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TVRemote/S_TVRemote_low_M_TVRemote_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TVRemote/S_TVRemote_low_M_TVRemote_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TVRemote/S_TVRemote_low_M_TVRemote_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableBasse.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableBasse/M_TableBasse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableBasse/M_TableBasse.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableBasse/M_TableBasse.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableBasse/M_TableBasse.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableBasse/S_TableBasse_low_M_TableBasse.002_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableBasse/S_TableBasse_low_M_TableBasse.002_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableBasse/S_TableBasse_low_M_TableBasse.002_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableBasse/S_TableBasse_low_M_TableBasse.002_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableBasse/S_TableBasse_low_M_TableBasse.002_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableBasse/S_TableBasse_low_M_TableBasse.002_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableDeco.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableDeco/M_TableDeco.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableDeco/M_TableDeco.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableDeco/M_TableDeco.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/TableDeco/M_TableDeco.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableDeco/S_TableDeco_low_M_TableDeco_BaseMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableDeco/S_TableDeco_low_M_TableDeco_BaseMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableDeco/S_TableDeco_low_M_TableDeco_MaskMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableDeco/S_TableDeco_low_M_TableDeco_MaskMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableDeco/S_TableDeco_low_M_TableDeco_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Living/Textures/T_TableDeco/S_TableDeco_low_M_TableDeco_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Place holder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Placeholders.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Place holder/S_MalletteB.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Placeholders/S_Case_Bottom.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Place holder/S_MalletteB.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Placeholders/S_Case_Bottom.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Place holder/S_MalletteH.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Placeholders/S_Case_Upper.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Place holder/S_MalletteH.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Placeholders/S_Case_Upper.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Place holder/ivy Leafy.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Characters/S_IvyLeafy_Blocking.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Place holder/ivy Leafy.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Characters/S_IvyLeafy_Blocking.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/3Dynamite/Real Ivy/SampleResources/Materials/Leave_04_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/3Dynamite/Real Ivy/SampleResources/Materials/Leave_04_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/XR/P_Custom_XR_Origin_Game.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/XR/P_Custom_XR_Origin_Game.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Materials/Concrete Grey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Materials/Concrete Grey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Shaders/Unlit_Fresnel.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Shaders/Unlit_Fresnel.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Laboratory.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Laboratory.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Lounge.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Lounge.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Greenhouse.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Greenhouse.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Experiments/XR Features.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Hall.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Hall.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Hall.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Hall.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Integration/Lounge-Michael.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Hall/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Hall/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Generic/M_Highlight.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Hall/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall/ReflectionProbe-1.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Hall/ReflectionProbe-0.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall/ReflectionProbe-1.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Laboratory.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Laboratory.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Test Serre.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Lounge.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Props/Lounge.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Lounge.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Lounge.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/Props/Prefabs/WaterSprinkles.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Lounge/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Lounge/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall/LightingData.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Lounge/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Showcase/Lounge/ReflectionProbe-0.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Socket Salon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Socket Salon.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Socket Salon/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Socket Salon/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Socket Salon/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Socket Salon/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Post Process Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Post Process Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Build Profiles/Meta Quest3 Android Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/Meta Quest3 Android Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Project Configuration/URP_Preset_Performance.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Project Configuration/URP_Preset_Performance.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Project Configuration/URP_Renderer_Android.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Project Configuration/URP_Renderer_Android.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/M_BlackGloves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Generic/M_BlackGloves.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/M_BlackGloves.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Generic/M_BlackGloves.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Graphics/Post Process Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Graphics/Post Process Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Code/Scripts/Source/Managers/SceneLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Code/Scripts/Source/Managers/SceneLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Scenes/Assembly/Hall/LightingData.asset.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Scenes/Assembly/Hall/LightingData.asset.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Scenes/Showcase/Lounge.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Scenes/Showcase/Lounge.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2x4v2t6IbOgnWD92aMy69HIGSTe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Merging feature/pause-menu",
+    "ignore.virus.scanning.warn.message": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath D:\Projets\Unity\2025-Escape-VR-TheGreenhouse -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\Projets\Unity\2025-Escape-VR-TheGreenhouse" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Projets\Unity\2025-Escape-VR-TheGreenhouse -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\Projets\Unity\2025-Escape-VR-TheGreenhouse" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff7f65ba-5e09-4db8-94ad-31a7ad8aac47" name="Changes" comment="" />
+      <created>1747209958126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747209958126</updated>
+      <workItem from="1747209960960" duration="1830000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
