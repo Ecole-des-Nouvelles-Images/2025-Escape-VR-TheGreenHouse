@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 606ae2ee9ef6c42df9595b0daea22d1b
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301026
+  packageName: 3D Mini Garden Props
+  packageVersion: 1.0
+  assetPath: Assets/MamkinEnthusiast/3D Mini Garden Props/Models/TulipYellow.fbx
+  uploadId: 704256
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -16,8 +23,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -59,7 +64,7 @@ ModelImporter:
     minBoneWeight: 0.001
     optimizeBones: 1
     meshOptimizationFlags: -1
-    indexFormat: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -107,10 +112,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 301026
-  packageName: 3D Mini Garden Props
-  packageVersion: 1.0
-  assetPath: Assets/MamkinEnthusiast/3D Mini Garden Props/Models/TulipYellow.fbx
-  uploadId: 704256

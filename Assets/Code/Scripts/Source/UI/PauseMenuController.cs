@@ -23,14 +23,11 @@ namespace Code.Scripts.Source.UI
         [SerializeField] private Button _buttonMainMenu;
         [SerializeField] private Button _buttonExit;
 
-        private Vector3 _intrinsicScale;
-
         private bool _editOptions = false;
 
         private void Awake()
         {
-            _intrinsicScale = transform.localScale;
-            transform.localScale = Vector3.zero;
+            _root.localScale = Vector3.zero;
         }
 
         private void OnEnable()
@@ -51,19 +48,21 @@ namespace Code.Scripts.Source.UI
 
         // ---
 
-        public static void ShowPausePanel(bool enable)
+        public void ShowPausePanel()
         {
-            if (enable)
-            {
-                _root.DOScale(1, 1f).SetEase(Ease.OutBounce);
-            }
+            _root.DOScale(1, 1f).SetEase(Ease.OutBounce);
+        }
+
+        public void HidePausePanel()
+        {
+            _root.DOScale(0, 1f).SetEase(Ease.InBounce);
         }
 
         // ---
 
         private void ResumeGame()
         {
-            GameStatePause.OnGameResumed.Invoke();
+            GameStateManager.Instance.SwitchState(GameStateManager.Instance.PreviousState, true, false);
         }
 
         private void ReloadGame()
@@ -71,7 +70,7 @@ namespace Code.Scripts.Source.UI
             SceneLoader.Instance.LoadSceneManual("Setup", LoadSceneMode.Single);
         }
 
-        [ContextMenu("Test ShowOptionsPanel()")]
+        [ContextMenu("Test ShowOptionsPanel()")] // TODO: Fix Options panel not sliding correctly
         private void ShowOptionsPanel()
         {
             if (!_editOptions)
@@ -87,7 +86,7 @@ namespace Code.Scripts.Source.UI
                 _editOptions = false;
                 _pausePanel.DOKill();
                 _mainPanel.DOKill();
-                _pausePanel.DOAnchorPosX(_pausePanel.TargetAnchoredPosX(0f), _slideAnimationDuration).SetEase(_slideAnimationEasing);
+                _pausePanel.DOAnchorPosX(_pausePanel.TargetAnchoredPosX(-2f), _slideAnimationDuration).SetEase(_slideAnimationEasing);
                 _mainPanel.DOAnchorPosX(_mainPanel.TargetAnchoredPosX(0f), _slideAnimationDuration).SetEase(_slideAnimationEasing);
             }
         }

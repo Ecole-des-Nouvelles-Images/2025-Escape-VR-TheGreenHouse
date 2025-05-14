@@ -15,10 +15,7 @@ namespace Code.Scripts.Source.GameFSM.States
     [Serializable]
     public class GameStatePause : GameBaseState
     {
-        public static Action<bool> OnGamePaused;
-        public static Action<bool> OnGameResumed;
-
-        [SerializeField] private GameObject _pauseUI;
+        [SerializeField] private PauseMenuController _pauseUI;
         [SerializeField] private float _pauseUIAnimationDuration = 0.5f;
         [SerializeField] [Min(0f)] private float _pauseUIAnimationScale = 0.5f;
         [SerializeField] private Ease _pauseAnimationEasing;
@@ -53,12 +50,12 @@ namespace Code.Scripts.Source.GameFSM.States
                 _exposureToneDownIntensity, _exposureAnimationDuration
             );
 
-            OnGamePaused.Invoke();
+            _pauseUI.ShowPausePanel();
         }
 
         public override void UpdateState(GameStateManager context)
         {
-            if (context.PauseDebugInput.WasPressedThisFrame())
+            if (context.MenuButton.WasPressedThisFrame() || context.MenuButtonInteraction.WasPressedThisFrame() || context.PauseDebugInput.WasPressedThisFrame())
             {
                 context.SwitchState(context.PreviousState, true, false);
             }
@@ -66,7 +63,7 @@ namespace Code.Scripts.Source.GameFSM.States
 
         public override void ExitState(GameStateManager context)
         {
-            OnGameResumed.Invoke();
+            _pauseUI.HidePausePanel();
 
             DOTween.To(
                 () => _colorAdjustorModule.postExposure.value,
@@ -78,20 +75,6 @@ namespace Code.Scripts.Source.GameFSM.States
             EnableXRInteractable(true);
 
             Debug.Log("Pause state exited!");
-        }
-
-        // ---
-
-        private void SubscribeEvents()
-        {
-            OnGamePaused += PauseMenuController.ShowPausePanel;
-            OnGameResumed += PauseMenuController.ShowPausePanel;
-        }
-
-        private void UnsubscribeEvents()
-        {
-            OnGamePaused -= PauseMenuController.ShowPausePanel;
-            OnGameResumed -= PauseMenuController.ShowPausePanel;
         }
 
         // ---

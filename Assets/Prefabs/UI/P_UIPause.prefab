@@ -448,6 +448,7 @@ GameObject:
   - component: {fileID: 2559583068123430600}
   - component: {fileID: 6161075734605286255}
   - component: {fileID: 4193248985855452176}
+  - component: {fileID: 2060494539283627857}
   - component: {fileID: 3581149848378662842}
   - component: {fileID: 702611632368211522}
   - component: {fileID: 5134806374300187704}
@@ -490,6 +491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1447ac06b1647539510e7ff13283503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _root: {fileID: 7146325470587616326}
   _mainPanel: {fileID: 8473113483073811054}
   _pausePanel: {fileID: 7115998389244081973}
   _slideAnimationDuration: 1.5
@@ -529,6 +531,29 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &2060494539283627857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854978693680595808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
 --- !u!114 &3581149848378662842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -561,8 +586,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 0}
-  m_TargetOffset: {x: 0, y: 1.5, z: 1}
-  m_FollowInLocalSpace: 1
+  m_TargetOffset: {x: 0, y: 0, z: 0.7}
+  m_FollowInLocalSpace: 0
   m_ApplyTargetInLocalSpace: 0
   m_MovementSpeed: 6
   m_MovementSpeedVariancePercentage: 0.25
@@ -573,7 +598,7 @@ MonoBehaviour:
   m_TimeUntilThresholdReachesMaxDistance: 3
   m_RotationFollowMode: 3
   m_MinAngleAllowed: 0.1
-  m_MaxAngleAllowed: 5
+  m_MaxAngleAllowed: 1
   m_TimeUntilThresholdReachesMaxAngle: 3
 --- !u!114 &5134806374300187704
 MonoBehaviour:

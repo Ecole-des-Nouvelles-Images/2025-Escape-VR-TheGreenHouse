@@ -10,9 +10,11 @@ namespace Code.Scripts.Source.GameFSM.States
 
         public abstract void ExitState(GameStateManager context);
 
+#if UNITY_EDITOR
         public override string ToString()
         {
             return this.GetType().Name;
         }
+#endif
     }
 }

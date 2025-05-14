@@ -16,17 +16,18 @@ namespace Code.Scripts.Source.Managers
 
         public bool GamePaused { get; set; }
 
-        private InputAction _menuButton, _menuButtonInteraction;
+        public InputAction MenuButton { get; private set; }
+        public InputAction MenuButtonInteraction { get; private set; }
 
         public static Action OnFirstSceneLoaded;
 
-        [Obsolete("\nThis is a debug input action and should not be used in production code.")]
+        [Header("Debug")] [Obsolete("\nThis is a debug input action and should not be used in production code.")]
         public InputAction PauseDebugInput; // TODO: DEBUG
 
         private void Awake()
         {
-            _menuButton = InputSystem.actions.FindAction("XRI Left/MenuButton", true);
-            _menuButtonInteraction = InputSystem.actions.FindAction("XRI Left Interaction/MenuButton", true);
+            MenuButton = InputSystem.actions.FindAction("XRI Left/MenuButton", true);
+            MenuButtonInteraction = InputSystem.actions.FindAction("XRI Left Interaction/MenuButton", true);
         }
 
         private void Start()
@@ -52,16 +53,18 @@ namespace Code.Scripts.Source.Managers
 
         private void Update()
         {
-            bool pauseButtonPressed = _menuButton.WasPressedThisFrame() || _menuButtonInteraction.WasPressedThisFrame() || PauseDebugInput.WasPressedThisFrame();
+            bool pauseButtonPressed = MenuButton.WasPressedThisFrame() || MenuButtonInteraction.WasPressedThisFrame() || PauseDebugInput.WasPressedThisFrame();
 
             if (pauseButtonPressed && !GamePaused)
             {
-                SwitchState(GameStates.Pause, false, true);
+                PauseGame();
                 return;
             }
 
             CurrentState.UpdateState(this);
         }
+
+        // ---
 
         private void InitializeFSM()
         {
@@ -85,6 +88,11 @@ namespace Code.Scripts.Source.Managers
             CurrentState = newState;
 
             newState.EnterState(this);
+        }
+
+        public void PauseGame()
+        {
+            SwitchState(GameStates.Pause, false, true);
         }
     }
 }

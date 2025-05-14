@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Code.Scripts.Utils
@@ -13,7 +14,7 @@ namespace Code.Scripts.Utils
                     if (objs.Length > 0)
                         _instance = objs[0];
                     if (objs.Length > 1) {
-                        Debug.LogError ("There is more than one " + typeof(T).Name + " in the scene.");
+                        throw new Exception("There is more than one " + typeof(T).Name + " in the scene.");
                     }
                     if (_instance == null) {
                         GameObject obj = new GameObject ();

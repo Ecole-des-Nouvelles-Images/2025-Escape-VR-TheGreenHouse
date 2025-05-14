@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 4f7d2ce1be07dc7439e63dd34cea3894
+AssetOrigin:
+  serializedVersion: 1
+  productId: 312563
+  packageName: Full Opaque Rain
+  packageVersion: 1.1
+  assetPath: Assets/FullOpaqueVFX/Mesh/P_Ring_Lowh.fbx
+  uploadId: 747831
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -16,8 +23,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -59,7 +64,7 @@ ModelImporter:
     minBoneWeight: 0.001
     optimizeBones: 1
     meshOptimizationFlags: -1
-    indexFormat: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -107,10 +112,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 312563
-  packageName: Full Opaque Rain
-  packageVersion: 1.1
-  assetPath: Assets/FullOpaqueVFX/Mesh/P_Ring_Lowh.fbx
-  uploadId: 747831
