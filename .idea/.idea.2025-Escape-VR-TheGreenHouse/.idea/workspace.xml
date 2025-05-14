@@ -5,29 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fc90d18-a5ed-4a91-a841-26a0379011bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/S_MoyenneFiole_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/S_MoyenneFiole_01.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/Vial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/Vial.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/VialMixer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/VialMixer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/M_Morazium.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/M_Morazium.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/M_Morazium.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/M_Morazium.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/M_Tulenium.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/M_Tulenium.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/M_Tulenium.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/M_Tulenium.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/M_Veridox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/M_Veridox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/M_Veridox.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/M_Veridox.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/M_Yzora.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/M_Yzora.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/M_Yzora.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/M_Yzora.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Morazium Vial.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/Morazium Vial.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Morazium Vial.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/Morazium Vial.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tulenium Vial.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/Tulenium Vial.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tulenium Vial.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/Tulenium Vial.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Veridox Vial.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/Veridox Vial.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Veridox Vial.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/Veridox Vial.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Yzora Vial.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/Yzora Vial.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Yzora Vial.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/Yzora Vial.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Laboratory.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Laboratory.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/Morazium Vial.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Laboratory/Morazium Vial.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +20,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/GreenHouse/PlantSlot.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Code/Scripts/Source/Managers/SceneLoader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Code/Scripts/Source/Managers/SceneLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Source/Gameplay/Labo/MixRules.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -59,19 +39,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "feature/puzzle-labo",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\NOAH\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\NOAH\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\NOAH\\AppData\\Local\\Symbols\\src"
-    ]
   }
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -96,6 +71,9 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -106,6 +84,9 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -122,6 +103,8 @@
       <updated>1747125981217</updated>
       <workItem from="1747125983914" duration="14709000" />
       <workItem from="1747167383276" duration="5436000" />
+      <workItem from="1747209248332" duration="8958000" />
+      <workItem from="1747218275524" duration="1290000" />
     </task>
     <servers />
   </component>

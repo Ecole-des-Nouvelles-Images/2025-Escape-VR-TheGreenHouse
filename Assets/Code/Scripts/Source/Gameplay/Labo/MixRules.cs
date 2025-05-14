@@ -1,27 +1,11 @@
 using System;
 using UnityEngine;
+using System.Linq;
 
 namespace Code.Scripts.Source.Gameplay.Labo
 {
-    public class VialMixer : MonoBehaviour
+    public class MixRules
     {
-        [SerializeField] private Vial _vial1;
-        [SerializeField] private Vial _vial2;
-        private Vial _resultVial;
-
-        [ContextMenu("Mix Vials")]
-        private void MixVials()
-        {
-            try
-            {
-                MixRules.TryMix(_vial1, _vial2);
-            }
-            catch (Exception e)
-            {
-                Debug.LogWarning("ERREUR");
-            }
-        }
-        
         public static PotionType TryMix(Vial vial1, Vial vial2)
         {
             int resultVial = vial1.Properties.Index + vial2.Properties.Index;
