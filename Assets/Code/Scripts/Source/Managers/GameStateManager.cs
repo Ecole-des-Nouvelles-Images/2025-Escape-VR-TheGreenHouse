@@ -21,9 +21,6 @@ namespace Code.Scripts.Source.Managers
 
         public static Action OnFirstSceneLoaded;
 
-        [Header("Debug")] [Obsolete("\nThis is a debug input action and should not be used in production code.")]
-        public InputAction PauseDebugInput; // TODO: DEBUG
-
         private void Awake()
         {
             MenuButton = InputSystem.actions.FindAction("XRI Left/MenuButton", true);
@@ -53,7 +50,7 @@ namespace Code.Scripts.Source.Managers
 
         private void Update()
         {
-            bool pauseButtonPressed = MenuButton.WasPressedThisFrame() || MenuButtonInteraction.WasPressedThisFrame() || PauseDebugInput.WasPressedThisFrame();
+            bool pauseButtonPressed = MenuButton.WasPressedThisFrame() || MenuButtonInteraction.WasPressedThisFrame();
 
             if (pauseButtonPressed && !GamePaused)
             {

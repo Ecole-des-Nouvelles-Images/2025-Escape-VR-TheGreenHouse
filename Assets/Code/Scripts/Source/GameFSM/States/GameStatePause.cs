@@ -16,9 +16,6 @@ namespace Code.Scripts.Source.GameFSM.States
     public class GameStatePause : GameBaseState
     {
         [SerializeField] private PauseMenuController _pauseUI;
-        [SerializeField] private float _pauseUIAnimationDuration = 0.5f;
-        [SerializeField] [Min(0f)] private float _pauseUIAnimationScale = 0.5f;
-        [SerializeField] private Ease _pauseAnimationEasing;
         [Space]
         [SerializeField] private Volume _postRenderVolume;
         [SerializeField] private float _exposureAnimationDuration = 2f;
@@ -55,7 +52,7 @@ namespace Code.Scripts.Source.GameFSM.States
 
         public override void UpdateState(GameStateManager context)
         {
-            if (context.MenuButton.WasPressedThisFrame() || context.MenuButtonInteraction.WasPressedThisFrame() || context.PauseDebugInput.WasPressedThisFrame())
+            if (context.MenuButton.WasPressedThisFrame() || context.MenuButtonInteraction.WasPressedThisFrame())
             {
                 context.SwitchState(context.PreviousState, true, false);
             }

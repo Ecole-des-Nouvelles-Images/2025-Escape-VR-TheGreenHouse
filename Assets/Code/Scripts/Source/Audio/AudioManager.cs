@@ -56,6 +56,37 @@ namespace Code.Scripts.Source.Audio
             }
         }
 
+        private bool _masterVolumeMuted = false;
+        private bool _ambientVolumeMuted = false;
+        private bool _sfxVolumeMuted = false;
+        public bool MasterVolumeMuted {
+            get => _masterVolumeMuted;
+            set {
+                if (value)
+                    UpdateVolume(MasterVolumeParameter, 0);
+                else
+                    UpdateVolume(MasterVolumeParameter, MasterVolume);
+            }
+        }
+        public bool AmbientVolumeMuted {
+            get => _ambientVolumeMuted;
+            set {
+                if (value)
+                    UpdateVolume(AmbientVolumeParameter, 0);
+                else
+                    UpdateVolume(AmbientVolumeParameter, AmbientVolume);
+            }
+        }
+        public bool SFXVolumeMuted {
+            get => _sfxVolumeMuted;
+            set {
+                if (value)
+                    UpdateVolume(SFXVolumeParameter, 0);
+                else
+                    UpdateVolume(SFXVolumeParameter, SFXVolume);
+            }
+        }
+
         private void Awake()
         {
             MasterVolume = _initialMasterVolume;
