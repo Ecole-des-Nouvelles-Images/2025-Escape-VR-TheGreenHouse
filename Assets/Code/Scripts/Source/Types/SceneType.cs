@@ -5,8 +5,11 @@ namespace Code.Scripts.Source.Types
         Invalid = 0,
         MainMenu,
         Hall,
+        CorridorA,
         Lounge,
+        CorridorB,
         Greenhouse,
         Laboratory
+       
     }
 }
