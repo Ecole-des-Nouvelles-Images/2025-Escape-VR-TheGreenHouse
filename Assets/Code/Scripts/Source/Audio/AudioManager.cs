@@ -66,6 +66,7 @@ namespace Code.Scripts.Source.Audio
                     UpdateVolume(MasterVolumeParameter, 0);
                 else
                     UpdateVolume(MasterVolumeParameter, MasterVolume);
+                _masterVolumeMuted = value;
             }
         }
         public bool AmbientVolumeMuted {
@@ -75,6 +76,7 @@ namespace Code.Scripts.Source.Audio
                     UpdateVolume(AmbientVolumeParameter, 0);
                 else
                     UpdateVolume(AmbientVolumeParameter, AmbientVolume);
+                _ambientVolumeMuted = value;
             }
         }
         public bool SFXVolumeMuted {
@@ -84,6 +86,7 @@ namespace Code.Scripts.Source.Audio
                     UpdateVolume(SFXVolumeParameter, 0);
                 else
                     UpdateVolume(SFXVolumeParameter, SFXVolume);
+                _sfxVolumeMuted = value;
             }
         }
 

@@ -7,20 +7,11 @@
     <list default="true" id="ff7f65ba-5e09-4db8-94ad-31a7ad8aac47" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Audio/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Audio/AudioManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungePhase2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungePhase2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStatePause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStatePause.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Managers/GameStateManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Managers/GameStateManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/UI/PauseMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/UI/PauseMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Debug/P_DebugConsole.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Debug/P_DebugConsole.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Systems/P_GameManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Systems/P_GameManager.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/P_UIPause.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/P_UIPause.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Setup.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Setup.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Build Profiles/Meta Quest3 Android Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/Meta Quest3 Android Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Project Configuration/URP_Renderer_Android.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Project Configuration/URP_Renderer_Android.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_Ambient.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_Ambient.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_Ambient_Muted.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_Ambient_Muted.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_MasterVolume.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_MasterVolume.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_MasterVolume_Muted.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_MasterVolume_Muted.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_SFX.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_SFX.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_SFX_Muted.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_SFX_Muted.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +105,7 @@
       <workItem from="1747212199810" duration="13946000" />
       <workItem from="1747241974518" duration="21000" />
       <workItem from="1747295960575" duration="12893000" />
+      <workItem from="1747383838813" duration="2602000" />
     </task>
     <servers />
   </component>

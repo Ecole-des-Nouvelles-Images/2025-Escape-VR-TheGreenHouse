@@ -49,6 +49,13 @@ namespace Code.Scripts.Source.UI
             _root.localScale = Vector3.zero;
         }
 
+        private void Start()
+        {
+            _masterVolume.value = AudioManager.Instance.MasterVolume;
+            _ambientVolume.value = AudioManager.Instance.AmbientVolume;
+            _sfxVolume.value = AudioManager.Instance.SFXVolume;
+        }
+
         private void OnEnable()
         {
             ManageEventCallbacks(true);
@@ -141,57 +148,32 @@ namespace Code.Scripts.Source.UI
 
         private void ToggleMasterVolume()
         {
-            if (!AudioManager.Instance.MasterVolumeMuted)
-            {
-                AudioManager.Instance.MasterVolumeMuted = true;
-                _optionsButtonToggleMaster.image.sprite = _masterVolumeIconMuted;
-                _masterVolume.value = 0;
-                _masterVolume.interactable = false;
-            }
-            else
-            {
-                AudioManager.Instance.MasterVolumeMuted = false;
-                _optionsButtonToggleMaster.image.sprite = _masterVolumeIcon;
-                _masterVolume.value = AudioManager.Instance.MasterVolume;
-                _masterVolume.interactable = true;
-            }
+            bool muted = !AudioManager.Instance.MasterVolumeMuted;
+
+            AudioManager.Instance.MasterVolumeMuted = muted;
+            _optionsButtonToggleMaster.image.sprite = muted ? _masterVolumeIconMuted : _masterVolumeIcon;
+            _masterVolume.value = muted ? 0 : AudioManager.Instance.MasterVolume;
+            _masterVolume.interactable = !muted;
         }
 
         private void ToggleAmbientVolume()
         {
-            if (!AudioManager.Instance.AmbientVolumeMuted)
-            {
-                AudioManager.Instance.AmbientVolumeMuted = true;
-                _optionsButtonToggleAmbient.image.sprite = _ambientVolumeIconMuted;
-                _ambientVolume.value = 0;
-                _ambientVolume.interactable = false;
-            }
-            else
-            {
-                AudioManager.Instance.AmbientVolumeMuted = false;
-                _optionsButtonToggleAmbient.image.sprite = _ambientVolumeIcon;
-                _ambientVolume.value = AudioManager.Instance.AmbientVolume;
-                _ambientVolume.interactable = true;
-            }
+            bool muted = !AudioManager.Instance.AmbientVolumeMuted;
+
+            AudioManager.Instance.AmbientVolumeMuted = muted;
+            _optionsButtonToggleAmbient.image.sprite = muted ? _ambientVolumeIconMuted : _ambientVolumeIcon;
+            _ambientVolume.value = muted ? 0 : AudioManager.Instance.AmbientVolume;
+            _ambientVolume.interactable = !muted;
         }
 
         private void ToggleSFXVolume()
         {
-            if (!AudioManager.Instance.SFXVolumeMuted)
-            {
-                AudioManager.Instance.SFXVolumeMuted = true;
-                _optionsButtonToggleSFX.image.sprite = _sfxVolumeIconMuted;
-                _sfxVolume.value = 0;
-                _sfxVolume.interactable = false;
-            }
-            else
-            {
-                AudioManager.Instance.SFXVolumeMuted = false;
-                _optionsButtonToggleSFX.image.sprite = _sfxVolumeIcon;
-                _sfxVolume.value = AudioManager.Instance.SFXVolume;
-                _sfxVolume.interactable = true;
-            }
-        }
+            bool muted = !AudioManager.Instance.SFXVolumeMuted;
 
+            AudioManager.Instance.SFXVolumeMuted = muted;
+            _optionsButtonToggleSFX.image.sprite = muted ? _masterVolumeIconMuted : _masterVolumeIcon;
+            _sfxVolume.value = muted ? 0 : AudioManager.Instance.SFXVolume;
+            _sfxVolume.interactable = !muted;
+        }
     }
 }

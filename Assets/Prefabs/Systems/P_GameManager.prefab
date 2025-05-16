@@ -48,23 +48,17 @@ MonoBehaviour:
   <GameStates>k__BackingField:
     <Pause>k__BackingField:
       _pauseUI: {fileID: 0}
-      _pauseUIAnimationDuration: 0.5
-      _pauseUIAnimationScale: 1
-      _pauseAnimationEasing: 31
       _postRenderVolume: {fileID: 0}
       _exposureAnimationDuration: 2
-      _exposureToneDownIntensity: -2
+      _exposureToneDownIntensity: -3.5
+    <HallInProgress>k__BackingField:
+      _correctCode: 
     <LoungePhase2>k__BackingField:
+      _bookSockets: []
       _correctBookPlacement: []
-  PauseDebugInput:
-    m_Name: 
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: c0f1c4b9-d01c-4574-bf6d-b6f565338ebd
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
+    <GreenhouseInProgress>k__BackingField:
+      _plantSlots: []
+      _correctPlants: []
 --- !u!114 &2704735089963445191
 MonoBehaviour:
   m_ObjectHideFlags: 0
