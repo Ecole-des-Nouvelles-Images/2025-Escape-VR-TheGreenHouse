@@ -20,6 +20,7 @@ namespace Code.Scripts.Source.GameFSM.States
             OnRotated += CheckResults;
             OnCodeFound += context.SwitchState;
             _currentCode = new [] {0, 0, 0, 0};
+            Debug.Log("Game State Hall In Progress Start");
         }
 
         public override void UpdateState(GameStateManager context)
