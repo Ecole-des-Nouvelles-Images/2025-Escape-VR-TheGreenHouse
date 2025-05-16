@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb96391d73b13f49935ae92cfe28cf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _destination: 2
+  _destination: 3
   _isLocked: 1
   _CloneKey: {fileID: 8328073166858757100}
   _doorAnimator: {fileID: 7206643586962754602}

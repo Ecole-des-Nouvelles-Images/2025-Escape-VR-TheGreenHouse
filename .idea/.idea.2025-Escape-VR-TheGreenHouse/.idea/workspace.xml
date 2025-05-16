@@ -6,13 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="ff7f65ba-5e09-4db8-94ad-31a7ad8aac47" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateHallResolved.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateHallResolved.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medias/Playables/Hall/PL_Case_Opening.playable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medias/Playables/Hall/PL_Case_Opening.playable.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Setup.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Setup.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Build Profiles/Meta Quest3 Android Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/Meta Quest3 Android Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Build Profiles/Meta Quest3 VR Template.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/Meta Quest3 VR Template.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Shaders/Graphs/M_Highlight.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Shaders/Graphs/M_Highlight.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Materials/M_Plafond.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Materials/M_Plafond.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/3Dynamite/Real Ivy/Compatibility Pack - Built-In.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/3Dynamite/Real Ivy/Compatibility Pack - HDRP.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/3Dynamite/Real Ivy/Compatibility Pack - URP.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Door_Locked.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Door_Locked.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_BookSpecialV1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_BookSpecialV1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_BookSpecialV2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_BookSpecialV2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_BookSpecialV3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_BookSpecialV3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_BookSpecialV4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_BookSpecialV4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_BookSpecialV5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_BookSpecialV5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_BookSpecialV6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_BookSpecialV6.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_CassetteVideo.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_CassetteVideo.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_TVRemote.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/Models/S_TVRemote.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/S_Fusible.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay/Lounge/S_Fusible.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Lounge.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Lounge.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +41,16 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/80/8c5a9ec2/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Prefabs/XR/P_Custom_XR_Origin_Menu.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Prefabs/XR/P_Custom_XR_Origin_Menu.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Scenes/Assembly/Setup.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Scenes/Assembly/Setup.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Scenes/Assembly/Setup.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Scenes/Assembly/Setup.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Scenes/Assembly/Setup.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/Assets/Scenes/Assembly/Setup.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/ProjectSettings/QualitySettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/ProjectSettings/QualitySettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projets/Unity/2025-Escape-VR-TheGreenhouse/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -42,9 +65,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "integration/hall",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "git-widget-placeholder": "dev",
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -54,6 +76,9 @@
       <option name="WORKING_DIRECTORY" value="D:\Projets\Unity\2025-Escape-VR-TheGreenhouse" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
@@ -62,6 +87,9 @@
       <option name="WORKING_DIRECTORY" value="D:\Projets\Unity\2025-Escape-VR-TheGreenhouse" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -75,6 +103,7 @@
       <option name="selectedOptions">
         <list />
       </option>
+      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -88,6 +117,7 @@
       <option name="selectedOptions">
         <list />
       </option>
+      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -102,7 +132,7 @@
       <workItem from="1747212199810" duration="13946000" />
       <workItem from="1747241974518" duration="21000" />
       <workItem from="1747295960575" duration="12893000" />
-      <workItem from="1747383838813" duration="7041000" />
+      <workItem from="1747383838813" duration="11281000" />
     </task>
     <servers />
   </component>
@@ -115,5 +145,23 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
