@@ -122,7 +122,6 @@ namespace Code.Scripts.Source.Managers
         /// <param name="sceneType">The <c>SceneType</c> of the necessary scene, as stored into the statically available Dictionary "SceneAssets".</param>
         public void SwitchScene(SceneType sceneType)
         {
-            Debug.Log("[SceneLoader] Switching scene to: " + SceneAssets[sceneType]);
             StartCoroutine(SwitchLoadedScene(SceneAssets[sceneType]));
         }
 

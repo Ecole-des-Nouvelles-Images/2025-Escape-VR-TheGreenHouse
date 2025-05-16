@@ -5,340 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff7f65ba-5e09-4db8-94ad-31a7ad8aac47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/UI/PauseMenuController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/UI/PauseMenuController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Utils/UIUtilityExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Utils/UIUtilityExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Generic/URP_Default.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Generic/URP_Default.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/P_UIPause.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/P_UIPause.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/PostRenderProfile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/PostRenderProfile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Options.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_Ambient.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_Ambient.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_Ambient_Muted.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_Ambient_Muted.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_MasterVolume.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_MasterVolume.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_MasterVolume_Muted.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_MasterVolume_Muted.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_SFX.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_SFX.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_SFX_Muted.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Options/S_Icon_SFX_Muted.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ProjectAuditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Escape-VR-TheGreenHouse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/Debug/5l2u1v5r/arm64-v8a/.cmake/api/v1/reply/index-2025-05-06T15-02-56-0248.json" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/Debug/5l2u1v5r/arm64-v8a/.cmake/api/v1/reply/index-2025-05-14T14-52-12-0323.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/Debug/5l2u1v5r/arm64-v8a/.cmake/api/v1/reply/index-2025-05-14T14-52-12-0323.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.utmp/Debug/5l2u1v5r/arm64-v8a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/Debug/5l2u1v5r/arm64-v8a/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.utmp/Debug/5l2u1v5r/arm64-v8a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/Debug/5l2u1v5r/arm64-v8a/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/Debug/5l2u1v5r/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/Debug/5l2u1v5r/arm64-v8a/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.utmp/Debug/5l2u1v5r/arm64-v8a/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/Debug/5l2u1v5r/arm64-v8a/configure_fingerprint.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/query/client-agp/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/query/client-agp/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/reply/cache-v2-0df90b7bf44d3867018c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-3e4bece9d5ae97671512.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/reply/codemodel-v2-c068ab1c2d95119a7b27.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/reply/directory-.-RelWithDebInfo-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/reply/directory-GameActivity-RelWithDebInfo-3edf2ef9e25ca0503118.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/reply/index-2025-05-06T10-30-51-0430.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.cmake/api/v1/reply/target-game-RelWithDebInfo-a0a79a9caa98911361d5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/GameActivity/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/additional_project_files.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/android_gradle_build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/android_gradle_build_mini.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/build_file_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/compile_commands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/compile_commands.json.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/configure_fingerprint.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/metadata_generation_command.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/prefab_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/arm64-v8a/symbol_folder_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/hash_key.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/1a3f156j/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/game-activity/game-activityConfig.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/.cmake/api/v1/query/client-agp/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/.cmake/api/v1/query/client-agp/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/.cmake/api/v1/reply/cache-v2-a0628793dbecf295e1c4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-bea245839ad55eaa5714.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/.cmake/api/v1/reply/codemodel-v2-da4ad0faed510b226f30.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/.cmake/api/v1/reply/directory-.-RelWithDebInfo-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/.cmake/api/v1/reply/directory-GameActivity-RelWithDebInfo-3edf2ef9e25ca0503118.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/.cmake/api/v1/reply/index-2025-04-29T08-54-53-0961.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/.cmake/api/v1/reply/target-game-RelWithDebInfo-dc06875fbb491f1fa1d1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/GameActivity/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/additional_project_files.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/android_gradle_build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/android_gradle_build_mini.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/build_file_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/compile_commands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/compile_commands.json.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/configure_fingerprint.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/metadata_generation_command.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/prefab_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/arm64-v8a/symbol_folder_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/hash_key.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/k2p571m2/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/game-activity/game-activityConfig.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/tools/release/arm64-v8a/compile_commands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_1.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_1.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_2.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_2.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_3.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_3.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_4.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_4.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_5.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_5.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_6.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_6.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_7.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_7.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_8.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_8.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_9.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Ambiant/Raindrops/SFX_Raindrops_Sappheiross _Variant_9.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Hall/SFX_Case_Shake_A_Test.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Hall/SFX_Case_Shake_A_Test.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Hall/SFX_Case_Shake_B_Test.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Hall/SFX_Case_Shake_B_Test.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Hall/SFX_Case_Shake_C_Test.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Hall/SFX_Case_Shake_C_Test.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Hall/SFX_Ivy-leafy_Chatter_Test_A.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Hall/SFX_Ivy-leafy_Chatter_Test_A.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Hall/SFX_Ivy-leafy_Chatter_Test_B.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Hall/SFX_Ivy-leafy_Chatter_Test_B.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Hall/SFX_Ivy-leafy_Squeaks_A.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Hall/SFX_Ivy-leafy_Squeaks_A.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/Hall/SFX_Ivy-leafy_Squeaks_B.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/Hall/SFX_Ivy-leafy_Squeaks_B.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/TV/SFX_VHS_Clip_Test.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/TV/SFX_VHS_Clip_Test.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/TV/SFX_VHS_Insertion.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/TV/SFX_VHS_Insertion.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/UI/SFX_Click_A.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/UI/SFX_Click_A.ogg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/UI/SFX_Click_B.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/UI/SFX_Click_B.ogg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Clips/UI/SFX_Click_C.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Clips/UI/SFX_Click_C.ogg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixers/SMX_Application.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixers/SMX_Application.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Audio/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Audio/AudioManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameBaseState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameBaseState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateBackyardTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateBackyardTransition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateEscapeRun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateEscapeRun.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateEscapeTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateEscapeTransition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateGameOver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateGameOver.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateGreenhouseInProgress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateGreenhouseInProgress.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateGreenhouseIntro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateGreenhouseIntro.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateGreenhouseResolved.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateGreenhouseResolved.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateHallInProgress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateHallInProgress.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateHallIntro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateHallIntro.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateHallResolved.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateHallResolved.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLaboratoryIntro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLaboratoryIntro.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLaboratoryPhase1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLaboratoryPhase1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLaboratoryPhase2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLaboratoryPhase2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLaboratoryResolved.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLaboratoryResolved.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLaunch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLaunch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungeIntro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungeIntro.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungePhase1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungePhase1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungePhase2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungePhase2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungeResolved.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateLoungeResolved.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStatePause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStatePause.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Managers/GameStateManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Managers/GameStateManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Managers/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/Managers/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Utils/MonoBehaviourSingleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Utils/MonoBehaviourSingleton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/S_IvyLeafy_Blocking.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Characters/S_IvyLeafy_Blocking.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Generic.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Generic.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Generic/M_BlackGloves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Generic/M_BlackGloves.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Generic/M_BlackGloves.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Generic/M_BlackGloves.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Generic/M_Highlight.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Generic/M_Highlight.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Generic/M_Highlight.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Generic/M_Highlight.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lab/Laboratoire.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lab/Laboratoire.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire/T_Armoire_low_BaseMap.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire/T_Armoire_low_BaseMap.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire/T_Armoire_low_MaskMap.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire/T_Armoire_low_MaskMap.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire/T_Armoire_low_NormalMap.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Environment/Rooms/Lounge/Textures/Armoire/T_Armoire_low_NormalMap.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Placeholders/S_Case_Bottom.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Placeholders/S_Case_Bottom.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Placeholders/S_Case_Upper.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Placeholders/S_Case_Upper.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/3Dynamite/Real Ivy/SampleResources/Models/Leave_01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/3Dynamite/Real Ivy/SampleResources/Models/Leave_01.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/3Dynamite/Real Ivy/SampleResources/Models/Leaves_Atlas.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/3Dynamite/Real Ivy/SampleResources/Models/Leaves_Atlas.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/3Dynamite/Real Ivy/SampleResources/Textures/Leave_03_nm.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/3Dynamite/Real Ivy/SampleResources/Textures/Leave_03_nm.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@backwards-run.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@backwards-run.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@backwards-walk.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@backwards-walk.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@idle.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@idle.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@jump-down.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@jump-down.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@jump-float.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@jump-float.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@jump-up.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@jump-up.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@pickup.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@pickup.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@run.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@run.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@t-pose.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@t-pose.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@victory.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@victory.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@walk.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@walk.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@wave.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Animations/common_people@wave.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/CommonPeople_FreeSample_anniversy_balloon_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/CommonPeople_FreeSample_anniversy_balloon_1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/CommonPeople_FreeSample_anniversy_balloon_1_meshCollider.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/CommonPeople_FreeSample_anniversy_balloon_1_meshCollider.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/CommonPeople_FreeSample_anniversy_gifBox_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/CommonPeople_FreeSample_anniversy_gifBox_1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/CommonPeople_FreeSample_anniversy_gifBox_meshCollider.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/CommonPeople_FreeSample_anniversy_gifBox_meshCollider.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/CommonPeople_FreeSample_anniversy_hat_1_onGround.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/CommonPeople_FreeSample_anniversy_hat_1_onGround.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/CommonPeople_FreeSample_anniversy_hat_1_onGround_meshCollider.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/CommonPeople_FreeSample_anniversy_hat_1_onGround_meshCollider.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/CommonPeople_FreeSample_anniversy_hat_1_onWear.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/CommonPeople_FreeSample_anniversy_hat_1_onWear.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/animal_people_backpack_1_freeSample_onGround.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/animal_people_backpack_1_freeSample_onGround.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/animal_people_backpack_1_freeSample_onWear.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/animal_people_backpack_1_freeSample_onWear.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/common_people_male_1.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Models/common_people_male_1.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Textures/Legacy/free_shadowRamp.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Character Pack/Textures/Legacy/free_shadowRamp.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/GrabInteractables/Models/WateringCan.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Farming_game_FX/WaterCan/GrabInteractables/Models/WateringCan.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower04.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower04.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower05.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower05.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower06.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower06.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower07.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Lowpoly Flowers/flower07.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/EarthHill.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/EarthHill.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Fence.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Fence.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/FenceCorner.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/FenceCorner.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/GrassSmall.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/GrassSmall.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/GrassTall.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/GrassTall.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Hydrangea.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Hydrangea.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Mint.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Mint.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/NameStake.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/NameStake.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotBig.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotBig.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotRectangle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotRectangle.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotSmall.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/PotSmall.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Pruner.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Pruner.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Rake.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Rake.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Shovel.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/Shovel.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/TulipRed.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/TulipRed.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/TulipYellow.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/TulipYellow.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/WateringCup.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Models/WateringCup.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Textures/GrassTexture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Textures/GrassTexture.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Textures/TextureAtlas.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MamkinEnthusiast/3D Mini Garden Props/Textures/TextureAtlas.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Rain VFX/Mesh/P_RingWater.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Rain VFX/Mesh/P_RingWater.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Rain VFX/Mesh/P_Ring_Dissolved.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Rain VFX/Mesh/P_Ring_Dissolved.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Rain VFX/Mesh/P_Ring_High.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Rain VFX/Mesh/P_Ring_High.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Rain VFX/Mesh/P_Ring_Lowh.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Rain VFX/Mesh/P_Ring_Lowh.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Rain VFX/Mesh/P_Ring_Mid.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Rain VFX/Mesh/P_Ring_Mid.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Rain VFX/Mesh/P_Ring_Square.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Rain VFX/Mesh/P_Ring_Square.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Rain VFX/Mesh/P_Ring_Triangle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Rain VFX/Mesh/P_Ring_Triangle.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/VRHands/Models/Hand.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/VRHands/Models/Hand.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Debug/P_DebugConsole.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Debug/P_DebugConsole.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Systems/P_AudioManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Systems/P_AudioManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Systems/P_GameManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Systems/P_GameManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Systems/P_SceneLoader.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Systems/P_SceneLoader.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/XR/P_Custom_XR_Origin_Menu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/XR/P_Custom_XR_Origin_Menu.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.5.0/HandVisualizer/Models/LeftHand.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.5.0/HandVisualizer/Models/LeftHand.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.5.0/HandVisualizer/Models/RightHand.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.5.0/HandVisualizer/Models/RightHand.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Chess/Chess_Board.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Chess/Chess_Board.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Chess/Chess_Pawn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Chess/Chess_Pawn.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Frame.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Frame.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Cone.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Cone.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Cube.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Cube.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Cylinder.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Cylinder.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Disc.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/Primitives/Disc.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/VirtualTabletop.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/HandsDemoSceneAssets/Models/VirtualTabletop.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/Materials/Unity_Hand_Medium.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/Materials/Unity_Hand_Medium.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster_Long.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster_Long.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/Primitive_Cylinder.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/Primitive_Cylinder.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/Primitive_Pyramid.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/Primitive_Pyramid.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/Primitive_Tapered_Cylinder.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/Primitive_Tapered_Cylinder.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/Primitive_Torus_Cut.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/Primitive_Torus_Cut.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/PushButton.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/DemoSceneAssets/Models/PushButton.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Models/BlinkVisual.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Models/BlinkVisual.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Models/Pinch_Pointer_LOD0.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Models/Pinch_Pointer_LOD0.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Models/Primitive_Cylinder.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Models/Primitive_Cylinder.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Models/Primitive_Wedge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Models/Primitive_Wedge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Models/Reticle_Torus.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Models/Reticle_Torus.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Models/UniversalController.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Models/UniversalController.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Prefabs/Interactors/Left_NearFarInteractor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Prefabs/Interactors/Left_NearFarInteractor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/TunnelingVignette/TunnelingVignetteHemisphere.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/TunnelingVignette/TunnelingVignetteHemisphere.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/XRDeviceSimulator/UI/General/DeviceSimUI_bg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/XRDeviceSimulator/UI/General/DeviceSimUI_bg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateUninitialized.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/GameFSM/States/GameStateUninitialized.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Source/UI/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Source/UI/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Hall.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Setup.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Setup.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Socket Salon/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Socket Salon/Lightmap-0_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Socket Salon/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Socket Salon/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Socket Salon/Lightmap-0_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Socket Salon/Lightmap-0_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/AnchorArrow.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/AnchorArrow.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/AnchorBase.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/AnchorBase.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/AnchorFade.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/AnchorFade.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Arrows.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Arrows.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/BlinkVisual.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/BlinkVisual.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Cube.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Cube.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Cylinder.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Cylinder.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/LeftHand.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/LeftHand.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Lightmap-0_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Lightmap-0_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Lightmap-0_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Pinch_Pointer_LOD0.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Pinch_Pointer_LOD0.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Primitive_Blaster.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Primitive_Blaster.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Reticle_Torus.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Reticle_Torus.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/RightHand.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/RightHand.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Spatial Panel Manipulator Model.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Spatial Panel Manipulator Model.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Sphere.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Sphere.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Tapered Cylinder.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Tapered Cylinder.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Template Environment.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Template Environment.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Torus Cut.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Torus Cut.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Torus.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Torus.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Totem1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Totem1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Totem2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/Totem2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/TunnelingVignetteHemisphere.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/TunnelingVignetteHemisphere.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/UniversalController.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/VR-Template/UniversalController.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly/Main Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/Build Profiles/Meta Quest3 Android Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/Meta Quest3 Android Profile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/Project Configuration/URP_Preset_Performance.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Project Configuration/URP_Preset_Performance.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Project Configuration/URP_Renderer_Android.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Project Configuration/URP_Renderer_Android.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/Project Configuration/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Project Configuration/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Anchor/AnchorArrow.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Anchor/AnchorArrow.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Anchor/AnchorBase.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Anchor/AnchorBase.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Anchor/AnchorFade.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Anchor/AnchorFade.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Blink/BlinkVisual.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Blink/BlinkVisual.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Controllers/UniversalController.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Controllers/UniversalController.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Cursors/cursor.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Cursors/cursor.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Environment/Arrows.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Environment/Arrows.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Environment/Blaster.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Environment/Blaster.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Environment/Template Environment.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Environment/Template Environment.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Environment/Torus Cut.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Environment/Torus Cut.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Environment/Totem1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Environment/Totem1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Environment/Totem2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Environment/Totem2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Marks/Marks.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Marks/Marks.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Poke/PokePointer.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Poke/PokePointer.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Primitives/Cube.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Primitives/Cube.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Primitives/Cylinder.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Primitives/Cylinder.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Primitives/Sphere.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Primitives/Sphere.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Primitives/Tapered Cylinder.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Primitives/Tapered Cylinder.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Primitives/Torus.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/Primitives/Torus.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/UI/Spatial Panel Manipulator Model.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Models/UI/Spatial Panel Manipulator Model.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Tutorial/Images/1-welcome-screen-image.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Tutorial/Images/1-welcome-screen-image.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRTemplateAssets/Tutorial/Images/project-header-vr.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRTemplateAssets/Tutorial/Images/project-header-vr.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectAuditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectAuditorSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,7 +69,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging integration/hall",
+    "git-widget-placeholder": "integration/hall",
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
@@ -434,7 +136,7 @@
       <workItem from="1747212199810" duration="13946000" />
       <workItem from="1747241974518" duration="21000" />
       <workItem from="1747295960575" duration="12893000" />
-      <workItem from="1747383838813" duration="3111000" />
+      <workItem from="1747383838813" duration="7041000" />
     </task>
     <servers />
   </component>

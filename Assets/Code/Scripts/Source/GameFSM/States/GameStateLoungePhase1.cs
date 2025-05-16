@@ -6,10 +6,6 @@ namespace Code.Scripts.Source.GameFSM.States
     [Serializable]
     public class GameStateLoungePhase1 : GameBaseState
     {
-        public override void EnterState(GameStateManager context)
-        {
-        }
-
         public override void UpdateState(GameStateManager context)
         {
 

@@ -22,6 +22,8 @@ namespace Code.Scripts.Source.GameFSM.States
 
         public override void EnterState(GameStateManager context)
         {
+            base.EnterState(context);
+
             _ctx = context;
             OnPuzzleSolved += context.SwitchState;
             OnSocketChanged += CheckPuzzle;

@@ -29,6 +29,8 @@ namespace Code.Scripts.Source.GameFSM.States
 
         public override void EnterState(GameStateManager context)
         {
+            base.EnterState(context);
+
             if (!_postRenderVolume)
                 throw new NullReferenceException("[GameStatePause] Missing reference for _postRenderVolume.\n> Check if the post-process volume is assigned in the inspector.");
 
@@ -38,7 +40,6 @@ namespace Code.Scripts.Source.GameFSM.States
             UpdateCurrentXRInteractable();
             EnableXRInteractable(false);
 
-            Debug.Log("Pause state entered!");
             context.GamePaused = true;
 
             DOTween.To(

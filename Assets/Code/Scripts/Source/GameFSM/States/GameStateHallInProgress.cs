@@ -16,11 +16,12 @@ namespace Code.Scripts.Source.GameFSM.States
 
         public override void EnterState(GameStateManager context)
         {
+            base.EnterState(context);
+
             _ctx = context;
             OnRotated += CheckResults;
             OnCodeFound += context.SwitchState;
             _currentCode = new [] {0, 0, 0, 0};
-            Debug.Log("Game State Hall In Progress Start");
         }
 
         public override void UpdateState(GameStateManager context)

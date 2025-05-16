@@ -10,9 +10,10 @@ namespace Code.Scripts.Source.GameFSM.States
     public class GameStateHallResolved: GameBaseState
     {
         [SerializeField] PlayableDirector _playableDirector;
-        
+
         public override void EnterState(GameStateManager context)
         {
+            base.EnterState(context);
             PlayCinematic();
         }
 
@@ -25,12 +26,12 @@ namespace Code.Scripts.Source.GameFSM.States
         {
 
         }
-        
+
         public void PlayCinematic()
         {
             _playableDirector.Play();
         }
-      
+
         public void StopCinematic()
         {
             _playableDirector.Stop();

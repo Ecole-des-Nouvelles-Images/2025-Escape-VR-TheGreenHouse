@@ -8,6 +8,7 @@ namespace Code.Scripts.Source.GameFSM.States
     {
         public override void EnterState(GameStateManager context)
         {
+            context.SwitchState(context.GameStates.HallInProgress);
         }
 
         public override void UpdateState(GameStateManager context)
