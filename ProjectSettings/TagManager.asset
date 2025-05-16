@@ -12,6 +12,7 @@ TagManager:
   - Seed
   - Shears
   - PostRenderVolume
+  - HallPlayableDirector
   layers:
   - Default
   - TransparentFX
