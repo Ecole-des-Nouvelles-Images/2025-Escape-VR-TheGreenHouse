@@ -3,11 +3,10 @@ using UnityEngine;
 
 namespace Code.Scripts.Source.Gameplay.Labo
 {
-    [Serializable] public struct PotionProperties
+    [Serializable] public class PotionProperties
     {
         public int Index { get; private set; }
         public float CorrectDose { get; private set; }
-
         public float CurrentDose { get; set; }
         
         public PotionProperties(PotionType type)

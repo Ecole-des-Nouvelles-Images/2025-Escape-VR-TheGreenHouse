@@ -16,8 +16,8 @@ namespace Code.Scripts.Source.Gameplay.Labo
 
         private void Start()
         {
-            _dial1.onValueChange.AddListener((value) => OnDialMoved(_vial1, value));
-            _dial2.onValueChange.AddListener((value) => OnDialMoved(_vial2, value));
+            _dial1.onValueChange.AddListener((value) => OnDialMoved(_dial1, _vial1, value));
+            _dial2.onValueChange.AddListener((value) => OnDialMoved(_dial2, _vial2, value));
         }
 
         [ContextMenu("Mix Vials")]
@@ -57,28 +57,40 @@ namespace Code.Scripts.Source.Gameplay.Labo
         }
         
 
-        private void OnDialMoved(Vial vial, float value)
+        private void OnDialMoved(XRKnob dial, Vial vial, float value)
         {
             value = Mathf.Clamp(value, 0f, 1f);
-            int stepIndex = Mathf.RoundToInt(value * 3); 
+            int stepIndex = Mathf.RoundToInt(value * 4); 
+            Debug.Log("stepIndex = " + stepIndex);
+            Debug.Log("value = " + value);
             switch (stepIndex)
             {
                 case 0:
-                    // 25%
+                    ChangeDose(vial, dial);
+                    Debug.Log("Le dial : " + dial + "a modifié "+ vial+"en Rien");
                     break;
                 case 1:
-                    // 50%
+                    ChangeDose(vial, dial);
+                    Debug.Log("Le dial : " + dial + "a modifié "+ vial+"en Tenu");
                     break;
                 case 2:
-                    // 75%
+                    ChangeDose(vial, dial);
+                    Debug.Log("Le dial : " + dial + "a modifié "+ vial+"en Réactif");
                     break;
                 case 3:
-                    // 100%
+                    ChangeDose(vial, dial);
+                    Debug.Log("Le dial : " + dial + "a modifié "+ vial+"en Volatil");
+                    break;
+                case 4:
+                    ChangeDose(vial, dial);
+                    Debug.Log("Le dial : " + dial + "a modifié "+ vial+"en Corrosif");
                     break;
             }
+        }
 
-            Debug.Log($"OnDialMoved {value}");
-
+        private void ChangeDose(Vial vial, XRKnob dial)
+        {
+            vial.Properties.CurrentDose = dial.value;
         }
     }
 }
