@@ -11,11 +11,12 @@ TagManager:
   - Water
   - Seed
   - Shears
+  - PostRenderVolume
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PostRender
   - Water
   - UI
   - 

@@ -52,11 +52,12 @@ MonoBehaviour:
     <UIButtonHoverExit>k__BackingField: {fileID: 0}
     <CaseHammering>k__BackingField: {fileID: 0}
     <CaseOpening>k__BackingField: {fileID: 0}
+  _initialMasterVolume: 0.5
   _initialAmbienVolume: 0.5
   _initialSFXVolume: 0.5
-  Master: {fileID: 24300002, guid: 42fb11a823e959c4fa6f116060d78441, type: 2}
-  SFX: {fileID: 8790450471183128491, guid: 42fb11a823e959c4fa6f116060d78441, type: 2}
-  Ambient: {fileID: 9137229251004968622, guid: 42fb11a823e959c4fa6f116060d78441, type: 2}
+  MasterMixerModule: {fileID: 24300002, guid: 42fb11a823e959c4fa6f116060d78441, type: 2}
+  AmbientMixerModule: {fileID: 9137229251004968622, guid: 42fb11a823e959c4fa6f116060d78441, type: 2}
+  SFXMixerModule: {fileID: 8790450471183128491, guid: 42fb11a823e959c4fa6f116060d78441, type: 2}
 --- !u!114 &1612277171945978863
 MonoBehaviour:
   m_ObjectHideFlags: 0

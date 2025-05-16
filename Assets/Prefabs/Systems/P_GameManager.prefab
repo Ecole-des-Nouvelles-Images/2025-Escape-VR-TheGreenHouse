@@ -45,7 +45,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac1eb681a6a64d7aa6d9d5dbedd23939, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CorrectBookPlacement: []
+  <GameStates>k__BackingField:
+    <Pause>k__BackingField:
+      _pauseUI: {fileID: 0}
+      _postRenderVolume: {fileID: 0}
+      _exposureAnimationDuration: 2
+      _exposureToneDownIntensity: -3.5
+    <HallInProgress>k__BackingField:
+      _correctCode: 
+    <LoungePhase2>k__BackingField:
+      _bookSockets: []
+      _correctBookPlacement: []
+    <GreenhouseInProgress>k__BackingField:
+      _plantSlots: []
+      _correctPlants: []
 --- !u!114 &2704735089963445191
 MonoBehaviour:
   m_ObjectHideFlags: 0

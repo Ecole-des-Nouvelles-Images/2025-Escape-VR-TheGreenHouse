@@ -4,7 +4,6 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
 
-
 namespace Code.Scripts.Source.GameFSM.States
 {
     [Serializable]
@@ -17,7 +16,7 @@ namespace Code.Scripts.Source.GameFSM.States
         [SerializeField] private List<string> _correctPlants;
 
         private GameStateManager _ctx;
-        private Action<GameBaseState> OnPuzzleSolved;
+        private Action<GameBaseState, bool, bool> OnPuzzleSolved;
 
         public override void EnterState(GameStateManager context)
         {
@@ -37,7 +36,6 @@ namespace Code.Scripts.Source.GameFSM.States
             OnPuzzleSolved -= context.SwitchState;
         }
 
-
         private void CheckPuzzle()
         {
             if (PuzzleSolved) return;
@@ -54,7 +52,7 @@ namespace Code.Scripts.Source.GameFSM.States
             {
                 // puzlle solved
                 Debug.Log("puzzle slved");
-                OnPuzzleSolved.Invoke(_ctx.GameStates.LoungePhase2);
+                OnPuzzleSolved.Invoke(_ctx.GameStates.LoungePhase2, false, false);
             }
         }
     }
