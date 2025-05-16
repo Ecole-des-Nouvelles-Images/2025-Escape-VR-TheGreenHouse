@@ -9,11 +9,16 @@ namespace Code.Scripts.Source.GameFSM.States
     [Serializable]
     public class GameStateHallResolved: GameBaseState
     {
-        [SerializeField] PlayableDirector _playableDirector;
+        private PlayableDirector _playableDirector;
 
         public override void EnterState(GameStateManager context)
         {
             base.EnterState(context);
+            _playableDirector = GameObject.FindGameObjectWithTag("HallPlayableDirector").GetComponent<PlayableDirector>();
+            if (!_playableDirector)
+            {
+                throw new NullReferenceException("HallPlayableDirector not found");
+            }
             PlayCinematic();
         }
 
