@@ -62,9 +62,9 @@ public class XRCustomAffordance : MonoBehaviour
         Material mat = new Material(highlightMaterial);
 
         // Récupération de la texture du material initial
-        if (originalRenderer.material.HasProperty("_BaseMap"))
+        if (originalRenderer.material.HasProperty("_Albedo"))
         {
-            Texture albedoTexture = originalRenderer.material.GetTexture("_BaseMap");
+            Texture albedoTexture = originalRenderer.material.GetTexture("_Albedo");
             mat.SetTexture("_Texture", albedoTexture);
             // texture initial dans le highlightMaterial
         }

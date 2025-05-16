@@ -815,6 +815,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1539064653356413357, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
+      propertyPath: <GameStates>k__BackingField.<LoungePhase2>k__BackingField._bookSockets.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539064653356413357, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
+      propertyPath: <GameStates>k__BackingField.<HallInProgress>k__BackingField._correctCode.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539064653356413357, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
+      propertyPath: '<GameStates>k__BackingField.<HallInProgress>k__BackingField._correctCode.Array.data[0]'
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539064653356413357, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
+      propertyPath: '<GameStates>k__BackingField.<HallInProgress>k__BackingField._correctCode.Array.data[1]'
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539064653356413357, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
+      propertyPath: '<GameStates>k__BackingField.<HallInProgress>k__BackingField._correctCode.Array.data[2]'
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539064653356413357, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
+      propertyPath: '<GameStates>k__BackingField.<HallInProgress>k__BackingField._correctCode.Array.data[3]'
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539064653356413357, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
+      propertyPath: <GameStates>k__BackingField.<GreenhouseInProgress>k__BackingField._correctPlants.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6401190555539163379, guid: 742799b207525b04eaabc71ed4ea37ca, type: 3}
       propertyPath: m_Name
       value: P_GameManager
@@ -1718,6 +1746,18 @@ PrefabInstance:
       propertyPath: _mixer
       value: 
       objectReference: {fileID: 24100000, guid: 42fb11a823e959c4fa6f116060d78441, type: 2}
+    - target: {fileID: 8398763493689499815, guid: c10e07d28e2b0a943b1fb5dfb00a4013, type: 3}
+      propertyPath: SFXMixerModule
+      value: 
+      objectReference: {fileID: 8790450471183128491, guid: 42fb11a823e959c4fa6f116060d78441, type: 2}
+    - target: {fileID: 8398763493689499815, guid: c10e07d28e2b0a943b1fb5dfb00a4013, type: 3}
+      propertyPath: MasterMixerModule
+      value: 
+      objectReference: {fileID: 24300002, guid: 42fb11a823e959c4fa6f116060d78441, type: 2}
+    - target: {fileID: 8398763493689499815, guid: c10e07d28e2b0a943b1fb5dfb00a4013, type: 3}
+      propertyPath: AmbientMixerModule
+      value: 
+      objectReference: {fileID: 9137229251004968622, guid: 42fb11a823e959c4fa6f116060d78441, type: 2}
     - target: {fileID: 8874438760460186290, guid: c10e07d28e2b0a943b1fb5dfb00a4013, type: 3}
       propertyPath: m_Name
       value: P_AudioManager
@@ -1785,7 +1825,7 @@ PrefabInstance:
       objectReference: {fileID: 102900000, guid: a0072d476746ee546abbef9ba428de36, type: 3}
     - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
       propertyPath: _scenes.Array.size
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
       propertyPath: '_scenes.Array.data[0]'
@@ -1806,6 +1846,14 @@ PrefabInstance:
     - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
       propertyPath: '_scenes.Array.data[4]'
       value: Laboratory
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
+      propertyPath: '_scenes.Array.data[5]'
+      value: CorridorA
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
+      propertyPath: '_scenes.Array.data[6]'
+      value: CorridorB
       objectReference: {fileID: 0}
     - target: {fileID: 4450096471704076987, guid: 69ddb6428e6fdec43b32d00d63c66b1b, type: 3}
       propertyPath: _sceneAssets.Array.size
